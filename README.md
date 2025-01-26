@@ -1,8 +1,10 @@
 # Delicate Care Services
 
-Delicate care service is a site that does something cool.
+Delicate care service is a site aim at providing infomartion about social care services offered at Delicate care. The site offers visitors seeking care for themselves or their loved one.
 
-Hmm lets test something 
+target audience: adults with limited mobility or living with disability, elderly, individuals/families seeking care support for their loved ones.
+
+the site is helps individuals and families understand available care option for themselves or their loved ones. This site will ensure that the quality of life for our clients remain positive and their dignity is respected
 ## Features 
 
 

@@ -32,11 +32,17 @@ Other goals:
 
 ### User stories
 
-1) Story: 
+1) Story: As a visitor (general), I want a user-friendly website with a clear and intuitive navigation so I can find specific information about care services.
 
-Acceptance Criteria
+Acceptance Criteria:
+The website layout and navigation are intuitive making it easier for visitors to find important information on the site
+The website is fully responsive and accessible on various divices with different screen sizes
+all website content can be accessed by assistive technologies like screen-readers 
 
-Tasks
+Tasks:
+Implement HTML/CSS code to ensure responsiveness on different screen sizes
+Use the appropriate aria attributes to ensure compatility with assistive technologies (e.g. screen readers)
+Implement a user-friendly and intuitive layout with clear navigation for the website for ease of access to important information
 
 2) 
 

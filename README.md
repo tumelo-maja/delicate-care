@@ -32,7 +32,9 @@ Other goals:
 
 ### User stories
 
-1) Story: As a visitor (general), I want a user-friendly website with a clear and intuitive navigation so I can find specific information about care services.
+1) Accessible and User-Friendly Navigation (Must-have)
+Story: 
+As a visitor (general), I want a user-friendly website with a clear and intuitive navigation so I can find specific information about care services.
 
 Acceptance Criteria:
 The website layout and navigation are intuitive making it easier for visitors to find important information on the site
@@ -44,7 +46,26 @@ Implement HTML/CSS code to ensure responsiveness on different screen sizes
 Use the appropriate aria attributes to ensure compatility with assistive technologies (e.g. screen readers)
 Implement a user-friendly and intuitive layout with clear navigation for the website for ease of access to important information
 
-2) 
+2) Information on types of services offered (must-have)
+
+Story: 
+As a potential service user (or family/friend of), I need detailed descriptions of types of services offered so I can decide on a suitable service for me (or loved one).
+
+Acceptance Criteria:
+There is a dedicated page with detailed information and description of different types of services offered
+There is a section in the home page with brief/summary information about different types of services offered and with links to the services page
+
+Task:
+Each service type is described briefly in a section of the home page using clear and easy-to-understand english
+in the service page, detailed information is provided for each service type and a CTA is visible for visitors to enquire.
+
+3) Contact and address information
+Story:
+As a family member seeking care support for my loved one, I need to find contact details so I can call or visit the office and enquire about some of the services.
+
+Acceptance Criteria:
+
+
 
 
 ## Testing 

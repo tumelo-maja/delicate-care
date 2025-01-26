@@ -1,6 +1,6 @@
 # Delicate Care Services
 
-Delicate care service is a site that
+Delicate care service is a site that does something cool
 ## Features 
 
 

@@ -15,7 +15,9 @@ footer {
     background-color: lightslategray;
 }
 
-/*----------- Check boundaries of divs --*/
+nav {
+    background-color: lightcoral;
+}
 .col-12 {
-    border: 2px solid red;
+    border: 2px solid black;
 }

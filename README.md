@@ -166,6 +166,12 @@ There should be confirmation to acknowledge submission of application form
   <img src="docs/wireframe-careers.png" width="50%" height="50%">
   <figcaption><strong><em>Wireframe: Careers page</em></strong></figcaption>
 </figure>
+
+### Color Pallet
+We used the color pallet generator from
+(https://coolors.co/)
+
+
 ## Testing 
 
 

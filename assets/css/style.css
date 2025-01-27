@@ -3,12 +3,21 @@
 
 /*------------- General Styles ---*/
 
+body {
+    /* padding-top: 64px; --- adjust header below fixed navbar -- */
+}
+
+/*-- for border highlight only--*/
 header {
     background-color: lightgreen;
 }
 
 main {
     background-color: lightskyblue;
+}
+
+main div {
+    height: 200px;
 }
 
 footer {
@@ -27,3 +36,4 @@ nav {
 #navbar img {
     width: 60px;
 }
+

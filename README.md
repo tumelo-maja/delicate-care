@@ -145,6 +145,27 @@ create a careers page with an overview of benefits, general job requirements
 Add an application form with fields (name, contact, email, address, experience, submit CV)
 There should be confirmation to acknowledge submission of application form
 
+### Wireframes
+<figure>
+  <img src="docs/wireframe-home.png" width="50%" height="50%">
+  <figcaption><strong><em>Wireframe: Home page</em></strong></figcaption>
+</figure>
+<figure>
+  <img src="docs/wireframe-about.png" width="50%" height="50%">
+  <figcaption><strong><em>Wireframe: About page</em></strong></figcaption>
+</figure>
+<figure>
+  <img src="docs/wireframe-services.png" width="50%" height="50%">
+  <figcaption><strong><em>Wireframe: Services page</em></strong></figcaption>
+</figure>
+<figure>
+  <img src="docs/wireframe-contact.png" width="50%" height="50%">
+  <figcaption><strong><em>Wireframe: Contact Us page</em></strong></figcaption>
+</figure>
+<figure>
+  <img src="docs/wireframe-careers.png" width="50%" height="50%">
+  <figcaption><strong><em>Wireframe: Careers page</em></strong></figcaption>
+</figure>
 ## Testing 
 
 

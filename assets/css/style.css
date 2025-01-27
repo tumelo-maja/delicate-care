@@ -21,3 +21,9 @@ nav {
 .col-12 {
     border: 2px solid black;
 }
+
+/*------------- Navbar --*/
+
+#navbar img {
+    width: 60px;
+}

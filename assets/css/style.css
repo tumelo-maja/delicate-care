@@ -15,3 +15,7 @@ footer {
     background-color: lightslategray;
 }
 
+/*----------- Check boundaries of divs --*/
+.col-12 {
+    border: 2px solid red;
+}

@@ -60,6 +60,26 @@ nav {
     order: 1; /*---- change image order*/
   }
 
+/*--------- services sections-home --*/
+.service-item {
+    border: 1px solid blue;
+    padding: 0;
+    border-radius:10px;
+    border-top-left-radius:10px;
+    margin-top: 10px;
+}
+
+.service-item img {
+    height: 220px;
+    width: 100%;
+    border-radius:10px 10px 0 0;
+  }
+
+  .service-body {
+    border-radius:0 0 10px 10px;
+    background-color: lightgrey;
+  }
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

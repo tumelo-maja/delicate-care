@@ -12,10 +12,6 @@ header {
   background-color: lightgreen;
 }
 
-main {
-  /* background-color: lightskyblue; */
-}
-
 footer {
   background-color: lightslategray;
 }
@@ -50,19 +46,31 @@ nav {
 /*--------- intro section --*/
 
 #intro img {
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 20px ;
-    border-radius: 10px;
-
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
-
+  /*---------- Intro*/
+  #intro-image2,
+  #intro-cta {
+    order: 1; /*---- change image order*/
+  }
+  
 /*------------------------------------------Bootstrap breakpoint for tablet screens */
 @media screen and (min-width: 768px) {
+
+    /*------------ Header*/
   #hero {
     height: 500px;
+  }
+
+  /*---------- Intro*/
+  #intro-image2,
+  #intro-cta {
+    order: 0; /*---- change image order*/
   }
 }

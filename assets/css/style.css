@@ -1,39 +1,59 @@
 /*------------- Google fonts: Catamaran, Lora and Manrope */
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap");
 
 /*------------- General Styles ---*/
 
 body {
-    /* padding-top: 64px; --- adjust header below fixed navbar -- */
+  /* padding-top: 64px; --- adjust header below fixed navbar -- */
 }
 
 /*-- for border highlight only--*/
 header {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 main {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
 
 main div {
-    height: 200px;
+  height: 200px;
 }
 
 footer {
-    background-color: lightslategray;
+  background-color: lightslategray;
 }
 
 nav {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 .col-12 {
-    border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 /*------------- Navbar --*/
 
 #navbar img {
-    width: 60px;
+  width: 60px;
 }
 
+/*-------------  Header --*/
+
+#hero-image {
+  padding: 5px;
+}
+
+#hero {
+  background-image: url("../images/male-carer-taking-care-senior-woman.jpg");
+  background-position: 3% 0%;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+/*------------------------------------------Bootstrap breakpoint for tablet screens */
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 500px;
+  }
+}

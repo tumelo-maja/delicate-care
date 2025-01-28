@@ -16,10 +16,6 @@ main {
   background-color: lightskyblue;
 }
 
-main div {
-  height: 200px;
-}
-
 footer {
   background-color: lightslategray;
 }
@@ -50,6 +46,24 @@ nav {
   height: 200px;
   width: 100%;
 }
+
+/*--------- intro section --*/
+#intro-text {
+    border: 2px solid red;
+}
+
+#intro .col-12 {
+    border: 2px solid darkblue;
+    min-height: 5px;
+}
+
+#intro img {
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
 
 /*------------------------------------------Bootstrap breakpoint for tablet screens */
 @media screen and (min-width: 768px) {

@@ -93,5 +93,12 @@ nav {
     order: 0; /*---- change image order*/
   }
 
-  
+  .intro-text {
+    align-self: center;
+  }
+
+  .intro-text p {
+    padding: 0 5px;
+  }
+
 }

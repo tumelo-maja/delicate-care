@@ -48,20 +48,13 @@ nav {
 }
 
 /*--------- intro section --*/
-#intro-text {
-    border: 2px solid red;
-}
-
-#intro .col-12 {
-    border: 2px solid darkblue;
-    min-height: 5px;
-}
 
 #intro img {
     background-position: center center;
     background-size: cover;
     height: 200px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 

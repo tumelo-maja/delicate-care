@@ -155,10 +155,6 @@ There should be confirmation to acknowledge submission of application form
   <figcaption><strong><em>Wireframe: About page</em></strong></figcaption>
 </figure>
 <figure>
-  <img src="docs/wireframe-services.png" width="50%" height="50%">
-  <figcaption><strong><em>Wireframe: Services page</em></strong></figcaption>
-</figure>
-<figure>
   <img src="docs/wireframe-contact.png" width="50%" height="50%">
   <figcaption><strong><em>Wireframe: Contact Us page</em></strong></figcaption>
 </figure>

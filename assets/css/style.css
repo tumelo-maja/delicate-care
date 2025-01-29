@@ -63,7 +63,7 @@ nav {
     order: 1; /*---- change image order*/
   }
 
-/*--------- services sections-home --*/
+/*--------- services section --*/
 .service-item {
     border: 1px solid blue;
     padding: 0;
@@ -78,10 +78,37 @@ nav {
     border-radius:10px 10px 0 0;
   }
 
-  .service-body {
-    border-radius:0 0 10px 10px;
-    background-color: lightgrey;
-  }
+.service-body {
+border-radius:0 0 10px 10px;
+background-color: lightgrey;
+}
+
+#check-service {
+    display: none; /* remove checkbok from display*/
+}
+
+#check-service:checked ~ .service-more {
+    display: block; /*--- display on when checked --*/
+}
+
+#check-service:checked ~ label {
+    display: none; /*--- display off when checked --*/
+}
+
+.service-more {
+    display: none;
+}
+
+.service-body label {
+border: 1px solid red;
+margin: 5px;
+border-radius: 5px;
+display: inline-block;
+cursor: pointer;
+background-color: darkcyan;
+color: #fff;
+padding: 4px 6px;
+}
 
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */

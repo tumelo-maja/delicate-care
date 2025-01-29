@@ -3,6 +3,8 @@
 
 /*------------- General Styles ---*/
 
+
+
 body {
   /*-- change body to flex */
   display: flex;
@@ -64,12 +66,17 @@ nav {
   }
 
 /*--------- services section --*/
+#services {
+   background-color: red;
+}
+
 .service-item {
-    border: 1px solid blue;
-    padding: 0;
+    border: 1px solid darkgrey;
+    padding: 10px;
     border-radius:10px;
     border-top-left-radius:10px;
-    margin-top: 10px;
+    margin: 10px 0;
+    /* width: 280px; */
 }
 
 .service-item img {
@@ -84,21 +91,25 @@ background-color: lightgrey;
 padding: 20px;
 }
 
-#check-service {
-    display: none; /* remove checkbok from display*/
+/* remove elements from display*/
+.hidden-item {
+    display: none; 
 }
 
-#check-service:checked ~ .service-more {
+#check-service-one:checked ~ .service-more-one,
+#check-service-two:checked ~ .service-more-two,
+#check-service-three:checked ~ .service-more-three,
+#check-service-four:checked ~ .service-more-four {
     display: block; /*--- display on when checked --*/
 }
 
-#check-service:checked ~ label {
+#check-service-one:checked ~ label,
+#check-service-two:checked ~ label,
+#check-service-three:checked ~ label,
+#check-service-four:checked ~ label {
     display: none; /*--- display off when checked --*/
 }
 
-.service-more {
-    display: none;
-}
 
 .service-body label {
 border: 1px solid red;
@@ -111,6 +122,9 @@ color: #fff;
 padding: 4px 6px;
 }
 
+.service-body strong {
+text-transform: capitalize;
+}
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

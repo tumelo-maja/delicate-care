@@ -3,13 +3,15 @@
 
 /*------------- General Styles ---*/
 
-
-
 body {
   /*-- change body to flex */
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.section {
+  /* padding: 30px; */
 }
 
 /*-- for border highlight only--*/
@@ -36,9 +38,9 @@ nav {
 
 /*-------------  Header --*/
 
-#hero-image {
-  padding: 5px;
-}
+/* #hero-image {
+  padding: 0;
+} */
 
 #hero {
   background-image: url("../images/male-carer-taking-care-senior-woman.jpg");
@@ -59,95 +61,102 @@ nav {
   border-radius: 10px;
 }
 
-  /*---------- Intro*/
-  #intro-image2,
-  #intro-cta {
-    order: 1; /*---- change image order*/
-  }
-
-/*--------- services section --*/
-#services {
-   background-color: red;
+/*---------- Intro*/
+#intro-image2,
+#intro-cta {
+  order: 1; /*---- change image order*/
 }
 
+/*--------- services section --*/
+/* #services {
+   background-color: red;
+   padding: 30px;
+} */
+
 .service-item {
-    border: 1px solid darkgrey;
-    padding: 10px;
-    border-radius:10px;
-    border-top-left-radius:10px;
-    margin: 10px 0;
-    /* width: 280px; */
+  padding: 20px;
+  margin: 10px 0;
 }
 
 .service-item img {
-    height: 220px;
-    width: 100%;
-    border-radius:10px 10px 0 0;
-  }
+  height: 200px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid red;
+  border-bottom: 0;
+}
 
 .service-body {
-border-radius:0 0 10px 10px;
-background-color: lightgrey;
-padding: 20px;
+  border-radius: 0 0 10px 10px;
+  background-color: lightgrey;
+  padding: 20px 10px;
+  border: 1px solid red;
+  border-top: 0;
 }
 
 /* remove elements from display*/
 .hidden-item {
-    display: none; 
+  display: none;
 }
 
 #check-service-one:checked ~ .service-more-one,
 #check-service-two:checked ~ .service-more-two,
 #check-service-three:checked ~ .service-more-three,
 #check-service-four:checked ~ .service-more-four {
-    display: block; /*--- display on when checked --*/
+  display: block; /*--- display on when checked --*/
 }
 
 #check-service-one:checked ~ label,
 #check-service-two:checked ~ label,
 #check-service-three:checked ~ label,
 #check-service-four:checked ~ label {
-    display: none; /*--- display off when checked --*/
+  display: none; /*--- display off when checked --*/
 }
 
-
 .service-body label {
-border: 1px solid red;
-margin: 5px;
-border-radius: 5px;
-display: inline-block;
-cursor: pointer;
-background-color: darkcyan;
-color: #fff;
-padding: 4px 6px;
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: darkcyan;
+  color: #fff;
+  padding: 4px 6px;
 }
 
 .service-body strong {
-text-transform: capitalize;
+  text-transform: capitalize;
 }
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
-
-  /*---------- Intro*/
+  /*---------- Intro section ---*/
   #intro img {
+    height: 220px;
+  }
+
+  /*---------- services section --*/
+  .service-item img {
     height: 220px;
   }
 }
 
 /*---------------------------Bootstrap breakpoint for large phone screens (425px) */
 @media screen and (min-width: 425px) {
-
-    /*---------- Intro*/
-    #intro img {
-      height: 250px;
-    }
+  /*---------- Intro*/
+  #intro img {
+    height: 270px;
   }
+
+  /*---------- services section --*/
+  .service-item img {
+    height: 260px;
+  }
+}
 
 /*----------------------------Bootstrap breakpoint for tablet screens (768px) */
 @media screen and (min-width: 768px) {
-
-    /*------------ Header*/
+  /*------------ Header*/
   #hero {
     height: 500px;
   }
@@ -166,4 +175,46 @@ text-transform: capitalize;
     padding: 0 5px;
   }
 
+  /*--------- services section --*/
+
+  .service-body {
+    height: 266px;
+    padding: 20px;
+
+  }
 }
+
+/*----------------------------Bootstrap breakpoint for laptop screens (1024px) */
+@media screen and (min-width: 1024px) {
+  /*---------- Intro*/
+  #intro img {
+    height: 300px;
+  }
+
+  /*---------- services section --*/
+  .service-item img {
+    height: 300px;
+  }
+}
+
+/*----------------------------Bootstrap breakpoint for laptop screens (1024px) */
+@media screen and (min-width: 1024px) {
+    /*---------- Intro*/
+    .intro-item {
+        padding: 25px 50px;
+    }
+
+    #intro img {
+        height: 350px;
+      }
+  
+    /*---------- services section --*/
+    .service-item {
+      padding: 25px 50px;
+    }
+
+    .service-item img {
+        height: 350px;
+      }
+  }
+  

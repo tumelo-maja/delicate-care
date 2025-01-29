@@ -138,6 +138,14 @@ h2 {
   margin: 0;
 }
 
+/*----------------------- Footer ---*/
+#contact-info a {
+    color: red;
+    text-decoration: none;
+
+
+}
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

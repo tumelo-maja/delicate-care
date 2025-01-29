@@ -4,7 +4,10 @@
 /*------------- General Styles ---*/
 
 body {
-  /* padding-top: 64px; --- adjust header below fixed navbar -- */
+  /*-- change body to flex */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /*-- for border highlight only--*/

@@ -81,6 +81,7 @@ nav {
 .service-body {
 border-radius:0 0 10px 10px;
 background-color: lightgrey;
+padding: 20px;
 }
 
 #check-service {

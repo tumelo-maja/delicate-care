@@ -163,6 +163,42 @@ h2 {
     font-style: italic;
 }
 
+
+/*-------------  footer vidoe --*/
+#footer-logo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#footer-logo video {
+  width: 100%;
+  height: 100%;
+}
+
+#footer-logo img {
+width: 70px;
+}
+
+#footer-logo .logo-small {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#footer-logo .cta-logo {
+  position: absolute;
+  top: 80%;
+  height: 100px;
+  width: 295px;
+}
+
+#footer-logo p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

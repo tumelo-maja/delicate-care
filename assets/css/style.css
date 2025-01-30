@@ -144,6 +144,25 @@ h2 {
     text-decoration: none;
 }
 
+
+/*-- Map iframe --*/
+#g-map iframe {
+    border: 2px solid red;
+    padding: 0 20px 10px;
+    width: 100%;
+    align-self: center;
+}
+
+#g-map {
+    align-self: center;
+}
+
+#g-map p {
+    color: darkred;
+    font-size: 80%;
+    font-style: italic;
+}
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

@@ -220,6 +220,24 @@ width: 70px;
   color: white;
   }
 
+  /*------------ business hours ---*/
+  .business-hours table {
+    width: 100%;
+  }
+
+  .business-hours th {
+    padding: 10px;
+    text-align: left;
+    width: 30px;
+  }
+
+  .business-hours td,
+  .business-hours .top {
+    padding: 10px;
+    text-align: center;
+    width: 20px;
+  }
+
 
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */

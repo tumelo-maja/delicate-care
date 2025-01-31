@@ -89,6 +89,22 @@ Implement an enquiry form in the contact us page
 Ensure all essential fields in the form are validated before submission
 create a confirmation page to acknowledge submission
 
+5) Company history and vision (should have)
+Story:
+As a family member, I want to learn and understand the company's mission and values so I can feel confident about my expections of care for my loved one 
+
+Acceptance Criteria:
+An about page clearly presents the company's vision and mission statements in an easy to read manner
+organisation staff are displayed with their name, email and one-liner aabout why they're in social care 
+core values are briefly described in the 'why choose us' section of the home page with a link to 'about' page
+CTA to guide visitors to explore more about our service (links to services section) or contact us (links to contact us)
+
+Task:
+Implement about-us page with the company's mission & vision statements presented in a friendly and informative format
+Add 'Our team' section in the about page, include an image, name, role, email and one line of positive comment about work
+present core values in the 'why chose us' section using icons and brief description of those values
+Include a small text with links/buttons to invite the visitors to explore 'services' sections or CTA for contact us
+
 5) Onboarding steps (should-have)
 
 User story:

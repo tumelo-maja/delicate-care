@@ -27,8 +27,13 @@ h2 {
   text-transform: uppercase;
 }
 
-.col-12 {
-  /* border: 2px solid black; */
+h3 {
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+
+.sub-heading2 {
+  margin: 20px 0;
 }
 
 /*------------- Navbar --*/
@@ -140,8 +145,9 @@ h2 {
 
 /*----------------------- Footer ---*/
 
-#contact-info {
-  width: 100%;
+.contact-info {
+  padding-top: 20px;
+
 }
 
 .contact-info a {
@@ -151,7 +157,7 @@ h2 {
 
 /*-- Map iframe --*/
 .g-map iframe {
-  width: 300px;
+  width: 100%;
   align-self: center;
 }
 
@@ -180,13 +186,12 @@ h2 {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.5);
   height: 300px;
   padding: 0;
   border-radius: 10px;
 }
 
-.video-bg {
+.footer-logo  .video-bg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -204,8 +209,9 @@ h2 {
 
 .footer-logo .logo-small {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 2%;
+  top: 2%;
+  transform: translate(-2%, -2%);
 }
 
 .footer-logo .cta-logo {
@@ -231,13 +237,14 @@ h2 {
 /*------------ business hours ---*/
 .business-hours {
   padding: 20px;
-  margin: 0;
+  margin-bottom: 20px;
   height: 300px;
+  order: 1;
 }
 
 .business-hours table {
   width: 100%;
-  justify-items: center;
+  justify-self: center;
 }
 
 .business-hours th {
@@ -302,6 +309,22 @@ h2 {
   .service-item img {
     height: 260px;
   }
+
+  /*---------- footer ---*/
+
+  /*-- Map iframe --*/
+  .g-map {
+    order: 2;
+  }
+
+.g-map iframe {
+  width: 80%;
+  height: 240px;
+}
+
+.business-hours table {
+  width: 80%;
+}
 }
 
 /*----------------------------Bootstrap breakpoint for tablet screens (768px) */
@@ -337,12 +360,12 @@ h2 {
   }
 
   /*----------- footer ----*/
-  .footer-logo {
-    /* min-height: 15rem; */
-    width: 350px;
-    height: 300px;
-    min-height: 300px;
-    min-width: 300px;
+  .footer-logo .video-bg {
+    width: 90%;
+  }
+  .footer-logo .logo-small {
+    right: 4%;
+    top: 4%;
   }
 
 }
@@ -358,6 +381,14 @@ h2 {
   .service-item img {
     height: 300px;
   }
+
+    /*----------- footer ----*/
+    .footer-logo .video-bg {
+      width: 85%;
+    }
+    .footer-logo .logo-small {
+      right: 8%;
+    }
 }
 
 /*----------------------------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px) {
@@ -380,6 +411,14 @@ h2 {
   .service-item img {
     height: 350px;
   }
+
+      /*----------- footer ----*/
+      .footer-logo .video-bg {
+        width: 80%;
+      }
+      .footer-logo .logo-small {
+        right: 10%;
+      }
 }
 
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1650px) {

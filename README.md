@@ -89,7 +89,7 @@ Implement an enquiry form in the contact us page
 Ensure all essential fields in the form are validated before submission
 create a confirmation page to acknowledge submission
 
-5) Company history and vision (should have)
+5) Company mission, vision, values and team (should have)
 Story:
 As a family member/potenital service user, I want to learn and understand the company's values and team expertise so I can feel confident about my expections of care for my loved one 
 

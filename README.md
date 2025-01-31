@@ -91,7 +91,7 @@ create a confirmation page to acknowledge submission
 
 5) Company history and vision (should have)
 Story:
-As a family member, I want to learn and understand the company's mission and values so I can feel confident about my expections of care for my loved one 
+As a family member/potenital service user, I want to learn and understand the company's values and team expertise so I can feel confident about my expections of care for my loved one 
 
 Acceptance Criteria:
 An about page clearly presents the company's vision and mission statements in an easy to read manner

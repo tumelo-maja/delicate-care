@@ -166,7 +166,7 @@ h3 {
   margin: 0;
   order: 1;
   padding: 0 20px;
-  height: 300px;
+  height: 230px;
 }
 
 .g-map p {
@@ -268,6 +268,7 @@ h3 {
 
 .social-media {
   order: 99; /* ensure this is always comes last */
+  margin-top: 30px;
 }
 
 .social-media ul {
@@ -279,8 +280,6 @@ h3 {
 }
 
 .social-media i {
-  /* font-size: 160%;
-    padding: 5%;*/
   color: indianred;
 }
 
@@ -301,18 +300,25 @@ h3 {
   border-radius: 10px;
 }
 
+#contact-form {
+  margin-bottom: 30px;
+}
 
 #contact-form label {
-  margin: 0 5px;
+  margin: 10px 10px 5px 0;
+}
+
+#contact-form h3 {
+  margin-left: 10px;
 }
 
 #contact-form input,
 #contact-form textarea,
 #contact-form select {
-  margin: 4px 5px 15px;
-  width: 290px;
+  width: 100%;
   border: 1px solid lightslategray;
   border-radius: 5px;
+  padding: 6px 12px;
 }
 
 #contact-form button {
@@ -340,6 +346,11 @@ h3 {
   .service-item img {
     height: 220px;
   }
+
+  /*-------------- contct us page ---*/
+  #contact-form form {
+width: 90%; 
+ }
 }
 
 /*---------------------------Bootstrap breakpoint for large phone screens (425px) */
@@ -358,7 +369,7 @@ h3 {
 
   /*-- Map iframe --*/
   .g-map {
-    order: 2;
+    height: 280px;
   }
 
 .g-map iframe {
@@ -369,6 +380,11 @@ h3 {
 .business-hours table {
   width: 80%;
 }
+
+  /*-------------- contct us page ---*/
+  #contact-form form {
+    width: 80%; 
+     }
 }
 
 /*----------------------------Bootstrap breakpoint for tablet screens (768px) */
@@ -412,6 +428,15 @@ h3 {
     top: 4%;
   }
 
+  .g-map,
+  .business-hours {
+    height: 350px;
+  }
+
+  /*-------------- contct us page ---*/
+  #contact-form form {
+    width: 100%; 
+     }
 }
 
 /*----------------------------Bootstrap breakpoint for laptop screens (1024px) */

@@ -127,36 +127,118 @@
             <h3>Enquiry form</h3>
             <form action="#" method="GET">
               <div class="row">
-                  <div class="col-12">
-                      <label for="fullname">Name</label>
-                      <input id="fullname" name="fullname" type="text" required>
-                  </div>
-                  <div class="col-12">
-                      <label for="email">Email address</label>
-                      <input id="email" name="email" type="email" required>
-                  </div>
-                  <div class="col-12">
-                      <label for="phone">Phone number</label>
-                      <input id="phone" name="phone" type="number" required>
-                  </div>
-                  <div class="col-12">
-                      <label for="inquiry-type">Type of inquiry</label>
-                      <select id="inquiry-type" name="inquiry-type" required>
-                          <option value="home-care">Home care</option>
-                      </select>
-                  </div>
-                  <div class="col-12">
-                      <label for="inquiry-message">Message</label>
-                      <textarea rows="5" id="inquiry-message" name="inquiry-message" required></textarea>
-                  </div>
+                <div class="col-12">
+                  <label for="fullname">Name</label><br />
+                  <input id="fullname" name="fullname" type="text" required />
+                </div>
+                <div class="col-12">
+                  <label for="email">Email address</label><br />
+                  <input id="email" name="email" type="email" required />
+                </div>
+                <div class="col-12">
+                  <label for="phone">Phone number</label><br />
+                  <input id="phone" name="phone" type="number" required />
+                </div>
+                <div class="col-12">
+                  <label for="inquiry-type">Type of inquiry</label><br />
+                  <select id="inquiry-type" name="inquiry-type" required>
+                    <option value="" selected>Select</option>
+                    <option value="home-care">Home care</option>
+                    <option value="home-care">Supported living</option>
+                    <option value="home-care">Respite care</option>
+                    <option value="home-care">Dementia & complex care</option>
+                    <option value="general-inquiry">General inquiry</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="inquiry-message">Message</label><br />
+                  <textarea
+                    rows="5"
+                    id="inquiry-message"
+                    name="inquiry-message"
+                    required
+                    placeholder="Share any details about the care you're looking for or any general inquiry you have for us."
+                  ></textarea>
+                </div>
               </div>
               <button type="submit">Submit</button>
-          </form>
+            </form>
           </div>
         </div>
       </section>
       <section class="col-12 text-center">
         Section - Check services or contact us
+      </section>
+      <section id="booking-form" class="container section">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <h2>Booking inquiry</h2>
+            <form action="success.html" method="GET">
+              <div class="row">
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    type="number"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="event-type" class="form-label">Event type</label>
+                  <select
+                    id="event-type"
+                    class="form-select"
+                    name="event-type"
+                    required
+                  >
+                    <option value="" selected>Select</option>
+                    <option value="regular-play">Reserve a table</option>
+                    <option value="dnd">Dungeons & Dragons</option>
+                    <option value="retro-night">Retro Game Night</option>
+                    <option value="tournament">Tournament</option>
+                    <option value="kids-party">Kids party</option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    id="message"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn custom-button-outline mb-4">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="mt-auto">

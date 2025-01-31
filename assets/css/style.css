@@ -284,6 +284,26 @@ h3 {
   color: indianred;
 }
 
+/*--------------------- Contact Us page --*/
+.contact-hero {
+  /* background-image: url("../images/female-carer-showing-phone-elder-woman.jpg");
+  background-position: 3% 0%;
+  background-size: cover; */
+  background: url(../images/female-carer-showing-phone-elder-woman.jpg) center center/cover;
+  height: 300px;
+  width: 100%;
+}
+
+
+.contact-image img {
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

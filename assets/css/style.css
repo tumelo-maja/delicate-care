@@ -139,26 +139,31 @@ h2 {
 }
 
 /*----------------------- Footer ---*/
-#contact-info a {
+
+#contact-info {
+  width: 100%;
+}
+
+.contact-info a {
   color: red;
   text-decoration: none;
 }
 
 /*-- Map iframe --*/
-#g-map iframe {
-  border: 2px solid red;
+.g-map iframe {
   width: 300px;
   align-self: center;
 }
 
-#g-map {
+.g-map {
   align-self: center;
-margin: 20px;
+  margin: 0;
   order: 1;
   padding: 0 20px;
+  height: 300px;
 }
 
-#g-map p {
+.g-map p {
   color: darkred;
   font-size: 80%;
   font-style: italic;
@@ -178,6 +183,7 @@ margin: 20px;
   background: rgba(0, 0, 0, 0.5);
   height: 300px;
   padding: 0;
+  border-radius: 10px;
 }
 
 .video-bg {
@@ -188,6 +194,8 @@ margin: 20px;
   width: 100%;
   height: 100%;
   filter: brightness(50%);
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .footer-logo img {
@@ -196,7 +204,8 @@ margin: 20px;
 
 .footer-logo .logo-small {
   position: absolute;
-  left: 1rem;
+  right: 10px;
+  top: 10px;
 }
 
 .footer-logo .cta-logo {
@@ -221,13 +230,13 @@ margin: 20px;
 
 /*------------ business hours ---*/
 .business-hours {
-  width: 300px;
-  padding: 0;
+  padding: 20px;
+  margin: 0;
+  height: 300px;
 }
 
 .business-hours table {
   width: 100%;
-  border: 2px solid darkolivegreen;
   justify-items: center;
 }
 
@@ -244,11 +253,15 @@ margin: 20px;
   width: 20px;
 }
 
+.business-hours tr {
+  border-bottom: 1px solid lightgrey; 
+}
+
 /*----------- social media ---*/
 
 .social-media {
   order: 99; /* ensure this is always comes last */
-} 
+}
 
 .social-media ul {
   display: flex;
@@ -331,6 +344,7 @@ margin: 20px;
     min-height: 300px;
     min-width: 300px;
   }
+
 }
 
 /*----------------------------Bootstrap breakpoint for laptop screens (1024px) */

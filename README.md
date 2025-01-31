@@ -91,11 +91,11 @@ create a confirmation page to acknowledge submission
 
 5) Company mission, vision, values and team (should have)
 Story:
-As a family member/potenital service user, I want to learn and understand the company's values and team expertise so I can feel confident about my expections of care for my loved one 
+As a family member/potential service user, I want to learn and understand the company's values and team expertise so I can feel confident about my expectations of care for my loved one 
 
 Acceptance Criteria:
 An about page clearly presents the company's vision and mission statements in an easy to read manner
-organisation staff are displayed with their name, email and one-liner aabout why they're in social care 
+organisation staff are displayed with their name, email and one-liner about why they're in social care 
 core values are briefly described in the 'why choose us' section of the home page with a link to 'about' page
 CTA to guide visitors to explore more about our service (links to services section) or contact us (links to contact us)
 

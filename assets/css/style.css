@@ -286,9 +286,6 @@ h3 {
 
 /*--------------------- Contact Us page --*/
 .contact-hero {
-  /* background-image: url("../images/female-carer-showing-phone-elder-woman.jpg");
-  background-position: 3% 0%;
-  background-size: cover; */
   background: url(../images/female-carer-showing-phone-elder-woman.jpg) center center/cover;
   height: 300px;
   width: 100%;
@@ -302,6 +299,33 @@ h3 {
   width: 100%;
   margin-bottom: 20px;
   border-radius: 10px;
+}
+
+
+#contact-form label {
+  margin: 0 5px;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form select {
+  margin: 4px 5px 15px;
+  width: 290px;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: lightcoral;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+  margin: 2px 5px 10px;
+  padding: 7px 12px;
+  font-size: 1.1rem;
+}
+
+#contact-form form {
+  justify-items: center;
 }
 
 /*--------------------------- Media queries --*/

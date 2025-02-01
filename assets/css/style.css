@@ -348,6 +348,8 @@ h3 {
 }
 
 /*---------- Success page ---*/
+
+/*------------- about page ---*/
 .about-hero {
   background: url(../images/elder-couple-seating-with-female-carer-standing.jpeg)
     center center/cover;
@@ -355,25 +357,23 @@ h3 {
   width: 100%;
 }
 
-/*------------- about page ---*/
-
 .staff {
   padding: 0;
-  margin: 20px;
+  margin: 12px;
   justify-content: center;
 }
 
 .staff p {
-  margin: 2px;
+  margin: 10px 2px 5px;
+  text-align: center;
 }
 
 .staff-image {
   color: lightcoral;
   overflow: hidden;
-  height: 260px;
+  aspect-ratio: 1 / 1; /* keps perfect circle*/
   width: 100%;
   padding: 0;
-  margin: 20px 0;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -420,6 +420,19 @@ h3 {
   padding: 0;
 }
 
+.staff-message {
+  font-style: italic;
+  text-align: center;
+}
+
+/*--------------------- mission & vision ---*/
+.mission img,
+.vision img {
+width: 100%;
+border-radius: 10px 10px 0 0;
+
+}
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
@@ -439,9 +452,6 @@ h3 {
   }
 
   /*---------------- about us page ---*/
-  .staff-image {
-    height: 300px;
-  }
 }
 
 /*---------------------------Bootstrap breakpoint for large phone screens (425px) */
@@ -478,9 +488,6 @@ h3 {
   }
 
   /*---------------- about us page ---*/
-  .staff-image {
-    width: 90%;
-  }
 }
 
 /*----------------------------Bootstrap breakpoint for tablet screens (768px) */
@@ -533,6 +540,8 @@ h3 {
   #contact-form form {
     width: 100%;
   }
+
+  /*---------------- about us page ---*/
 }
 
 /*----------------------------Bootstrap breakpoint for laptop screens (1024px) */

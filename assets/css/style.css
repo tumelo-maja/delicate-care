@@ -154,6 +154,8 @@ h3 {
 .g-map iframe {
   width: 100%;
   align-self: center;
+  height: 300px;
+
 }
 
 .g-map {
@@ -161,7 +163,7 @@ h3 {
   margin: 0;
   order: 1;
   padding: 0 20px;
-  height: 230px;
+  height: 400px;
 }
 
 .g-map p {
@@ -232,8 +234,8 @@ h3 {
 /*------------ business hours ---*/
 .business-hours {
   padding: 20px;
-  margin-bottom: 20px;
-  height: 300px;
+  margin-bottom: 0;
+  height: 370px;
   order: 1;
 }
 
@@ -259,11 +261,19 @@ h3 {
   border-bottom: 1px solid lightgrey;
 }
 
+.business-hours h3 {
+  margin-top: 0;
+}
+
+.office-note {
+  font-size: 60%;
+  padding: 0;
+}
 /*----------- social media ---*/
 
 .social-media {
   order: 99; /* ensure this is always comes last */
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .social-media ul {

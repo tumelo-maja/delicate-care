@@ -358,13 +358,49 @@ background-color: lightcoral;
 
 .about-image {
   background: url(../images/zalama-care-founder.jpg) center center/cover;
-  height: 300px;
   color: lightcoral;
   overflow: hidden;
+}
+
+.staff-image {
+  color: lightcoral;
+  overflow: hidden;
+  height: 300px;
   padding: 0;
   margin: 20px 20px;
-  border-radius: 10px;
+  /* border-end-end-radius: 30px; */
+  border-radius: 50%;
 
+}
+
+#member-2 {
+  background-image: url(../images/zalama-care-nominated-individual.jpg) ;
+  background-position: 50% 30%;
+  background-size: cover;
+}
+
+#member-3 {
+  background-image: url(../images/zalama-care-registered-manager.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+}
+
+#member-4 {
+  background-image: url(../images/zalama-care-hr-manager.jpg) ;
+  background-position: 90% 40%;
+  background-size: cover;
+}
+
+#member-5 {
+  background-image: url(../images/zalama-care-finance-manager.jpg);
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+#member-6 {
+  background: url(../images/zalama-care-coordinator.jpg);
+  background-position: 50% 10%;
+  background-size: cover;
 }
 
 .about-text {

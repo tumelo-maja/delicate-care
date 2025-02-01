@@ -347,6 +347,14 @@ h3 {
 background-color: lightcoral;
 }
 
+/*---------- Success page ---*/
+.about-hero {
+  background: url(../images/elder-couple-seating-with-female-carer-standing.jpeg) center center/cover;
+  height: 300px;
+  width: 100%; 
+}
+
+
 /*--------------------------- Media queries --*/
 /*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
 @media screen and (min-width: 375px) {

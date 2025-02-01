@@ -143,7 +143,6 @@ h3 {
 
 .contact-info {
   padding-top: 20px;
-
 }
 
 .contact-info a {
@@ -187,7 +186,7 @@ h3 {
   border-radius: 10px;
 }
 
-.footer-logo  .video-bg {
+.footer-logo .video-bg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -257,7 +256,7 @@ h3 {
 }
 
 .business-hours tr {
-  border-bottom: 1px solid lightgrey; 
+  border-bottom: 1px solid lightgrey;
 }
 
 /*----------- social media ---*/
@@ -281,11 +280,11 @@ h3 {
 
 /*--------------------- Contact Us page --*/
 .contact-hero {
-  background: url(../images/female-carer-showing-phone-elder-woman.jpg) center center/cover;
+  background: url(../images/female-carer-showing-phone-elder-woman.jpg) center
+    center/cover;
   height: 300px;
   width: 100%;
 }
-
 
 .contact-image img {
   background-position: center center;
@@ -332,7 +331,8 @@ h3 {
 
 /*---------- Success page ---*/
 .contact-hero {
-  background: url(../images/positive-mother-daughter-enjoying-dramatic-view.jpg) center center/cover;
+  background: url(../images/positive-mother-daughter-enjoying-dramatic-view.jpg)
+    center center/cover;
   height: 300px;
   width: 100%;
 }
@@ -344,37 +344,48 @@ h3 {
 }
 
 .thank-you .btn-outline-secondary {
-background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 /*---------- Success page ---*/
 .about-hero {
-  background: url(../images/elder-couple-seating-with-female-carer-standing.jpeg) center center/cover;
+  background: url(../images/elder-couple-seating-with-female-carer-standing.jpeg)
+    center center/cover;
   height: 300px;
-  width: 100%; 
+  width: 100%;
 }
 
 /*------------- about page ---*/
 
-.about-image {
-  background: url(../images/zalama-care-founder.jpg) center center/cover;
-  color: lightcoral;
-  overflow: hidden;
+.staff {
+  padding: 0;
+  margin: 20px;
+  justify-content: center;
+}
+
+.staff p {
+  margin: 2px;
 }
 
 .staff-image {
   color: lightcoral;
   overflow: hidden;
-  height: 300px;
+  height: 260px;
+  width: 100%;
   padding: 0;
-  margin: 20px 20px;
-  /* border-end-end-radius: 30px; */
+  margin: 20px 0;
   border-radius: 50%;
+  object-fit: cover;
+}
 
+#member-1 {
+  background-image: url(../images/zalama-care-founder.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
 }
 
 #member-2 {
-  background-image: url(../images/zalama-care-nominated-individual.jpg) ;
+  background-image: url(../images/zalama-care-nominated-individual.jpg);
   background-position: 50% 30%;
   background-size: cover;
 }
@@ -386,7 +397,7 @@ background-color: lightcoral;
 }
 
 #member-4 {
-  background-image: url(../images/zalama-care-hr-manager.jpg) ;
+  background-image: url(../images/zalama-care-hr-manager.jpg);
   background-position: 90% 40%;
   background-size: cover;
 }
@@ -424,8 +435,13 @@ background-color: lightcoral;
 
   /*-------------- contct us page ---*/
   #contact-form form {
-width: 90%; 
- }
+    width: 90%;
+  }
+
+  /*---------------- about us page ---*/
+  .staff-image {
+    height: 300px;
+  }
 }
 
 /*---------------------------Bootstrap breakpoint for large phone screens (425px) */
@@ -447,19 +463,24 @@ width: 90%;
     height: 280px;
   }
 
-.g-map iframe {
-  width: 80%;
-  height: 240px;
-}
+  .g-map iframe {
+    width: 80%;
+    height: 240px;
+  }
 
-.business-hours table {
-  width: 80%;
-}
+  .business-hours table {
+    width: 80%;
+  }
 
   /*-------------- contct us page ---*/
   #contact-form form {
-    width: 80%; 
-     }
+    width: 80%;
+  }
+
+  /*---------------- about us page ---*/
+  .staff-image {
+    width: 90%;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for tablet screens (768px) */
@@ -510,8 +531,8 @@ width: 90%;
 
   /*-------------- contct us page ---*/
   #contact-form form {
-    width: 100%; 
-     }
+    width: 100%;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for laptop screens (1024px) */
@@ -526,13 +547,13 @@ width: 90%;
     height: 300px;
   }
 
-    /*----------- footer ----*/
-    .footer-logo .video-bg {
-      width: 85%;
-    }
-    .footer-logo .logo-small {
-      right: 8%;
-    }
+  /*----------- footer ----*/
+  .footer-logo .video-bg {
+    width: 85%;
+  }
+  .footer-logo .logo-small {
+    right: 8%;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px) {
@@ -556,13 +577,13 @@ width: 90%;
     height: 350px;
   }
 
-      /*----------- footer ----*/
-      .footer-logo .video-bg {
-        width: 80%;
-      }
-      .footer-logo .logo-small {
-        right: 10%;
-      }
+  /*----------- footer ----*/
+  .footer-logo .video-bg {
+    width: 80%;
+  }
+  .footer-logo .logo-small {
+    right: 10%;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1650px) {

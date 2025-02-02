@@ -53,11 +53,6 @@ h3 {
 }
 
 /*----------- float image - home,about,contact*/
-.float-image {
-
-}
-
-/*--------- intro section --*/
 
 .float-image img {
   background-position: center center;
@@ -292,21 +287,6 @@ h3 {
 }
 
 /*--------------------- Contact Us page --*/
-.contact-hero {
-  background: url(../images/female-carer-showing-phone-elder-woman.jpg) center
-    center/cover;
-  height: 300px;
-  width: 100%;
-}
-
-.contact-image img {
-  background-position: center center;
-  background-size: cover;
-  height: 200px;
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
 
 #contact-form {
   margin-bottom: 30px;
@@ -402,8 +382,7 @@ h3 {
 }
 
 /*--------------------- mission & vision ---*/
-.mission img,
-.vision img {
+.about-image img{
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
@@ -417,9 +396,6 @@ h3 {
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
   /*---------- Intro section ---*/
-  #intro img {
-    height: 220px;
-  }
 
   /*---------- services section --*/
   .service-item img {
@@ -437,9 +413,6 @@ h3 {
 /*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
   /*---------- Intro*/
-  #intro img {
-    height: 270px;
-  }
 
   /*---------- services section --*/
   .service-item img {
@@ -492,10 +465,8 @@ h3 {
   }
 
   /*---------- Intro*/
-  #intro img {
-    height: 280px;
-  }
 
+ 
   /*--------- services section --*/
 
   .service-body {
@@ -537,9 +508,7 @@ h3 {
 /*---------------------------- for laptop screens (1024px) */
 @media screen and (min-width: 1024px) {
   /*---------- Intro*/
-  #intro img {
-    height: 300px;
-  }
+
 
   /*---------- services section --*/
   .service-item img {
@@ -559,14 +528,7 @@ h3 {
 ) */
 @media screen and (min-width: 1200px) {
   /*---------- Intro*/
-  /* .intro-item {
-        padding: 25px 50px;
-    }
 
-    #intro img {
-        height: 350px;
-      }
-  
     /*---------- services section --*/
   .service-item {
     padding: 25px 50px;

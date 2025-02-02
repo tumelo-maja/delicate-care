@@ -381,13 +381,7 @@ h3 {
 }
 
 .staff-image {
-    /* border-radius: 50%;
-    overflow: hidden; */
-    height: 262.66px;
-    /* try */
-/* position: relative;     */
-
-
+    aspect-ratio: 1/1;
 }
 
 .staff-image img {
@@ -395,52 +389,11 @@ h3 {
   width: 100%;
   padding: 0;
   border-radius: 50%;
-  /* height: 262.66px; */
-  /* background-position: center center; */
-  /* position: absolute;
-  top: 0;
-  bottom: 0; */
   object-fit: cover;
   height: 100%;
-  /* background-position: center; */
+  background-position: center;
 
 }
-
-/* #member-1 {
-  background-image: url(../images/zalama-care-founder.jpg);
-  background-position: 50% 30%;
-  background-size: cover;
-} */
-
-/* #member-2 {
-  background-image: url(../images/zalama-care-nominated-individual.jpg);
-  background-position: 50% 30%;
-  background-size: cover;
-}
-
-#member-3 {
-  background-image: url(../images/zalama-care-registered-manager.jpg);
-  background-position: 50% 0%;
-  background-size: cover;
-}
-
-#member-4 {
-  background-image: url(../images/zalama-care-hr-manager.jpg);
-  background-position: 90% 40%;
-  background-size: cover;
-}
-
-#member-5 {
-  background-image: url(../images/zalama-care-finance-manager.jpg);
-  background-position: 50% 20%;
-  background-size: cover;
-}
-
-#member-6 {
-  background: url(../images/zalama-care-coordinator.jpg);
-  background-position: 50% 10%;
-  background-size: cover;
-} */
 
 .about-text {
   align-content: center;

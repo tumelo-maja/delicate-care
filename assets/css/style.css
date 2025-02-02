@@ -42,19 +42,24 @@ h3 {
   width: 60px;
 }
 
-/*-------------  Header --*/
+/*-------------  Headers --*/
 
-#hero-home {
-  background-image: url("../images/male-carer-taking-care-senior-woman.jpg");
-  background-position: 3% 0%;
-  background-size: cover;
-  height: 200px;
+.hero img{
+  height: 400px;
   width: 100%;
+  background-position: center;
+  object-fit: cover;
+
+}
+
+/*----------- float image - home,about,contact*/
+.float-image {
+
 }
 
 /*--------- intro section --*/
 
-.intro-image img {
+.float-image img {
   background-position: center center;
   background-size: cover;
   height: 200px;
@@ -70,10 +75,6 @@ h3 {
 }
 
 /*--------- services section --*/
-/* #services {
-   background-color: red;
-   padding: 30px;
-} */
 
 .service-item {
   padding: 20px;
@@ -362,12 +363,6 @@ h3 {
 /*---------- Success page ---*/
 
 /*------------- about page ---*/
-.about-hero {
-  background: url(../images/elder-couple-seating-with-female-carer-standing.jpeg)
-    center center/cover;
-  height: 300px;
-  width: 100%;
-}
 
 .staff {
   padding: 0;
@@ -419,7 +414,7 @@ h3 {
 }
 
 /*--------------------------- Media queries --*/
-/*---------------------------Bootstrap breakpoint for medium phone screens (375px) */
+/*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
   /*---------- Intro section ---*/
   #intro img {
@@ -439,7 +434,7 @@ h3 {
   /*---------------- about us page ---*/
 }
 
-/*---------------------------Bootstrap breakpoint for large phone screens (425px) */
+/*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
   /*---------- Intro*/
   #intro img {
@@ -475,7 +470,7 @@ h3 {
   /*---------------- about us page ---*/
 }
 
-/*----------------------------Bootstrap breakpoint for tablet screens (768px) */
+/*----------------------------Bootstrap breakpoint for medium screens (768px) */
 @media screen and (min-width: 768px) {
   /*------------ Header*/
   #hero {
@@ -530,7 +525,16 @@ h3 {
   /*---------------- about us page ---*/
 }
 
-/*----------------------------Bootstrap breakpoint for laptop screens (1024px) */
+/*----------------------------Bootstrap breakpoint for large screens (992px) */
+@media screen and (min-width: 992px) {
+
+  /*---- hero images ---*/
+.hero img{
+  height: 600px;
+}
+}
+
+/*---------------------------- for laptop screens (1024px) */
 @media screen and (min-width: 1024px) {
   /*---------- Intro*/
   #intro img {
@@ -581,12 +585,13 @@ h3 {
   }
 }
 
-/*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1650px) {
+/*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
 ) */
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1440px) {
   /*---------- footer*/
 
-  footer .container {
-    /* margin: 0 ; */
+  /*---- hero images ---*/
+  .hero img{
+    height: 800px;
   }
 }

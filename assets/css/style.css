@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: rgba(190, 233, 232, 0.5);
 }
 
 /*-- for border highlight only--*/
@@ -110,14 +111,16 @@ h3 {
   height: 200px;
   width: 100%;
   border-radius: 10px 10px 0 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  border: 2px solid var(--air-force-blue);
   border-bottom: 0;
 }
 
 .service-body {
   border-radius: 0 0 10px 10px;
   background-color: lightgrey;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  border: 2px solid var(--air-force-blue);
   border-top: 0;
 }
 
@@ -397,6 +400,7 @@ h3 {
   object-fit: cover;
   height: 100%;
   background-position: center;
+  border: 3px solid var(--air-force-blue);
 
 }
 

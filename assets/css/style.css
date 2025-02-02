@@ -381,22 +381,38 @@ h3 {
 }
 
 .staff-image {
-  color: lightcoral;
-  overflow: hidden;
-  aspect-ratio: 1 / 1; /* keps perfect circle*/
-  width: 100%;
-  padding: 0;
-  border-radius: 50%;
-  object-fit: cover;
+  border: 2px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 262px;
+    /* try */
+/* position: relative;     */
+
+
 }
 
-#member-1 {
+.staff-image img {
+  color: lightcoral;
+  width: 100%;
+  padding: 0;
+  /* border-radius: 50%; */
+  /* height: 262.66px; */
+  /* background-position: center center; */
+  /* position: absolute;
+  top: 10%;
+  bottom: 0;
+  margin: auto; */
+  object-fit: cover;
+
+}
+
+/* #member-1 {
   background-image: url(../images/zalama-care-founder.jpg);
   background-position: 50% 30%;
   background-size: cover;
-}
+} */
 
-#member-2 {
+/* #member-2 {
   background-image: url(../images/zalama-care-nominated-individual.jpg);
   background-position: 50% 30%;
   background-size: cover;
@@ -424,7 +440,7 @@ h3 {
   background: url(../images/zalama-care-coordinator.jpg);
   background-position: 50% 10%;
   background-size: cover;
-}
+} */
 
 .about-text {
   align-content: center;

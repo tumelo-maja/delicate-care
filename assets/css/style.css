@@ -4,12 +4,12 @@
 /*------------- CSS variables --*/
 
 :root {
-  --cool-gray: #8C92AC;
-  --air-force-blue: #5D8AA8;
-  --robin-egg-blue: #00CCCC;
-  --dark-gray: #3A3A3A;
-  --light-gray: #F5F5F5;
-  --white: #FFFFFF;
+  --cool-gray: #8c92ac;
+  --air-force-blue: #5d8aa8;
+  --robin-egg-blue: #00cccc;
+  --dark-gray: #3a3a3a;
+  --light-gray: #f5f5f5;
+  --white: #ffffff;
 }
 
 /*------------- General Styles ---*/
@@ -24,7 +24,7 @@ body {
 
 /*-- for border highlight only--*/
 header {
-  background-color: lightgreen;
+  /* background-color: rgba(190, 233, 232, 0.5); */
 }
 
 footer {
@@ -48,11 +48,15 @@ h3 {
 .text-footer h2,
 .text-footer h3,
 .text-footer p,
-.text-footer a,
+/* .text-footer a, */
 .text-footer address,
 .text-footer th,
 .text-footer td {
   color: var(--light-gray);
+}
+
+.text-footer i {
+  color: #385467;
 }
 
 /*--------- body font color --*/
@@ -60,11 +64,51 @@ h3 {
 .text-body h2,
 .text-body h3,
 .text-body strong {
-  color: var(--air-force-blue);
+  /* color: var(--air-force-blue); */
+  color: #496f89;
 }
 
 .text-body p {
   color: var(--dark-gray);
+}
+
+.button-style {
+  border: 1px solid #496f89;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--light-gray);
+  background-color: #496f89;
+  padding: 4px 10px;
+}
+
+.button-style-light {
+  color: var(--light-gray);
+  border: 2px solid var(--light-gray);
+  background-color: rgba(190, 233, 232, 0.5);
+}
+
+.cross-bar {
+  width: 100%;
+  background-color: var(--air-force-blue);
+  height: 220px;
+  margin: 20px 0;
+}
+
+.cross-bar div  {
+width: 100%;
+height: 100%;
+align-content: center;
+
+}
+
+.cross-bar p {
+  color: var(--light-gray);
+  font-weight: bold;
+  padding: 10px 0;
+  margin-top: 20px;
+  line-height: 2rem;
 }
 
 /*------------- Navbar --*/
@@ -73,14 +117,20 @@ h3 {
   width: 60px;
 }
 
+/*-------- main ---*/
+
+main {
+  margin-top: 40px;
+}
+
 /*-------------  Headers --*/
 
-.hero img{
+.hero img {
   height: 400px;
   width: 100%;
   background-position: center;
   object-fit: cover;
-
+  border-radius: 0 0 50% 0;
 }
 
 /*----------- float image - home,about,contact*/
@@ -112,7 +162,6 @@ h3 {
   width: 100%;
   border-radius: 10px 10px 0 0;
   /* border: 1px solid red; */
-  border: 2px solid var(--air-force-blue);
   border-bottom: 0;
 }
 
@@ -120,7 +169,6 @@ h3 {
   border-radius: 0 0 10px 10px;
   background-color: lightgrey;
   /* border: 1px solid red; */
-  border: 2px solid var(--air-force-blue);
   border-top: 0;
 }
 
@@ -141,17 +189,6 @@ h3 {
 #check-service-three:checked ~ label,
 #check-service-four:checked ~ label {
   display: none; /*--- display off when checked --*/
-}
-
-.service-body label {
-  border: 1px solid red;
-  margin: 20px;
-  border-radius: 5px;
-  display: inline-block;
-  cursor: pointer;
-  background-color: darkcyan;
-  color: #fff;
-  padding: 4px 6px;
 }
 
 .service-body strong {
@@ -257,10 +294,6 @@ h3 {
   color: #fff;
 }
 
-.footer-logo .cta-btn {
-  background-color: lightcoral;
-  color: white;
-}
 
 /*------------ business hours ---*/
 .business-hours {
@@ -316,8 +349,16 @@ h3 {
 }
 
 .social-media i {
-  color: indianred;
+  color: #385467;
 }
+
+.social-media i:hover {
+  color: var(--light-gray);
+  border: 2px solid var(--air-force-blue);
+  scale: 150%;
+  translate: 20% 60%;
+}
+
 
 /*--------------------- Contact Us page --*/
 
@@ -389,7 +430,7 @@ h3 {
 }
 
 .staff-image {
-    aspect-ratio: 1/1;
+  aspect-ratio: 1/1;
 }
 
 .staff-image img {
@@ -401,7 +442,6 @@ h3 {
   height: 100%;
   background-position: center;
   border: 3px solid var(--air-force-blue);
-
 }
 
 .about-text {
@@ -416,7 +456,7 @@ h3 {
 }
 
 /*--------------------- mission & vision ---*/
-.about-image img{
+.about-image img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
@@ -500,13 +540,15 @@ h3 {
 
   /*---------- Intro*/
 
- 
   /*--------- services section --*/
 
   .service-body {
     min-height: 220px;
   }
 
+  .service-item {
+    padding: 20px 18px;
+  }
   /*----------- footer ----*/
   .video-bg {
     width: 90%;
@@ -528,21 +570,24 @@ h3 {
   }
 
   /*---------------- about us page ---*/
+
+  /*---- hero images ---*/
+  .hero img {
+    height: 520px;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
 @media screen and (min-width: 992px) {
-
   /*---- hero images ---*/
-.hero img{
-  height: 600px;
-}
+  .hero img {
+    height: 680px;
+  }
 }
 
 /*---------------------------- for laptop screens (1024px) */
 @media screen and (min-width: 1024px) {
   /*---------- Intro*/
-
 
   /*---------- services section --*/
   .service-item img {
@@ -556,6 +601,11 @@ h3 {
   .footer-logo .logo-small {
     right: 8%;
   }
+
+  /*---- hero images ---*/
+  .hero img {
+    height: 820px;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px) {
@@ -563,7 +613,7 @@ h3 {
 @media screen and (min-width: 1200px) {
   /*---------- Intro*/
 
-    /*---------- services section --*/
+  /*---------- services section --*/
   .service-item {
     padding: 25px 50px;
   }
@@ -587,7 +637,7 @@ h3 {
   /*---------- footer*/
 
   /*---- hero images ---*/
-  .hero img{
+  .hero img {
     height: 800px;
   }
 }

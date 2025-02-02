@@ -1,6 +1,17 @@
 /*------------- Google fonts: Catamaran, Lora and Manrope */
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap");
 
+/*------------- CSS variables --*/
+
+:root {
+  --cool-gray: #8C92AC;
+  --air-force-blue: #5D8AA8;
+  --robin-egg-blue: #00CCCC;
+  --dark-gray: #3A3A3A;
+  --light-gray: #F5F5F5;
+  --white: #FFFFFF;
+}
+
 /*------------- General Styles ---*/
 
 body {
@@ -16,7 +27,7 @@ header {
 }
 
 footer {
-  background-color: lightslategray;
+  background-color: var(--cool-gray);
 }
 
 nav {
@@ -32,8 +43,27 @@ h3 {
   margin: 20px 0;
 }
 
-.sub-heading2 {
-  margin: 20px 0;
+/*---- footer font color ---*/
+.text-footer h2,
+.text-footer h3,
+.text-footer p,
+.text-footer a,
+.text-footer address,
+.text-footer th,
+.text-footer td {
+  color: var(--light-gray);
+}
+
+/*--------- body font color --*/
+.text-body h1,
+.text-body h2,
+.text-body h3,
+.text-body strong {
+  color: var(--air-force-blue);
+}
+
+.text-body p {
+  color: var(--dark-gray);
 }
 
 /*------------- Navbar --*/

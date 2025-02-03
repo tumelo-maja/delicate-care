@@ -130,46 +130,47 @@
             <form action="success.html" method="GET">
               <div class="row">
                 <div class="col-12 col-lg-6">
-                  <label for="fullname">Name</label><br />
-                  <input id="fullname" name="fullname" type="text" required />
+                  <label for="fullname">Name</label><br>
+                  <input id="fullname" name="fullname" type="text" class="form-fields" required>
                 </div>
                 <div class="col-12 col-lg-6">
-                  <label for="email">Email address</label><br />
-                  <input id="email" name="email" type="email" required />
+                  <label for="email">Email address</label><br>
+                  <input id="email" name="email" type="email" class="form-fields" required>
                 </div>
                 <div class="col-12 col-lg-6">
-                  <label for="phone">Phone number</label><br />
-                  <input id="phone" name="phone" type="number" required />
+                  <label for="phone">Phone number</label><br>
+                  <input id="phone" name="phone" type="number" class="form-fields" required>
                 </div>
                 <div class="col-12 col-lg-6">
-                  <label for="inquiry-type">What are you inquiring about?</label><br>
+                  <label for="inquiry-type" class="inquiry-label">What are you inquiring about?</label><br>
                   <input type="radio" name="inquiry-type" value="home-care" id="home-care">
-                  <label for="home-care">
+                  <label for="home-care" class="inquiry-label">
                     <img src="assets/images/icon-home-care.png" alt="home care icon" class="custom-icon"> Home care
                   </label><br>
                   <input type="radio" name="inquiry-type" value="supported-living" id="supported-living">
-                  <label for="supported-living">
+                  <label for="supported-living" class="inquiry-label">
                    <img src="assets/images/icon-supported-living.png" alt="supported living icon" class="custom-icon"> supported living
                   </label><br>
                   <input type="radio" name="inquiry-type" value="respite-care" id="respite-care">
-                  <label for="respite-care">
+                  <label for="respite-care" class="inquiry-label">
                     <img src="assets/images/icon-respite-care.png" alt="respite care icon" class="custom-icon"> respite care
                   </label><br>
                   <input type="radio" name="inquiry-type" value="complex-care" id="complex-care">
-                  <label for="complex-care">
+                  <label for="complex-care" class="inquiry-label">
                     <img src="assets/images/icon-complex-care.png" alt="dementia & complex care icon" class="custom-icon"> Dementia & complex care
                   </label><br>
                   <input type="radio" name="inquiry-type" value="general" id="general">
-                  <label for="general">
+                  <label for="general" class="inquiry-label">
                     <img src="assets/images/icon-general-inquiry.png" alt="dementia & complex care icon" class="custom-icon"> general inquiry
                   </label><br>
                 </div>
                 <div class="col-12">
-                  <label for="inquiry-message">Message</label><br />
+                  <label for="inquiry-message">Message</label><br>
                   <textarea
                     rows="5"
                     id="inquiry-message"
                     name="inquiry-message"
+                    class="form-fields"
                     required
                     placeholder="Share any details about the care you're looking for or any general inquiry you have for us."
                   ></textarea>

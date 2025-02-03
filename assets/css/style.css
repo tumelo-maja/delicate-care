@@ -405,9 +405,7 @@ footer h2 {
   margin-left: 10px;
 }
 
-#contact-form input[type="text"],
-#contact-form textarea,
-#contact-form select {
+.form-fields{
   width: 100%;
   border: 1px solid lightslategray;
   border-radius: 5px;
@@ -425,8 +423,9 @@ footer h2 {
 
 }
 
-.inquiry-type label{
-display:inline-flex ;
+.inquiry-label{
+height: 45px;
+text-transform: capitalize;
 }
 
 /*------------custom icons ---*/

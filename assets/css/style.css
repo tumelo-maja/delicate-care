@@ -101,6 +101,7 @@ h3 {
   color: var(--light-gray);
   border: 2px solid var(--light-gray);
   background-color: rgba(190, 233, 232, 0.5);
+  font-weight: bold;
 }
 
 .button-style-light:hover {

@@ -429,6 +429,11 @@ footer h2 {
 display:inline-flex ;
 }
 
+/*------------custom icons ---*/
+.custom-icon {
+  width: 40px;
+}
+
 /*---------- Success page ---*/
 .contact-hero {
   background: url(../images/positive-mother-daughter-enjoying-dramatic-view.jpg)

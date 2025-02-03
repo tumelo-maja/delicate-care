@@ -416,6 +416,10 @@ footer h2 {
   justify-items: center;
 }
 
+.inquiry-group {
+margin: 10px 0;
+}
+
 /*---------- radio buttons ---*/
 .inquiry-type input[type="radio"]{
   background-color: red;

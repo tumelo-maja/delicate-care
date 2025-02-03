@@ -56,12 +56,14 @@ h3 {
 }
 
 .text-footer i,
-#team i {
+#team i,
+.fa-phone {
   color: #385467;
 }
 
 .text-footer i:hover,
-#team i:hover {
+#team i:hover,
+.fa-phone:hover {
   color: #385467;
   transform: scale(1.5);
 }
@@ -468,8 +470,8 @@ footer h2 {
   margin: 20px 0;
 }
 
-.thank-you .btn-outline-secondary {
-  background-color: lightcoral;
+.thank-you p {
+  font-size: 120%;
 }
 
 /*---------- Success page ---*/

@@ -29,6 +29,7 @@ header {
 
 footer {
   background-color: var(--cool-gray);
+  padding-top: 40px;
 }
 
 nav {
@@ -55,8 +56,15 @@ h3 {
   color: var(--light-gray);
 }
 
-.text-footer i {
+.text-footer i,
+#team i {
   color: #385467;
+}
+
+.text-footer i:hover,
+#team i:hover {
+  color: #385467;
+  transform: scale(1.5);
 }
 
 /*--------- body font color --*/
@@ -73,7 +81,7 @@ h3 {
 }
 
 .button-style {
-  border: 1px solid #496f89;
+  border: 2px solid #496f89;
   margin: 20px;
   border-radius: 5px;
   display: inline-block;
@@ -83,11 +91,24 @@ h3 {
   padding: 4px 10px;
 }
 
+.button-style:hover {
+  border: 2px solid #496f89;
+  background-color: var(--light-gray);
+  color: #496f89;
+}
+
 .button-style-light {
   color: var(--light-gray);
   border: 2px solid var(--light-gray);
   background-color: rgba(190, 233, 232, 0.5);
 }
+
+.button-style-light:hover {
+  color: #496f89;
+  border: 2px solid #496f89;
+  background-color: var(--light-gray);
+}
+
 
 .cross-bar {
   width: 100%;
@@ -206,6 +227,10 @@ main {
 }
 
 /*----------------------- Footer ---*/
+
+footer h2 {
+margin-bottom: 40px;
+}
 
 .contact-info {
   padding-top: 20px;
@@ -353,10 +378,7 @@ main {
 }
 
 .social-media i:hover {
-  color: var(--light-gray);
-  border: 2px solid var(--air-force-blue);
-  scale: 150%;
-  translate: 20% 60%;
+  transform: scale(1.5);
 }
 
 
@@ -442,6 +464,8 @@ main {
   height: 100%;
   background-position: center;
   border: 3px solid var(--air-force-blue);
+  box-shadow: 1px 1px 20px var(--robin-egg-blue);
+
 }
 
 .about-text {

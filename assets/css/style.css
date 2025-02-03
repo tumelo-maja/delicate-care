@@ -422,6 +422,8 @@ footer h2 {
   margin: 10px 0;
 }
 
+
+
 /*---------- radio buttons ---*/
 .inquiry-type input[type="radio"] {
   background-color: red;
@@ -431,6 +433,12 @@ footer h2 {
 .inquiry-label {
   height: 45px;
   text-transform: capitalize;
+}
+
+.inquiry-input input:focus,
+.inquiry-input textarea:focus {
+  border: 2px solid #496f89;
+  box-shadow: 0 0 10px var(--robin-egg-blue);
 }
 
 .inquiry-label img {

@@ -109,7 +109,6 @@ h3 {
   background-color: var(--light-gray);
 }
 
-
 .cross-bar {
   width: 100%;
   background-color: var(--air-force-blue);
@@ -117,11 +116,10 @@ h3 {
   margin: 20px 0;
 }
 
-.cross-bar div  {
-width: 100%;
-height: 100%;
-align-content: center;
-
+.cross-bar div {
+  width: 100%;
+  height: 100%;
+  align-content: center;
 }
 
 .cross-bar p {
@@ -229,7 +227,7 @@ main {
 /*----------------------- Footer ---*/
 
 footer h2 {
-margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .contact-info {
@@ -319,7 +317,6 @@ margin-bottom: 40px;
   color: #fff;
 }
 
-
 /*------------ business hours ---*/
 .business-hours {
   padding: 20px;
@@ -380,7 +377,6 @@ margin-bottom: 40px;
 .social-media i:hover {
   transform: scale(1.5);
 }
-
 
 /*--------------------- Contact Us page --*/
 
@@ -465,7 +461,6 @@ margin-bottom: 40px;
   background-position: center;
   border: 3px solid var(--air-force-blue);
   box-shadow: 1px 1px 20px var(--robin-egg-blue);
-
 }
 
 .about-text {
@@ -493,6 +488,10 @@ margin-bottom: 40px;
 /*--------------------------- Media queries --*/
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
+  /*----------- float image - home,about,contact*/
+  .float-image img {
+    height: 250px;
+  }
   /*---------- Intro section ---*/
 
   /*---------- services section --*/
@@ -510,6 +509,10 @@ margin-bottom: 40px;
 
 /*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
+    /*----------- float image - home,about,contact*/
+    .float-image img {
+      height: 280px;
+    }
   /*---------- Intro*/
 
   /*---------- services section --*/
@@ -543,6 +546,11 @@ margin-bottom: 40px;
 
 /*----------------------------Bootstrap breakpoint for medium screens (768px) */
 @media screen and (min-width: 768px) {
+      /*----------- float image - home,about,contact*/
+      .float-image img {
+        height: 250px;
+      }
+
   /*------------ Header*/
   #hero {
     height: 500px;
@@ -603,6 +611,11 @@ margin-bottom: 40px;
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
 @media screen and (min-width: 992px) {
+      /*----------- float image - home,about,contact*/
+      .float-image img {
+        height: 300px;
+      }
+
   /*---- hero images ---*/
   .hero img {
     height: 680px;
@@ -635,6 +648,10 @@ margin-bottom: 40px;
 /*----------------------------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px) {
 ) */
 @media screen and (min-width: 1200px) {
+      /*----------- float image - home,about,contact*/
+      .float-image img {
+        height: 350px;
+      }
   /*---------- Intro*/
 
   /*---------- services section --*/
@@ -658,6 +675,10 @@ margin-bottom: 40px;
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
 ) */
 @media screen and (min-width: 1440px) {
+      /*----------- float image - home,about,contact*/
+      .float-image img {
+        height: 400px;
+      }
   /*---------- footer*/
 
   /*---- hero images ---*/

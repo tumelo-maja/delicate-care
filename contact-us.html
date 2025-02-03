@@ -95,7 +95,7 @@
             <img
               src="assets/images/female-carer-showing-phone-elder-woman.jpg"
               alt="elder woman seating on a chair facing an large window while a young woman is leaning behind her and pointing outside"
-            >
+            />
           </div>
         </div>
       </section>
@@ -108,8 +108,8 @@
           </div>
           <div class="col-12 col-md-6 text-start contact-text">
             <p>
-              Well done taking the first step. We understand getting the right support
-               for yourself or your loved one can be a challenging task.
+              Well done taking the first step. We understand getting the right
+              support for yourself or your loved one can be a challenging task.
               We're here to listen. Please fill out the contact form below and
               we will reach out to you to further understand your care needs.
             </p>
@@ -125,7 +125,7 @@
       </section>
       <section id="contact-form" class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-lg-8 ">
+          <div class="col-12 col-md-6 col-lg-8">
             <h3>Inquiry form</h3>
             <form action="success.html" method="GET">
               <div class="row">
@@ -143,14 +143,54 @@
                 </div>
                 <div class="col-12 col-lg-6">
                   <label for="inquiry-type">Type of inquiry</label><br />
-                  <select id="inquiry-type" name="inquiry-type" required>
-                    <option value="" selected>Select</option>
-                    <option value="home-care">Home care</option>
-                    <option value="home-care">Supported living</option>
-                    <option value="home-care">Respite care</option>
-                    <option value="home-care">Dementia & complex care</option>
-                    <option value="general-inquiry">General inquiry</option>
-                  </select>
+                  <div id="inquiry-type">
+                    <label class="inquiry-option">
+                      <input
+                        type="radio"
+                        name="service"
+                        value="home-care"
+                        required
+                      />
+                      <i class="fa-solid fa-house-chimney-user"></i> Home Care
+                    </label>
+
+                    <label class="inquiry-option">
+                      <input
+                        type="radio"
+                        name="service"
+                        value="supported-living"
+                        required
+                      />
+                       Supported Living
+                    </label>
+                    <label class="inquiry-option">
+                      <input
+                        type="radio"
+                        name="service"
+                        value="respite-care"
+                        required
+                      />
+                      <i class="fas fa-clock"></i> ⏳ Respite Care
+                    </label>
+                    <label class="inquiry-option">
+                      <input
+                        type="radio"
+                        name="service"
+                        value="dementia-care"
+                        required
+                      />
+                      <i class="fas fa-brain"></i> 🧠 Dementia & Complex Care
+                    </label>
+                    <label class="inquiry-option">
+                      <input
+                        type="radio"
+                        name="service"
+                        value="general-inquiry"
+                        required
+                      />
+                      <i class="fas fa-question-circle"></i> 📩 General Inquiry
+                    </label>
+                  </div>
                 </div>
                 <div class="col-12">
                   <label for="inquiry-message">Message</label><br />
@@ -163,7 +203,7 @@
                   ></textarea>
                 </div>
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit" class="button-style">Submit</button>
             </form>
           </div>
         </div>

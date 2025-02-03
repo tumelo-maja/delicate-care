@@ -212,4 +212,6 @@ Add video and overlay with texts/other elements (https://www.youtube.com/watch?v
 
 Accessibility Icon via Font Awesome (https://accessibleicon.org/)
 
+Codepen for coloring png icons using hex color code (https://codepen.io/sosuke/pen/Pjoqqp)
+
 

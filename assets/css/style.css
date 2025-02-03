@@ -405,7 +405,7 @@ footer h2 {
   margin-left: 10px;
 }
 
-#contact-form input,
+#contact-form input[type="text"],
 #contact-form textarea,
 #contact-form select {
   width: 100%;
@@ -416,6 +416,17 @@ footer h2 {
 
 #contact-form form {
   justify-items: center;
+}
+
+/*---------- radio buttons ---*/
+.inquiry-type input[type="radio"]{
+  background-color: red;
+  display:block ;
+
+}
+
+.inquiry-type label{
+display:inline-flex ;
 }
 
 /*---------- Success page ---*/

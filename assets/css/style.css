@@ -22,7 +22,6 @@ body {
   background-color: rgba(190, 233, 232, 0.5);
 }
 
-
 footer {
   background-color: var(--cool-gray);
   padding-top: 40px;
@@ -156,7 +155,6 @@ main {
 .hero {
   overflow: hidden;
 }
-
 
 /*----------- float image - home,about,contact*/
 
@@ -393,6 +391,10 @@ footer h2 {
 
 /*--------------------- Contact Us page --*/
 
+.contact-text {
+  align-content: center;
+}
+
 #contact-form {
   margin-bottom: 30px;
 }
@@ -405,7 +407,7 @@ footer h2 {
   margin-left: 10px;
 }
 
-.form-fields{
+.form-fields {
   width: 100%;
   border: 1px solid lightslategray;
   border-radius: 5px;
@@ -417,19 +419,18 @@ footer h2 {
 }
 
 .inquiry-group {
-margin: 10px 0;
+  margin: 10px 0;
 }
 
 /*---------- radio buttons ---*/
-.inquiry-type input[type="radio"]{
+.inquiry-type input[type="radio"] {
   background-color: red;
-  display:block ;
-
+  display: block;
 }
 
-.inquiry-label{
-height: 45px;
-text-transform: capitalize;
+.inquiry-label {
+  height: 45px;
+  text-transform: capitalize;
 }
 
 /*------------custom icons ---*/
@@ -532,10 +533,10 @@ text-transform: capitalize;
 
 /*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
-    /*----------- float image - home,about,contact*/
-    .float-image img {
-      height: 280px;
-    }
+  /*----------- float image - home,about,contact*/
+  .float-image img {
+    height: 280px;
+  }
   /*---------- Intro*/
 
   /*---------- services section --*/
@@ -569,10 +570,10 @@ text-transform: capitalize;
 
 /*----------------------------Bootstrap breakpoint for medium screens (768px) */
 @media screen and (min-width: 768px) {
-      /*----------- float image - home,about,contact*/
-      .float-image img {
-        height: 250px;
-      }
+  /*----------- float image - home,about,contact*/
+  .float-image img {
+    height: 250px;
+  }
 
   /*------------ Header*/
   .hero {
@@ -629,14 +630,22 @@ text-transform: capitalize;
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
 @media screen and (min-width: 992px) {
-      /*----------- float image - home,about,contact*/
-      .float-image img {
-        height: 300px;
-      }
+  /*----------- float image - home,about,contact*/
+  .float-image img {
+    height: 300px;
+  }
 
   /*---- hero images ---*/
   .hero {
     height: 570px;
+  }
+  /*----- contact page---*/
+  .contact-text {
+    justify-items: center;
+  }
+
+  .contact-text p {
+    font-size: 110%;
   }
 }
 
@@ -666,10 +675,10 @@ text-transform: capitalize;
 /*----------------------------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px) {
 ) */
 @media screen and (min-width: 1200px) {
-      /*----------- float image - home,about,contact*/
-      .float-image img {
-        height: 350px;
-      }
+  /*----------- float image - home,about,contact*/
+  .float-image img {
+    height: 350px;
+  }
   /*---------- Intro*/
 
   /*---------- services section --*/
@@ -697,10 +706,10 @@ text-transform: capitalize;
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
 ) */
 @media screen and (min-width: 1440px) {
-      /*----------- float image - home,about,contact*/
-      .float-image img {
-        height: 400px;
-      }
+  /*----------- float image - home,about,contact*/
+  .float-image img {
+    height: 400px;
+  }
   /*---------- footer*/
 
   /*----- hero images ---*/

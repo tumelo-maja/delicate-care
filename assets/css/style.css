@@ -145,12 +145,17 @@ main {
 /*-------------  Headers --*/
 
 .hero img {
-  height: 400px;
+  height: 100%;
   width: 100%;
   background-position: center;
   object-fit: cover;
-  border-radius: 0 0 50% 0;
+  /* border-radius: 0 0 50% 0; */
 }
+
+.hero {
+  overflow: hidden;
+}
+
 
 /*----------- float image - home,about,contact*/
 
@@ -552,8 +557,8 @@ footer h2 {
       }
 
   /*------------ Header*/
-  #hero {
-    height: 500px;
+  .hero {
+    height: 512px;
   }
 
   /*---------- Intro*/
@@ -602,11 +607,6 @@ footer h2 {
   }
 
   /*---------------- about us page ---*/
-
-  /*---- hero images ---*/
-  .hero img {
-    height: 520px;
-  }
 }
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
@@ -617,8 +617,8 @@ footer h2 {
       }
 
   /*---- hero images ---*/
-  .hero img {
-    height: 680px;
+  .hero {
+    height: 570px;
   }
 }
 
@@ -640,8 +640,8 @@ footer h2 {
   }
 
   /*---- hero images ---*/
-  .hero img {
-    height: 820px;
+  .hero {
+    height: 590px;
   }
 }
 
@@ -670,6 +670,10 @@ footer h2 {
   .logo-small {
     right: 10%;
   }
+  /*----- hero images ---*/
+  .hero {
+    height: 680px;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
@@ -681,8 +685,11 @@ footer h2 {
       }
   /*---------- footer*/
 
-  /*---- hero images ---*/
-  .hero img {
-    height: 800px;
+  /*----- hero images ---*/
+  /* .hero img{
+transform: scale(0.8);  } */
+
+  .hero {
+    height: 820px;
   }
 }

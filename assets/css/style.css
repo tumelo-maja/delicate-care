@@ -434,10 +434,11 @@ footer h2 {
 }
 
 .inquiry-label img {
-  color: #496f89;
-  object-fit: contain;
-  /* filter: brightness(0) saturate(100%) invert(19%) sepia(95%) saturate(749%) hue-rotate(358deg) brightness(97%) contrast(108%); */
+  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg) brightness(92%) contrast(87%);
+}
 
+.inquiry-label img:hover {
+  transform: scale(1.2);
 }
 
 /*------------custom icons ---*/

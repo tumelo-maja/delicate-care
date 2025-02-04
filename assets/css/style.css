@@ -260,6 +260,17 @@ address strong {
   margin: 0;
 }
 
+/*-----------Our values - choose us ---*/
+.icon-value {
+  width: 50px;
+  height: 50px;
+  justify-self: center;
+  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg) brightness(92%) contrast(87%);
+
+}
+
+
+
 /*----------------------- Footer ---*/
 
 footer h2 {

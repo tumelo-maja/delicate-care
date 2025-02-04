@@ -214,4 +214,5 @@ Accessibility Icon via Font Awesome (https://accessibleicon.org/)
 
 Codepen for coloring png icons using hex color code (https://codepen.io/sosuke/pen/Pjoqqp)
 
+Learn CSS ::before and ::after in 4 minutes - used for nav hover/ footer underline (https://www.youtube.com/watch?v=dIUOWdwwZBw)
 

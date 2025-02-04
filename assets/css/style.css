@@ -118,6 +118,7 @@ h3 {
   color: var(--light-gray);
   background-color: #496f89;
   padding: 4px 10px;
+  height: 40px;
 }
 
 .button-style:hover {

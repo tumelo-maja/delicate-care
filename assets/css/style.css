@@ -144,8 +144,11 @@ h3 {
   width: 100%;
   background-color: var(--air-force-blue);
   height: 220px;
-  margin: 20px 0;
+  margin: 20px 0 0;
+  padding-bottom: 20px;
 }
+
+
 
 .cross-bar div {
   width: 100%;
@@ -246,7 +249,8 @@ main {
 }
 
 .service-body strong,
-address strong {
+address strong,
+.value-text strong {
   text-transform: capitalize;
 }
 
@@ -261,14 +265,51 @@ address strong {
 }
 
 /*-----------Our values - choose us ---*/
-.icon-value {
-  width: 50px;
-  height: 50px;
-  justify-self: center;
-  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg) brightness(92%) contrast(87%);
-
+#choose-us{
+  background-color: var(--air-force-blue);
+  width: 100%;
+  margin: 0;
 }
 
+.value-icon img {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  justify-self: center;
+  /* filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg) brightness(92%) contrast(87%); */
+  filter: invert(100%) sepia(3%) saturate(265%) hue-rotate(174deg) brightness(114%) contrast(92%);
+  margin: 30px 10px 20px;
+}
+
+.value-icon {
+  height: 100px;
+}
+
+.value-text {
+  height: 220px;
+}
+
+/* .our-values > div{
+  justify-items: center;
+  height: 350px;
+} */
+
+/* .our-values p,
+.our-values strong,
+.our-values h2   {
+  text-align: center;
+  color: var(--light-gray);
+}
+ */
+
+#choose-us p,
+#choose-us strong,
+#choose-us h2,
+#choose-us h3{
+  color: var(--light-gray);
+  text-align: center;
+
+ }
 
 
 /*----------------------- Footer ---*/

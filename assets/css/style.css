@@ -28,7 +28,7 @@ footer {
 }
 
 nav {
-  background-color: lightcoral;
+  background-color: var(--air-force-blue);
 }
 
 nav a,
@@ -36,16 +36,21 @@ h2 {
   text-transform: uppercase;
 }
 
-/* .navbar a:hover {
-color: var(--light-gray);
-} */
-/* .navbar-nav a {
-  
-} */
+.form-partner {
+  background-color: red;
+  padding: 40px 0;
+}
 
+.form-partner img {
+  width: 100%;
+  height: 100%;
+}
 
-.navbar-nav a::after,
-.navbar-nav a::before{
+.navbar-nav a {
+  width: max-content;
+}
+/* .navbar-nav a::before, */
+.navbar-nav a::after{
   content: "";
   width: 100%;
   height: 2px;
@@ -205,7 +210,7 @@ main {
   margin: 10px 0;
 }
 
-.service-item img {
+.service-img {
   height: 200px;
   width: 100%;
   border-radius: 10px 10px 0 0;
@@ -232,10 +237,10 @@ main {
   display: block; /*--- display on when checked --*/
 }
 
-#check-service-one:checked ~ label,
-#check-service-two:checked ~ label,
-#check-service-three:checked ~ label,
-#check-service-four:checked ~ label {
+#check-service-one:checked ~ .service-buttons-more,
+#check-service-two:checked ~ .service-buttons-more,
+#check-service-three:checked ~ .service-buttons-morebel,
+#check-service-four:checked ~ .service-buttons-more {
   display: none; /*--- display off when checked --*/
 }
 
@@ -494,9 +499,32 @@ left: 0;
 }
 
 /*------------custom icons ---*/
-.custom-icon {
+#contact-form .custom-icon {
   width: 40px;
 }
+
+.custom-icon-services {
+  /* transform: scale(0.2); */
+  background-color: red;
+  display: block;
+
+}
+
+.icon-service img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  justify-self: end;
+}
+
+.icon-service {
+  margin: 20px;
+}
+.service-buttons-more {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /*---------- Success page ---*/
 
@@ -573,7 +601,7 @@ left: 0;
   /*---------- Intro section ---*/
 
   /*---------- services section --*/
-  .service-item img {
+  .service-img {
     height: 220px;
   }
 
@@ -594,7 +622,7 @@ left: 0;
   /*---------- Intro*/
 
   /*---------- services section --*/
-  .service-item img {
+  .service-img {
     height: 260px;
   }
 
@@ -708,7 +736,7 @@ left: 0;
   /*---------- Intro*/
 
   /*---------- services section --*/
-  .service-item img {
+  .service-img {
     height: 300px;
   }
 
@@ -740,7 +768,7 @@ left: 0;
     padding: 25px 50px;
   }
 
-  .service-item img {
+  .service-img {
     height: 350px;
   }
 

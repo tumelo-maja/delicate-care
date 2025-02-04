@@ -237,10 +237,10 @@ main {
   display: block; /*--- display on when checked --*/
 }
 
-#check-service-one:checked ~ .service-buttons-more,
-#check-service-two:checked ~ .service-buttons-more,
-#check-service-three:checked ~ .service-buttons-morebel,
-#check-service-four:checked ~ .service-buttons-more {
+#check-service-one:checked ~ .service-buttons,
+#check-service-two:checked ~ .service-buttons,
+#check-service-three:checked ~ .service-buttonsbel,
+#check-service-four:checked ~ .service-buttons {
   display: none; /*--- display off when checked --*/
 }
 
@@ -520,7 +520,7 @@ left: 0;
 .icon-service {
   margin: 20px;
 }
-.service-buttons-more {
+.service-buttons {
   display: flex;
   justify-content: space-between;
 }

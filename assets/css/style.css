@@ -624,7 +624,13 @@ footer h3::after {
 
 .icon-service {
   margin: 20px;
+  transition: 0.5s;
 }
+
+.icon-service:hover {
+  transform: scale(1.5);
+}
+
 .service-buttons {
   display: flex;
   justify-content: space-between;

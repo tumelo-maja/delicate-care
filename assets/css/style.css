@@ -31,6 +31,7 @@ footer {
 
 nav {
   background-color: var(--air-force-blue);
+  border-bottom: 1px solid var(--dark-gray);
 }
 
 nav a,
@@ -789,6 +790,7 @@ footer h3::after {
   .intro-text p {
     padding: 0 5px;
     font-size: 115%;
+    line-height: 1.4rem;
   }
 
   /*---------- Intro*/

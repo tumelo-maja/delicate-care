@@ -83,7 +83,9 @@ h2 {
   color: var(--light-gray);
 }
 
-
+#services {
+  padding-top: 5rem; /* adjust for the fixed-navbar*/
+}
 
 
 h3 {

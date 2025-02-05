@@ -20,6 +20,8 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: rgba(190, 233, 232, 0.5);
+  padding-top: 79px; /*--- adjust section title under fixed navbar*/
+
 }
 
 footer {
@@ -65,6 +67,24 @@ h2 {
 .navbar-nav a:hover::after {
   transform: scale(1);
 }
+
+.navbar-nav .selected a::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: var(--light-gray);
+  display: block;
+  transform-origin: center;
+  transition: transform 0.8s ease;
+  transform: scale(1);
+}
+
+.navbar-nav .selected a{
+  color: var(--light-gray);
+}
+
+
+
 
 h3 {
   text-transform: capitalize;
@@ -899,8 +919,5 @@ footer h3::after {
   }
 
   /*--------- our-values section---*/
-  /* .value-item {
-      width: 550px;
-      padding: 0 60px;
-    } */
+
 }

@@ -21,6 +21,7 @@ body {
   height: 100%;
   background-color: rgba(190, 233, 232, 0.5);
   padding-top: 79px; /*--- adjust section title under fixed navbar*/
+  width: 100vw;
 
 }
 
@@ -87,7 +88,6 @@ h2 {
 #services {
   padding-top: 5rem; /* adjust for the fixed-navbar*/
 }
-
 
 h3 {
   text-transform: capitalize;
@@ -208,20 +208,20 @@ main {
   overflow: hidden;
 }
 
-.hero-group {
+.hero {
   position: relative;
 }
 
-.hero-group h1 {
+.hero h1 {
 position: absolute;
-bottom: -3%;
-right: -1%;
+bottom: 0;
+right: 0;
 /* transform: translate(-50%); */
 background-color: rgba(93, 138, 168, 0.9);
 color: var(--light-gray);
 padding: 10px 20px;
 height: 60px;
-margin: 0 10px;
+margin: 0;
 font-size: 1.5rem;
 width: 100%;
 }
@@ -782,6 +782,8 @@ footer h3::after {
     height: 80px;
     width: 60%;
     border-radius: 10px;
+    bottom: -5px;
+    right: -5px;
   }
   /*---------- Intro*/
   #intro-image2,
@@ -857,9 +859,7 @@ footer h3::after {
 
   .hero-group h1 {
     font-size: 2.5rem;
-    width: 50%;
-    bottom: 12%;
-    right: -1%;
+    width: 60%;
   }
 
   /*----- contact page---*/
@@ -922,7 +922,6 @@ footer h3::after {
   .hero-group h1 {
     font-size: 2.7rem;
     height: 80px;
-    bottom: 14%;
   }
 
   /*---------- Intro*/
@@ -965,6 +964,8 @@ footer h3::after {
     .hero-group h1 {
       font-size: 3rem;
       height: 90px;
+      width: 800px;
+
     }
   /*---------- footer*/
   .g-map iframe {

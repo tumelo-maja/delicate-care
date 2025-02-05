@@ -201,12 +201,30 @@ main {
   width: 100%;
   background-position: center;
   object-fit: cover;
-  /* border-radius: 0 0 50% 0; */
 }
 
 .hero {
   overflow: hidden;
 }
+
+.hero-group {
+  position: relative;
+}
+
+.hero-group h1 {
+position: absolute;
+bottom: -3%;
+right: -1%;
+/* transform: translate(-50%); */
+background-color: rgba(93, 138, 168, 0.9);
+color: var(--light-gray);
+padding: 10px 20px;
+height: 60px;
+margin: 0 10px;
+font-size: 1.5rem;
+width: 100%;
+}
+
 
 /*----------- float image - home,about,contact*/
 
@@ -752,6 +770,12 @@ footer h3::after {
     height: 512px;
   }
 
+  .hero-group h1 {
+    font-size: 2rem;
+    height: 80px;
+    width: 60%;
+    border-radius: 10px;
+  }
   /*---------- Intro*/
   #intro-image2,
   #intro-cta {
@@ -764,6 +788,7 @@ footer h3::after {
 
   .intro-text p {
     padding: 0 5px;
+    font-size: 115%;
   }
 
   /*---------- Intro*/
@@ -821,6 +846,13 @@ footer h3::after {
   .hero {
     height: 570px;
   }
+
+  .hero-group h1 {
+    font-size: 2.5rem;
+    bottom: 12%;
+    right: -1%;
+  }
+
   /*----- contact page---*/
   .contact-text {
     justify-items: center;
@@ -876,6 +908,14 @@ footer h3::after {
   .float-image img {
     height: 350px;
   }
+
+  /*------ hero ---*/
+  .hero-group h1 {
+    font-size: 2.7rem;
+    height: 80px;
+    bottom: 14%;
+  }
+
   /*---------- Intro*/
 
   /*---------- services section --*/
@@ -911,6 +951,12 @@ footer h3::after {
   .float-image img {
     height: 400px;
   }
+
+    /*------ hero ---*/
+    .hero-group h1 {
+      font-size: 3rem;
+      height: 90px;
+    }
   /*---------- footer*/
   .g-map iframe {
     width: 528px;

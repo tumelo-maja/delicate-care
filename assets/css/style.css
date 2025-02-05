@@ -261,6 +261,13 @@ address strong,
 }
 
 /*-----------Our values - choose us ---*/
+
+.our-values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
 #choose-us {
   background-color: var(--air-force-blue);
   width: 100%;
@@ -292,6 +299,10 @@ address strong,
 #choose-us h3 {
   color: var(--light-gray);
   text-align: center;
+}
+
+#choose-us strong {
+  font-size: 150%;
 }
 
 /*----------------------- Footer ---*/
@@ -779,11 +790,6 @@ footer h3::after {
   .value-text {
     height: 220px;
     padding: 30px;
-  }
-
-  .our-values {
-    display: flex;
-    flex-wrap: wrap;
   }
 }
 

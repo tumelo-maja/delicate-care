@@ -21,8 +21,7 @@ body {
   height: 100%;
   background-color: rgba(190, 233, 232, 0.5);
   padding-top: 79px; /*--- adjust section title under fixed navbar*/
-  width: 100vw;
-
+  width: 100%;
 }
 
 footer {
@@ -81,7 +80,7 @@ h2 {
   transform: scale(1);
 }
 
-.navbar-nav .selected a{
+.navbar-nav .selected a {
   color: var(--light-gray);
 }
 
@@ -213,19 +212,18 @@ main {
 }
 
 .hero h1 {
-position: absolute;
-bottom: 0;
-right: 0;
-/* transform: translate(-50%); */
-background-color: rgba(93, 138, 168, 0.9);
-color: var(--light-gray);
-padding: 10px 20px;
-height: 60px;
-margin: 0;
-font-size: 1.5rem;
-width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* transform: translate(-50%); */
+  background-color: rgba(93, 138, 168, 0.9);
+  color: var(--light-gray);
+  padding: 10px 20px;
+  height: 60px;
+  margin: 0;
+  font-size: 1.5rem;
+  width: 100%;
 }
-
 
 /*----------- float image - home,about,contact*/
 
@@ -777,7 +775,7 @@ footer h3::after {
     height: 512px;
   }
 
-  .hero-group h1 {
+  .hero h1 {
     font-size: 2rem;
     height: 80px;
     width: 60%;
@@ -857,7 +855,7 @@ footer h3::after {
     height: 570px;
   }
 
-  .hero-group h1 {
+  .hero h1 {
     font-size: 2.5rem;
     width: 60%;
   }
@@ -919,7 +917,7 @@ footer h3::after {
   }
 
   /*------ hero ---*/
-  .hero-group h1 {
+  .hero h1 {
     font-size: 2.7rem;
     height: 80px;
   }
@@ -948,7 +946,11 @@ footer h3::after {
   }
   /*----- hero images ---*/
   .hero {
-    height: 680px;
+    height: 650px;
+  }
+
+  .hero img{
+    height: 660px;
   }
 }
 
@@ -960,22 +962,26 @@ footer h3::after {
     height: 400px;
   }
 
-    /*------ hero ---*/
-    .hero-group h1 {
-      font-size: 3rem;
-      height: 90px;
-      width: 800px;
+  /*------ hero ---*/
+  .hero h1 {
+    font-size: 3rem;
+    height: 90px;
+    width: 800px;
+  }
 
-    }
   /*---------- footer*/
   .g-map iframe {
     width: 528px;
   }
+
   /*----- hero images ---*/
   .hero {
-    height: 820px;
+    height: 700px;
+  }
+
+  .hero img{
+    height: 750px;
   }
 
   /*--------- our-values section---*/
-
 }

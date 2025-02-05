@@ -216,3 +216,5 @@ Codepen for coloring png icons using hex color code (https://codepen.io/sosuke/p
 
 Learn CSS ::before and ::after in 4 minutes - used for nav hover/ footer underline (https://www.youtube.com/watch?v=dIUOWdwwZBw)
 
+JavaScript to collapse Bootsrap mobile navbar when navigating to in-page links
+

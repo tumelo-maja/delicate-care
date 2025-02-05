@@ -239,7 +239,7 @@ main {
 
 #check-service-one:checked ~ .service-buttons,
 #check-service-two:checked ~ .service-buttons,
-#check-service-three:checked ~ .service-buttonsbel,
+#check-service-three:checked ~ .service-buttons,
 #check-service-four:checked ~ .service-buttons {
   display: none; /*--- display off when checked --*/
 }
@@ -266,7 +266,7 @@ address strong,
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-} 
+}
 
 #choose-us {
   background-color: var(--air-force-blue);
@@ -358,7 +358,6 @@ footer h2 {
   overflow: hidden;
   height: 300px;
   padding: 0;
-  border-radius: 10px;
 }
 
 .video-bg {
@@ -370,7 +369,6 @@ footer h2 {
   height: 100%;
   filter: brightness(50%);
   object-fit: cover;
-  border-radius: 10px;
 }
 
 .footer-logo img {
@@ -469,10 +467,12 @@ footer h3::after {
   justify-content: space-evenly;
   text-align: center;
   padding-top: 20px;
+  padding-left: 0;
   list-style-type: none;
   margin-top: 20px;
   list-style: none;
   height: 50px;
+  width: 100%;
 }
 
 .social-media i {
@@ -748,6 +748,10 @@ footer h3::after {
     width: 90%;
     border-radius: 10px;
   }
+
+  .footer-logo {
+    border-radius: 10px;
+  }
   .footer-logo .logo-small {
     right: 4%;
     top: 4%;
@@ -864,5 +868,15 @@ footer h3::after {
   /*----- hero images ---*/
   .hero {
     height: 820px;
+  }
+
+  /*--------- our-values section---*/
+  /* .value-item {
+      width: 550px;
+      padding: 0 60px;
+    } */
+
+  #choose-us {
+    width: 100vw;
   }
 }

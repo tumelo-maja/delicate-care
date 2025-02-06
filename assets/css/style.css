@@ -30,7 +30,7 @@ footer {
 }
 
 nav {
-  /* background-color: var(--air-force-blue); */
+  background-color: var(--air-force-blue);
   border-bottom: 1px solid var(--dark-gray);
 }
 

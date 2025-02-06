@@ -362,21 +362,24 @@ address strong,
 
 .onboard-step  {
   padding: 20px 18px;
-
 }
+
+.onboard-step  p,
+.onboard-step  h3 {
+color: var(--light-gray);}
+
 .onboard-body {
   border: 1px solid var(--cool-gray);
   border: 0 0 2px 3px;
   margin-top: 20px ;
   border-radius: 10px 10px 0 0 ;
   padding: 10px;
-
+  background-color: var(--air-force-blue);
 }
 
 .onboard-step img{
   height: 200px;
   width: 100%;
-
   border-radius: 0 0 10px 10px ;
   border: 1px solid var(--cool-gray);
   border-bottom: 0;
@@ -619,12 +622,6 @@ footer h3::after {
 /*------------custom icons ---*/
 #contact-form .custom-icon {
   width: 40px;
-}
-
-.custom-icon-services {
-  /* transform: scale(0.2); */
-  background-color: red;
-  display: block;
 }
 
 .icon-service img {

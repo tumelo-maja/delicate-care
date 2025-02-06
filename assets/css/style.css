@@ -90,7 +90,7 @@ h2 {
 
 h3 {
   text-transform: capitalize;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 /*---- footer font color ---*/
@@ -101,6 +101,13 @@ h3 {
 .text-footer th,
 .text-footer td {
   color: var(--light-gray);
+}
+
+.text-footer p,
+.text-footer address,
+.text-footer th,
+.text-footer td {
+  font-size: 0.9rem;
 }
 
 .text-footer i,
@@ -367,26 +374,6 @@ footer h2 {
 }
 
 /*---- Map iframe --*/
-.g-map iframe {
-  width: 100%;
-  align-self: center;
-  height: 300px;
-}
-
-.g-map {
-  align-self: center;
-  margin: 0;
-  order: 1;
-  padding: 0 20px;
-  height: 400px;
-}
-
-.g-map p {
-  color: darkred;
-  font-size: 80%;
-  font-style: italic;
-  padding: 0 20px;
-}
 
 .accessibilty {
   margin-bottom: 20px;
@@ -496,7 +483,10 @@ footer h3::after {
 }
 
 .office-note {
-  font-size: 80%;
+  order: 1;
+}
+.office-note p {
+  font-size: 0.8rem;
   padding: 0;
 }
 /*----------- social media ---*/
@@ -523,6 +513,7 @@ footer h3::after {
 
 .social-media i {
   color: #385467;
+  font-size: 2rem;
 }
 
 .social-media i:hover {
@@ -718,7 +709,13 @@ footer h3::after {
     width: 90%;
   }
 
-  /*---------------- about us page ---*/
+  /*---------------- footer section ---*/
+  .text-footer p,
+  .text-footer address,
+  .text-footer th,
+  .text-footer td {
+    font-size: 1rem;
+  }
 }
 
 /*---------------------------Adjust for large phone screens (425px) */
@@ -775,7 +772,7 @@ footer h3::after {
     height: 400px;
   }
 
-  .hero img{
+  .hero img {
     height: 420px;
   }
 
@@ -819,30 +816,87 @@ footer h3::after {
   .video-bg {
     width: 90%;
     border-radius: 10px;
+    height: 250px;
   }
 
   .footer-logo {
     border-radius: 10px;
+    align-self: center;
   }
   .footer-logo .logo-small {
     right: 4%;
     top: 4%;
   }
-  .g-map iframe {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
+
+  .footer-logo .cta-logo {
+    /* background-color: red; */
+    width: 216px;
+    top:63%;
+    left: 50%;
+
   }
 
-  .g-map,
+  .footer-logo,
+  .contact-info,
   .business-hours {
-    height: 350px;
+    height: 330px;
   }
 
+  .text-footer p,
+  .text-footer address,
+  .text-footer th,
+  .text-footer td {
+    font-size: 0.8rem;
+  }
+
+  .text-footer h2 {
+    margin-bottom: 20px;
+  }
   /*-------------- contct us page ---*/
   #contact-form form {
     width: 100%;
   }
+
+  /*------  social ---*/
+
+
+  .social-media {
+    height: 120px;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    /* border-left: 1px solid var(--light-gray); */
+  }
+
+  .social-media ul {
+    width:100%;
+    margin: 10px 0;
+    padding: 10px;
+    justify-self: center;
+  }
+
+  .social-media h3 {
+    /* width:150px; */
+    /* display: inline; */
+  }
+
+
+  .social-media i {
+    margin: 10px 0;
+    font-size: 1.7rem;
+  }
+
+  /*----  credits ---*/
+  .credits {
+    height: 50px;
+    padding: 8px 0;
+  }
+
+  .credits p{
+    padding: 4px 0;
+    margin: 0;
+  }
+
 
   /*---------------- about us page ---*/
 }
@@ -862,7 +916,6 @@ footer h3::after {
   .hero img {
     height: 530px;
   }
-
 
   .hero h1 {
     font-size: 2.5rem;
@@ -896,16 +949,16 @@ footer h3::after {
 
   /*----------- footer ----*/
   .video-bg {
-    width: 85%;
+    width: 75%;
   }
   .footer-logo .logo-small {
     right: 8%;
   }
 
-  .g-map iframe {
+  /* .g-map iframe {
     width: 408px;
     height: 250px;
-  }
+  } */
 
   /*---- hero images ---*/
   .hero {
@@ -915,7 +968,6 @@ footer h3::after {
   .hero img {
     height: 550px;
   }
-
 
   /*--------- our-values section---*/
   .value-item {
@@ -963,7 +1015,7 @@ footer h3::after {
     height: 650px;
   }
 
-  .hero img{
+  .hero img {
     height: 650px;
   }
 }
@@ -981,7 +1033,7 @@ footer h3::after {
     height: 700px;
   }
 
-  .hero img{
+  .hero img {
     height: 50vw;
     /* position: absolute;
     top: 30px;
@@ -993,13 +1045,11 @@ footer h3::after {
     height: 90px;
     width: 800px;
   }
-  
 
   /*---------- footer*/
   .g-map iframe {
     width: 528px;
   }
-
 
   /*--------- our-values section---*/
 }
@@ -1011,5 +1061,4 @@ footer h3::after {
   .hero {
     height: 100%;
   }
-
 }

@@ -1041,6 +1041,7 @@ footer h3::after {
   /*----- onboarding text ---*/
   .onboard-text {
     min-height: 60px;
+    padding: 10px;
   }
 
   /*----------- footer ----*/

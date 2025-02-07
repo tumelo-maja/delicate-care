@@ -615,7 +615,6 @@ footer h3::after {
 .contact-text {
   /* align-content: center; */
   padding-top: 30px;
-
 }
 
 #contact-form {
@@ -624,6 +623,14 @@ footer h3::after {
 
 #contact-form label {
   margin: 10px 10px 5px 0;
+}
+
+.inquiry-label {
+  padding: 0 5px;
+}
+
+.inquiry-label img {
+  padding: 0 5px;
 }
 
 #contact-form h3 {

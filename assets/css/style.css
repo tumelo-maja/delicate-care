@@ -14,6 +14,8 @@
 
 /*------------- General Styles ---*/
 
+
+
 body {
   /*-- change body to flex */
   display: flex;
@@ -22,7 +24,20 @@ body {
   background-color: rgba(190, 233, 232, 0.5);
   padding-top: 79px; /*--- adjust section title under fixed navbar*/
   width: 100%;
+  font-family: 'Manrope', sans-serif;
 }
+
+/*--- Fonts ---*/
+
+/* h1, h2, h3 {
+  font-family: 'Lora', sans-serif;
+}
+
+.button-style,
+.button-style-light {
+  font-family: 'Catamaran', sans-serif;
+} */
+
 
 footer {
   background-color: var(--cool-gray);

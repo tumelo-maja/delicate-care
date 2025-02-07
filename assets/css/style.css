@@ -359,6 +359,18 @@ address strong,
 }
 
 /*------------------ getting started ----*/
+#onboarding {
+  padding-top: 30px;
+}
+
+.onboard-intro {
+  padding: 20px;
+}
+
+.onboard-intro p {
+  padding: 15px 0;
+  font-size: 1.2rem;
+}
 
 .onboard-step {
   padding: 20px 18px;

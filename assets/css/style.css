@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: rgba(190, 233, 232, 0.5);
-  padding-top: 79px; /*--- adjust section title under fixed navbar*/
+  padding-top: 40px; /*--- adjust section title under fixed navbar*/
   width: 100%;
   font-family: 'Manrope', sans-serif;
 }

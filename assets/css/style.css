@@ -211,11 +211,8 @@ main {
 .hero img {
   height: 100%;
   width: 100%;
-  background-position: top center;
+  background-position: center center;
   object-fit: cover;
-  /* position: absolute;
-  top: 50px;
-  left: 0; */
 }
 
 .hero h1 {
@@ -1088,11 +1085,11 @@ footer h3::after {
   /*------ hero ---*/
   .hero {
     height: 800px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .hero img {
-    height: 50vw;
+    height: 100%;
     /* position: absolute;
     top: 30px;
     left: 0; */
@@ -1114,12 +1111,5 @@ footer h3::after {
   .onboard-text {
     font-size: 1.1rem;
   }
-
-  /*---------- footer*/
-  .g-map iframe {
-    width: 528px;
-  }
-
-  /*--------- our-values section---*/
 }
 

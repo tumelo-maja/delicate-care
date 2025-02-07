@@ -1087,7 +1087,8 @@ footer h3::after {
 
   /*------ hero ---*/
   .hero {
-    height: 700px;
+    height: 800px;
+    overflow: hidden;
   }
 
   .hero img {
@@ -1122,11 +1123,3 @@ footer h3::after {
   /*--------- our-values section---*/
 }
 
-/*----------------------------Media forscreens larger than xxl (@media screen and (min-width: 1500px) {
-) */
-@media screen and (min-width: 1500px) {
-  /*----- hero images ---*/
-  .hero {
-    height: 100%;
-  }
-}

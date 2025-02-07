@@ -360,27 +360,28 @@ address strong,
 
 /*------------------ getting started ----*/
 
-.onboard-step  {
+.onboard-step {
   padding: 20px 18px;
 }
 
-.onboard-step  p,
-.onboard-step  h3 {
-color: var(--light-gray);}
+.onboard-step p,
+.onboard-step h3 {
+  color: var(--light-gray);
+}
 
 .onboard-body {
   border: 1px solid var(--cool-gray);
   border: 0 0 2px 3px;
   /* margin-top: 20px ; */
-  border-radius: 10px 10px 0 0 ;
+  border-radius: 10px 10px 0 0;
   padding: 10px;
   background-color: var(--air-force-blue);
 }
 
-.onboard-step img{
+.onboard-step img {
   height: 200px;
   width: 100%;
-  border-radius: 0 0 10px 10px ;
+  border-radius: 0 0 10px 10px;
   border: 1px solid var(--cool-gray);
   border-bottom: 0;
   /* object-fit: cover; */
@@ -721,8 +722,9 @@ footer h3::after {
   }
   /*---------- Intro section ---*/
 
-  /*---------- services section --*/
-  .service-img {
+  /*---------- services / onboarding images  --*/
+  .service-img,
+  .onboard-step img {
     height: 220px;
   }
 
@@ -748,9 +750,15 @@ footer h3::after {
   }
   /*---------- Intro*/
 
-  /*---------- services section --*/
-  .service-img {
+  /*---------- services / onboarding images  --*/
+  .service-img,
+  .onboard-step img {
     height: 260px;
+  }
+
+  /*------- onboarding ---*/
+  .onboard-step img {
+    height: 270px;
   }
 
   /*---------- footer ---*/
@@ -853,9 +861,8 @@ footer h3::after {
   .footer-logo .cta-logo {
     /* background-color: red; */
     width: 216px;
-    top:63%;
+    top: 63%;
     left: 50%;
-
   }
 
   .footer-logo,
@@ -881,7 +888,6 @@ footer h3::after {
 
   /*------  social ---*/
 
-
   .social-media {
     height: 120px;
     padding: 0;
@@ -891,7 +897,7 @@ footer h3::after {
   }
 
   .social-media ul {
-    width:100%;
+    width: 100%;
     margin: 10px 0;
     padding: 10px;
     justify-self: center;
@@ -901,7 +907,6 @@ footer h3::after {
     /* width:150px; */
     /* display: inline; */
   }
-
 
   .social-media i {
     margin: 10px 0;
@@ -914,11 +919,10 @@ footer h3::after {
     padding: 8px 0;
   }
 
-  .credits p{
+  .credits p {
     padding: 4px 0;
     margin: 0;
   }
-
 
   /*---------------- about us page ---*/
 }
@@ -964,8 +968,9 @@ footer h3::after {
 @media screen and (min-width: 1024px) {
   /*---------- Intro*/
 
-  /*---------- services section --*/
-  .service-img {
+  /*---------- services / onboarding images  --*/
+  .service-img,
+  .onboard-step img {
     height: 300px;
   }
 
@@ -1017,7 +1022,9 @@ footer h3::after {
     padding: 25px 50px;
   }
 
-  .service-img {
+  /*---------- services / onboarding images  --*/
+  .service-img,
+  .onboard-step img {
     height: 350px;
   }
 

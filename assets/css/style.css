@@ -14,8 +14,6 @@
 
 /*------------- General Styles ---*/
 
-
-
 body {
   /*-- change body to flex */
   display: flex;
@@ -24,7 +22,7 @@ body {
   background-color: rgba(190, 233, 232, 0.5);
   padding-top: 40px; /*--- adjust section title under fixed navbar*/
   width: 100%;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 /*--- Fonts ---*/
@@ -38,7 +36,6 @@ body {
   font-family: 'Catamaran', sans-serif;
 } */
 
-
 footer {
   background-color: var(--cool-gray);
   padding-top: 40px;
@@ -50,7 +47,8 @@ nav {
 }
 
 nav a,
-h2 {
+h2,
+h1 {
   text-transform: uppercase;
 }
 
@@ -238,7 +236,6 @@ main {
   position: absolute;
   bottom: 0;
   right: 0;
-  /* transform: translate(-50%); */
   background-color: rgba(93, 138, 168, 0.9);
   color: var(--light-gray);
   padding: 10px 20px;
@@ -259,21 +256,24 @@ main {
   border-radius: 10px;
 }
 
-.float-image h1 {
-  background-color: rgba(93, 138, 168, 0.9);
-  color: var(--light-gray);
+.page-title {
+  justify-items: center;
+  margin: 20px;
+}
+.page-title h1 {
+  color: var(--air-force-blue);
   padding: 10px 20px;
   height: 60px;
   margin: 0;
-  font-size: 1.5rem;
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
+  align-content: center;
 }
 
 /*---------- Intro*/
 
 .intro-item {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 #intro-image2,
@@ -712,6 +712,9 @@ footer h3::after {
 /*---------- Success page ---*/
 
 /*------------- about page ---*/
+.intro-image {
+align-content: center;
+}
 
 .staff {
   padding: 0;
@@ -745,7 +748,6 @@ footer h3::after {
   margin: 0;
   padding: 20px;
 }
-
 
 .staff-message {
   font-style: italic;
@@ -1001,10 +1003,10 @@ footer h3::after {
     height: 530px;
   }
 
-  .hero h1 {
+  /* .hero h1 {
     font-size: 2.5rem;
     width: 60%;
-  }
+  } */
 
   /*----- contact page---*/
   .contact-text {
@@ -1068,10 +1070,10 @@ footer h3::after {
   }
 
   /*------ hero ---*/
-  .hero h1 {
+  /* .hero h1 {
     font-size: 2.7rem;
     height: 80px;
-  }
+  } */
 
   /*---------- Intro*/
 
@@ -1134,21 +1136,20 @@ footer h3::after {
     left: 0; */
   }
 
-  .hero h1 {
+  /* .hero h1 {
     font-size: 3rem;
     height: 90px;
     width: 800px;
-  }
+  } */
 
-    /*---------- services / onboarding images  --*/
-    .service-img,
-    .onboard-step img {
-      height: 410px;
-    }
+  /*---------- services / onboarding images  --*/
+  .service-img,
+  .onboard-step img {
+    height: 410px;
+  }
 
   /*----- onboarding text ---*/
   .onboard-text {
     font-size: 1.1rem;
   }
 }
-

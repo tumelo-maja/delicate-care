@@ -247,7 +247,8 @@ main {
 
 /*----------- float image - home,about,contact*/
 
-.float-image img {
+.float-image img,
+.contact-image {
   background-position: center center;
   background-size: cover;
   height: 200px;
@@ -612,7 +613,9 @@ footer h3::after {
 /*--------------------- Contact Us page --*/
 
 .contact-text {
-  align-content: center;
+  /* align-content: center; */
+  padding-top: 30px;
+
 }
 
 #contact-form {
@@ -636,6 +639,7 @@ footer h3::after {
 
 #contact-form form {
   justify-items: center;
+  padding: 10px 20px;
 }
 
 .inquiry-group {
@@ -833,9 +837,9 @@ align-content: center;
   }
 
   /*-------------- contct us page ---*/
-  #contact-form form {
+  /* #contact-form form {
     width: 80%;
-  }
+  } */
 
   /*---------------- about us page ---*/
 }
@@ -946,9 +950,9 @@ align-content: center;
     margin-bottom: 20px;
   }
   /*-------------- contct us page ---*/
-  #contact-form form {
+  /* #contact-form form {
     width: 100%;
-  }
+  } */
 
   /*------  social ---*/
 

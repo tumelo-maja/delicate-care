@@ -387,6 +387,11 @@ address strong,
   /* object-fit: cover; */
 }
 
+.onboard-text {
+  padding: 5px;
+  margin-bottom: 0;
+}
+
 /*----------------------- Footer ---*/
 
 footer h2 {
@@ -842,6 +847,11 @@ footer h3::after {
     padding: 20px 18px;
   }
 
+  /*----- onboarding text ---*/
+  .onboard-text {
+    min-height: 106px;
+  }
+
   /*----------- footer ----*/
   .video-bg {
     width: 90%;
@@ -962,6 +972,11 @@ footer h3::after {
     height: 220px;
     padding: 20px;
   }
+
+  /*----- onboarding text ---*/
+  .onboard-text {
+    min-height: 82px;
+  }
 }
 
 /*---------------------------- for laptop screens (1024px) */
@@ -981,11 +996,6 @@ footer h3::after {
   .footer-logo .logo-small {
     right: 8%;
   }
-
-  /* .g-map iframe {
-    width: 408px;
-    height: 250px;
-  } */
 
   /*---- hero images ---*/
   .hero {
@@ -1026,6 +1036,11 @@ footer h3::after {
   .service-img,
   .onboard-step img {
     height: 350px;
+  }
+
+  /*----- onboarding text ---*/
+  .onboard-text {
+    min-height: 60px;
   }
 
   /*----------- footer ----*/
@@ -1073,6 +1088,17 @@ footer h3::after {
     font-size: 3rem;
     height: 90px;
     width: 800px;
+  }
+
+    /*---------- services / onboarding images  --*/
+    .service-img,
+    .onboard-step img {
+      height: 410px;
+    }
+
+  /*----- onboarding text ---*/
+  .onboard-text {
+    font-size: 1.1rem;
   }
 
   /*---------- footer*/

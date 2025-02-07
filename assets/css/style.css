@@ -219,7 +219,7 @@ main {
 }
 
 /*-------------  Headers --*/
-
+/* 
 .hero {
   overflow: hidden;
   position: relative;
@@ -230,7 +230,7 @@ main {
   width: 100%;
   background-position: center center;
   object-fit: cover;
-}
+} */
 
 .hero h1 {
   position: absolute;
@@ -265,7 +265,6 @@ main {
   padding: 10px 20px;
   height: 60px;
   margin: 0;
-  width: 50%;
   border-radius: 10px;
   align-content: center;
 }
@@ -853,22 +852,22 @@ align-content: center;
   }
 
   /*------------ Header*/
-  .hero {
+  /* .hero {
     height: 400px;
   }
 
   .hero img {
     height: 420px;
-  }
+  } */
 
-  .hero h1 {
+  /* .hero h1 {
     font-size: 2rem;
     height: 80px;
     width: 60%;
     border-radius: 10px;
     bottom: -5px;
     right: -5px;
-  }
+  } */
   /*---------- Intro*/
   #intro-image2,
   #intro-cta {
@@ -995,13 +994,13 @@ align-content: center;
   }
 
   /*---- hero images ---*/
-  .hero {
+  /* .hero {
     height: 500px;
-  }
+  } */
 
-  .hero img {
+  /* .hero img {
     height: 530px;
-  }
+  } */
 
   /* .hero h1 {
     font-size: 2.5rem;
@@ -1048,13 +1047,13 @@ align-content: center;
   }
 
   /*---- hero images ---*/
-  .hero {
+  /* .hero {
     height: 550px;
   }
 
   .hero img {
     height: 550px;
-  }
+  } */
 
   /*--------- our-values section---*/
   .value-item {
@@ -1106,13 +1105,13 @@ align-content: center;
     width: 456px;
   }
   /*----- hero images ---*/
-  .hero {
+  /* .hero {
     height: 650px;
   }
 
   .hero img {
     height: 650px;
-  }
+  } */
 }
 
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
@@ -1124,7 +1123,7 @@ align-content: center;
   }
 
   /*------ hero ---*/
-  .hero {
+  /* .hero {
     height: 800px;
     /* overflow: hidden; */
   }
@@ -1133,8 +1132,8 @@ align-content: center;
     height: 100%;
     /* position: absolute;
     top: 30px;
-    left: 0; */
-  }
+    left: 0; 
+  } */
 
   /* .hero h1 {
     font-size: 3rem;

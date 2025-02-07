@@ -151,6 +151,10 @@ h3 {
   color: var(--dark-gray);
 }
 
+.text-body {
+  padding: 20px;
+}
+
 .button-style {
   border: 2px solid #496f89;
   margin: 20px;
@@ -252,6 +256,17 @@ main {
   height: 200px;
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.float-image h1 {
+  background-color: rgba(93, 138, 168, 0.9);
+  color: var(--light-gray);
+  padding: 10px 20px;
+  height: 60px;
+  margin: 0;
+  font-size: 1.5rem;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -728,8 +743,9 @@ footer h3::after {
 .about-text {
   align-content: center;
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
+
 
 .staff-message {
   font-style: italic;
@@ -783,6 +799,9 @@ footer h3::after {
     height: 280px;
   }
   /*---------- Intro*/
+  .about-text p {
+    padding: 5px;
+  }
 
   /*---------- services / onboarding images  --*/
   .service-img,

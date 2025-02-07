@@ -256,9 +256,14 @@ main {
 }
 
 /*---------- Intro*/
+
+.intro-item {
+margin-top: 30px;
+}
+
 #intro-image2,
 #intro-cta {
-  order: 1; /*---- change image order*/
+  order: 1;
 }
 
 #intro-cta p {

@@ -7,7 +7,7 @@
   --cool-gray: #8c92ac;
   --chilly-blue: #8badc1;
   --air-force-blue: #5d8aa8;
-  /* --air-force-blue: #507A95; */
+  --velvet-evening: #354f5f;
   --robin-egg-blue: #00cccc;
   --dark-gray: #3a3a3a;
   --light-gray: #f5f5f5;
@@ -36,7 +36,6 @@ main {
 h2,
 h1 {
   font-size: 1.2rem;
-
 }
 
 /*------ colors ---*/
@@ -50,14 +49,15 @@ body {
   color: var(--light-gray);
 }
 
-.page-title h1 {
-  color: #354F5F;
+.page-title h1,
+h2 {
+  color: var(--velvet-evening);
 }
 
 nav,
 .navbar a {
-  background-color: #354F5F;
-  color: #FFFFFF ;
+  background-color: var(--velvet-evening);
+  color: #ffffff;
   /* color: #f1ab50; */
 }
 
@@ -69,8 +69,7 @@ nav,
 .navbar-nav .selected a {
   /* color: #fff; */
   color: #497088;
-  background-color:  var(--light-gray);
-
+  background-color: var(--light-gray);
 }
 
 .service-body {
@@ -92,14 +91,14 @@ nav,
 .text-footer i:hover,
 #team i:hover,
 .fa-phone:hover {
-  color: #385467;
+  color: var(--velvet-evening);
 }
 
 .text-body h1,
 .text-body h2,
 .text-body h3,
 .text-body strong {
-  color: #354F5F;
+  color: var(--velvet-evening);
 }
 
 .text-body p {
@@ -108,27 +107,28 @@ nav,
 
 .button-style {
   color: var(--light-gray);
-  background-color: #496f89;
+  background-color: var(--velvet-evening);
 }
 
 .button-style:hover {
-  border: 2px solid #496f89;
+  border: 2px solid var(--velvet-evening);
   background-color: var(--light-gray);
   color: #496f89;
 }
 
 .button-style-light {
   color: var(--light-gray);
-  background-color: rgba(190, 233, 232, 0.5);
+  /* background-color: rgba(190, 233, 232, 0.5); */
+  background-color: var(--velvet-evening);
 }
 
 .button-style-light:hover {
-  color: #496f89;
+  color: var(--velvet-evening);
   background-color: var(--light-gray);
 }
 
 .cross-bar {
-  background-color: var(--chilly-blue);
+  background-color: var(--velvet-evening);
 }
 
 .cross-bar p {
@@ -136,7 +136,7 @@ nav,
 }
 
 #choose-us {
-  background-color: var(--chilly-blue);
+  background-color: var(--velvet-evening);
 }
 
 #choose-us p,
@@ -151,9 +151,10 @@ nav,
     brightness(114%) contrast(92%);
 }
 
-.inquiry-label img {
-  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg)
-    brightness(92%) contrast(87%);
+.inquiry-label img,
+.icon-service img {
+  filter: invert(28%) sepia(3%) saturate(5490%) hue-rotate(160deg)
+    brightness(97%) contrast(91%);
 }
 
 .onboard-step p,
@@ -162,7 +163,7 @@ nav,
 }
 
 .onboard-body {
-  background-color: var(--chilly-blue);
+  background-color: var(--velvet-evening);
 }
 
 .footer-logo p {
@@ -350,7 +351,7 @@ h3 {
   align-content: start;
 }
 
-.intro-item h2{
+.intro-item h2 {
   font-size: 1.2rem;
 }
 
@@ -446,7 +447,7 @@ address strong,
 }
 
 .value-text {
-  height: 220px;
+  height: 270px;
 }
 
 #choose-us p,
@@ -457,7 +458,7 @@ address strong,
 }
 
 #choose-us strong {
-  font-size: 150%;
+  /* font-size: 150%; */
 }
 
 /*------------------ getting started ----*/
@@ -722,7 +723,6 @@ footer h3::after {
   box-shadow: 0 0 10px var(--robin-egg-blue);
 }
 
-
 .inquiry-label img:hover {
   transform: scale(1.2);
 }
@@ -798,7 +798,7 @@ footer h3::after {
   object-fit: cover;
   height: 100%;
   background-position: center;
-  border: 3px solid var(--chilly-blue);
+  border: 3px solid var(--velvet-evening);
   box-shadow: 1px 1px 20px var(--robin-egg-blue);
 }
 
@@ -935,7 +935,7 @@ footer h3::after {
     height: 300px;
     padding-top: 10px;
   }
-  
+
   /*--------- services section --*/
 
   .service-body {

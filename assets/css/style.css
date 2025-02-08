@@ -5,11 +5,13 @@
 
 :root {
   --cool-gray: #8c92ac;
+  --chilly-blue: #8badc1;
   --air-force-blue: #5d8aa8;
   --robin-egg-blue: #00cccc;
   --dark-gray: #3a3a3a;
   --light-gray: #f5f5f5;
   --white: #ffffff;
+  --dark-text: #1a1a1a;
 }
 
 /*------------- General Styles ---*/
@@ -19,11 +21,156 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: rgba(190, 233, 232, 0.5);
+  /* background-color: rgba(190, 233, 232, 0.5); */
   padding-top: 80px; /*--- adjust section title under fixed navbar*/
   width: 100%;
   font-family: "Manrope", sans-serif;
 }
+
+/*-------- main ---*/
+
+main {
+  width: 100vw;
+}
+
+/*------ colors ---*/
+body {
+  background-color: rgba(167, 237, 138, 0.2);
+}
+
+.hero h1 {
+  background-color: rgba(93, 138, 168, 0.9);
+  color: var(--light-gray);
+}
+
+.page-title h1 {
+  color: var(--chilly-blue);
+}
+
+nav,
+.navbar-nav a {
+  background-color: #385467;
+  color: #9fbacc;
+}
+
+.navbar-nav a::after,
+.navbar-nav .selected a::after {
+  background-color: var(--light-gray);
+}
+
+.navbar-nav .selected a {
+  color: #9fbacc;
+}
+
+.service-body {
+  background-color: lightgrey;
+}
+
+.text-footer h2,
+.text-footer h3,
+.text-footer p,
+.text-footer address,
+.text-footer th,
+.text-footer td {
+  color: var(--light-gray);
+}
+
+.text-footer i,
+#team i,
+.fa-phone,
+.text-footer i:hover,
+#team i:hover,
+.fa-phone:hover {
+  color: #385467;
+}
+
+.text-body h1,
+.text-body h2,
+.text-body h3,
+.text-body strong {
+  color: #496f89;
+}
+
+.text-body p {
+  color: var(--dark-gray);
+}
+
+.button-style {
+  color: var(--light-gray);
+  background-color: #496f89;
+}
+
+.button-style:hover {
+  border: 2px solid #496f89;
+  background-color: var(--light-gray);
+  color: #496f89;
+}
+
+.button-style-light {
+  color: var(--light-gray);
+  background-color: rgba(190, 233, 232, 0.5);
+}
+
+.button-style-light:hover {
+  color: #496f89;
+  background-color: var(--light-gray);
+}
+
+.cross-bar {
+  background-color: var(--chilly-blue);
+}
+
+.cross-bar p {
+  color: var(--light-gray);
+}
+
+#choose-us {
+  background-color: var(--chilly-blue);
+}
+
+#choose-us p,
+#choose-us strong,
+#choose-us h2,
+#choose-us h3 {
+  color: var(--light-gray);
+}
+
+.value-icon img {
+  filter: invert(100%) sepia(3%) saturate(265%) hue-rotate(174deg)
+    brightness(114%) contrast(92%);
+}
+
+.inquiry-label img {
+  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg)
+    brightness(92%) contrast(87%);
+}
+
+.onboard-step p,
+.onboard-step h3 {
+  color: var(--light-gray);
+}
+
+.onboard-body {
+  background-color: var(--chilly-blue);
+}
+
+.footer-logo p {
+  color: #fff;
+}
+
+footer h3::after {
+  background-color: var(--light-gray);
+}
+
+.social-media i {
+  color: #385467;
+}
+
+.credits a {
+  color: darkred;
+}
+
+/*----- end colors------*/
 
 footer {
   background-color: var(--cool-gray);
@@ -31,8 +178,8 @@ footer {
 }
 
 nav {
-  background-color: var(--air-force-blue);
   border-bottom: 1px solid var(--dark-gray);
+  font-weight: 500;
 }
 
 nav a,
@@ -41,25 +188,18 @@ h1 {
   text-transform: uppercase;
 }
 
-.form-partner {
-  background-color: red;
-  padding: 40px 0;
-}
-
-.form-partner img {
-  width: 100%;
-  height: 100%;
-}
-
 .navbar-nav a {
   width: max-content;
 }
-/* .navbar-nav a::before, */
+
+.navbar img {
+  width: 60px;
+}
+
 .navbar-nav a::after {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: var(--light-gray);
   display: block;
   transform-origin: center;
   transition: transform 0.8s ease;
@@ -75,15 +215,10 @@ h1 {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: var(--light-gray);
   display: block;
   transform-origin: center;
   transition: transform 0.8s ease;
   transform: scale(1);
-}
-
-.navbar-nav .selected a {
-  color: var(--light-gray);
 }
 
 #services {
@@ -95,16 +230,6 @@ h3 {
   margin: 10px 0;
 }
 
-/*---- footer font color ---*/
-.text-footer h2,
-.text-footer h3,
-.text-footer p,
-.text-footer address,
-.text-footer th,
-.text-footer td {
-  color: var(--light-gray);
-}
-
 .text-footer p,
 .text-footer address,
 .text-footer th,
@@ -112,30 +237,10 @@ h3 {
   font-size: 0.9rem;
 }
 
-.text-footer i,
-#team i,
-.fa-phone {
-  color: #385467;
-}
-
 .text-footer i:hover,
 #team i:hover,
 .fa-phone:hover {
-  color: #385467;
   transform: scale(1.5);
-}
-
-/*--------- body font color --*/
-.text-body h1,
-.text-body h2,
-.text-body h3,
-.text-body strong {
-  /* color: var(--air-force-blue); */
-  color: #496f89;
-}
-
-.text-body p {
-  color: var(--dark-gray);
 }
 
 .text-body {
@@ -148,34 +253,25 @@ h3 {
   border-radius: 5px;
   display: inline-block;
   cursor: pointer;
-  color: var(--light-gray);
-  background-color: #496f89;
   padding: 4px 10px;
   height: 40px;
 }
 
 .button-style:hover {
   border: 2px solid #496f89;
-  background-color: var(--light-gray);
-  color: #496f89;
 }
 
 .button-style-light {
-  color: var(--light-gray);
   border: 2px solid var(--light-gray);
-  background-color: rgba(190, 233, 232, 0.5);
   font-weight: bold;
 }
 
 .button-style-light:hover {
-  color: #496f89;
   border: 2px solid #496f89;
-  background-color: var(--light-gray);
 }
 
 .cross-bar {
   width: 100%;
-  background-color: var(--air-force-blue);
   height: 220px;
   padding-bottom: 20px;
 }
@@ -187,7 +283,6 @@ h3 {
 }
 
 .cross-bar p {
-  color: var(--light-gray);
   font-weight: bold;
   padding: 10px 0;
   margin-top: 20px;
@@ -195,26 +290,7 @@ h3 {
   font-size: 1.4rem;
 }
 
-/*------------- Navbar --*/
-
-.navbar img {
-  width: 60px;
-}
-
-/*-------- main ---*/
-
-main {
-  /* margin-top: 40px; */
-  width: 100vw;
-}
-
-/*-------------  Headers --*/
-
-
-main {
-  /* width: 100vw; */
-}
-
+/*------------- hero --*/
 .hero {
   background-image: url(../images/hero-home-three-people-in-kitchen-1.jpg);
   background-position: center center;
@@ -222,12 +298,9 @@ main {
   width: 100%;
   height: 300px;
   align-content: end;
-
 }
 
 .hero h1 {
-  background-color: rgba(93, 138, 168, 0.9);
-  color: var(--light-gray);
   padding: 10px 20px;
   height: 60px;
   margin: 0;
@@ -254,7 +327,6 @@ main {
   margin: 20px;
 }
 .page-title h1 {
-  color: var(--air-force-blue);
   padding: 10px 20px;
   height: 60px;
   margin: 0;
@@ -263,10 +335,9 @@ main {
 }
 
 /*---------- Intro*/
-
 .intro-item {
-  /* margin-top: 30px; */
-align-content: start;}
+  align-content: start;
+}
 
 #intro-image2,
 #intro-cta {
@@ -291,14 +362,11 @@ align-content: start;}
   height: 200px;
   width: 100%;
   border-radius: 10px 10px 0 0;
-  /* border: 1px solid red; */
   border-bottom: 0;
 }
 
 .service-body {
   border-radius: 0 0 10px 10px;
-  background-color: lightgrey;
-  /* border: 1px solid red; */
   border-top: 0;
 }
 
@@ -346,7 +414,6 @@ address strong,
 }
 
 #choose-us {
-  background-color: var(--air-force-blue);
   width: 100%;
   padding: 30px;
 }
@@ -356,9 +423,6 @@ address strong,
   width: 90px;
   height: 90px;
   justify-self: center;
-  /* filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg) brightness(92%) contrast(87%); */
-  filter: invert(100%) sepia(3%) saturate(265%) hue-rotate(174deg)
-    brightness(114%) contrast(92%);
   margin: 30px 10px 20px;
 }
 
@@ -374,7 +438,6 @@ address strong,
 #choose-us strong,
 #choose-us h2,
 #choose-us h3 {
-  color: var(--light-gray);
   text-align: center;
 }
 
@@ -400,18 +463,11 @@ address strong,
   padding: 20px 18px;
 }
 
-.onboard-step p,
-.onboard-step h3 {
-  color: var(--light-gray);
-}
-
 .onboard-body {
   border: 1px solid var(--cool-gray);
   border: 0 0 2px 3px;
-  /* margin-top: 20px ; */
   border-radius: 10px 10px 0 0;
   padding: 10px;
-  background-color: var(--air-force-blue);
 }
 
 .onboard-step img {
@@ -420,7 +476,6 @@ address strong,
   border-radius: 0 0 10px 10px;
   border: 1px solid var(--cool-gray);
   border-bottom: 0;
-  /* object-fit: cover; */
 }
 
 .onboard-text {
@@ -438,12 +493,7 @@ footer h2 {
   padding-top: 20px;
 }
 
-.contact-info a {
-  color: red;
-  text-decoration: none;
-}
-
-/*---- Map iframe --*/
+/*---- accessibilty --*/
 
 .accessibilty {
   margin-bottom: 20px;
@@ -458,7 +508,6 @@ footer h2 {
 .footer-logo {
   justify-content: center;
   position: relative;
-  /* overflow: hidden; */
   height: 300px;
   padding: 0;
 }
@@ -497,7 +546,6 @@ footer h2 {
 .footer-logo p {
   font-weight: bold;
   font-style: italic;
-  color: #fff;
 }
 
 footer h3 {
@@ -582,7 +630,6 @@ footer h3::after {
 }
 
 .social-media i {
-  color: #385467;
   font-size: 2rem;
 }
 
@@ -599,7 +646,6 @@ footer h3::after {
 
 .credits a {
   text-decoration: none;
-  color: darkred;
 }
 
 /*--------------------- Contact Us page --*/
@@ -647,7 +693,6 @@ footer h3::after {
 
 /*---------- radio buttons ---*/
 .inquiry-type input[type="radio"] {
-  background-color: red;
   display: block;
 }
 
@@ -662,10 +707,6 @@ footer h3::after {
   box-shadow: 0 0 10px var(--robin-egg-blue);
 }
 
-.inquiry-label img {
-  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg)
-    brightness(92%) contrast(87%);
-}
 
 .inquiry-label img:hover {
   transform: scale(1.2);
@@ -681,8 +722,6 @@ footer h3::after {
   height: 50px;
   cursor: pointer;
   justify-self: end;
-  filter: invert(42%) sepia(9%) saturate(1841%) hue-rotate(162deg)
-    brightness(92%) contrast(87%);
 }
 
 .icon-service {
@@ -718,10 +757,6 @@ footer h3::after {
   align-content: center;
 }
 
-.statement {
-  /* background-color: red; */
-}
-
 .statement p {
   font-size: 1.1rem;
 }
@@ -742,14 +777,13 @@ footer h3::after {
 }
 
 .staff-image img {
-  color: lightcoral;
   width: 100%;
   padding: 0;
   border-radius: 50%;
   object-fit: cover;
   height: 100%;
   background-position: center;
-  border: 3px solid var(--air-force-blue);
+  border: 3px solid var(--chilly-blue);
   box-shadow: 1px 1px 20px var(--robin-egg-blue);
 }
 
@@ -835,7 +869,6 @@ footer h3::after {
   .business-hours table {
     width: 80%;
   }
-
 }
 
 /*----------------------------Bootstrap breakpoint for medium screens (768px) */
@@ -866,7 +899,6 @@ footer h3::after {
     padding: 20px;
     height: 80px;
     border-radius: 10px 0;
-
   }
 
   /*---------- Intro*/
@@ -885,10 +917,10 @@ footer h3::after {
     line-height: 1.4rem;
   }
 
-.intro-item {
-  height: 300px;
-  padding-top: 10px;
-}
+  .intro-item {
+    height: 300px;
+    padding-top: 10px;
+  }
   /*------- about ---*/
   /* .about-text {
       font-size: 8rem;
@@ -1120,7 +1152,6 @@ footer h3::after {
   .g-map iframe {
     width: 456px;
   }
-
 }
 
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {

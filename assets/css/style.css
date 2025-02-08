@@ -20,21 +20,10 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: rgba(190, 233, 232, 0.5);
-  padding-top: 40px; /*--- adjust section title under fixed navbar*/
+  padding-top: 80px; /*--- adjust section title under fixed navbar*/
   width: 100%;
   font-family: "Manrope", sans-serif;
 }
-
-/*--- Fonts ---*/
-
-/* h1, h2, h3 {
-  font-family: 'Lora', sans-serif;
-}
-
-.button-style,
-.button-style-light {
-  font-family: 'Catamaran', sans-serif;
-} */
 
 footer {
   background-color: var(--cool-gray);
@@ -215,34 +204,37 @@ h3 {
 /*-------- main ---*/
 
 main {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  width: 100vw;
 }
 
 /*-------------  Headers --*/
-/* 
-.hero {
-  overflow: hidden;
-  position: relative;
+
+
+main {
+  /* width: 100vw; */
 }
 
-.hero img {
-  height: 100%;
-  width: 100%;
+.hero {
+  background-image: url(../images/hero-home-three-people-in-kitchen-1.jpg);
   background-position: center center;
-  object-fit: cover;
-} */
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  align-content: end;
+
+}
 
 .hero h1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   background-color: rgba(93, 138, 168, 0.9);
   color: var(--light-gray);
   padding: 10px 20px;
   height: 60px;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
   width: 100%;
+  align-content: center;
 }
 
 /*----------- float image - home,about,contact*/
@@ -273,8 +265,8 @@ main {
 /*---------- Intro*/
 
 .intro-item {
-  margin-top: 30px;
-}
+  /* margin-top: 30px; */
+align-content: start;}
 
 #intro-image2,
 #intro-cta {
@@ -723,7 +715,15 @@ footer h3::after {
 
 /*------------- about page ---*/
 .intro-image {
-align-content: center;
+  align-content: center;
+}
+
+.statement {
+  /* background-color: red; */
+}
+
+.statement p {
+  font-size: 1.1rem;
 }
 
 .staff {
@@ -815,6 +815,10 @@ align-content: center;
     padding: 5px;
   }
 
+  .hero {
+    height: 35vh;
+  }
+
   /*---------- services / onboarding images  --*/
   .service-img,
   .onboard-step img {
@@ -828,27 +832,10 @@ align-content: center;
 
   /*---------- footer ---*/
 
-  /*-- Map iframe --*/
-  .g-map {
-    height: 320px;
-    margin-top: 20px;
-  }
-
-  .g-map iframe {
-    width: 90%;
-    height: 240px;
-  }
-
   .business-hours table {
     width: 80%;
   }
 
-  /*-------------- contct us page ---*/
-  /* #contact-form form {
-    width: 80%;
-  } */
-
-  /*---------------- about us page ---*/
 }
 
 /*----------------------------Bootstrap breakpoint for medium screens (768px) */
@@ -862,23 +849,26 @@ align-content: center;
     padding: 18px;
   }
 
-  /*------------ Header*/
-  /* .hero {
-    height: 400px;
+  /*------------ hero*/
+  /* .hero img {
+    height: 50vh;
+  } */
+
+  .hero {
+    height: 500px;
+    background-position: top center;
+    justify-items: end;
   }
 
-  .hero img {
-    height: 420px;
-  } */
-
-  /* .hero h1 {
-    font-size: 2rem;
+  .hero h1 {
+    width: 500px;
+    font-size: 1.7rem;
+    padding: 20px;
     height: 80px;
-    width: 60%;
-    border-radius: 10px;
-    bottom: -5px;
-    right: -5px;
-  } */
+    border-radius: 10px 0;
+
+  }
+
   /*---------- Intro*/
   #intro-image2,
   #intro-cta {
@@ -895,10 +885,12 @@ align-content: center;
     line-height: 1.4rem;
   }
 
-  /*---------- Intro*/
-
-    /*------- about ---*/
-    /* .about-text {
+.intro-item {
+  height: 300px;
+  padding-top: 10px;
+}
+  /*------- about ---*/
+  /* .about-text {
       font-size: 8rem;
     } */
 
@@ -977,7 +969,6 @@ align-content: center;
     justify-self: center;
   }
 
-
   .social-media i {
     margin: 10px 0;
     font-size: 1.7rem;
@@ -1002,6 +993,14 @@ align-content: center;
   /*----------- float image - home,about,contact*/
   .float-image img {
     height: 300px;
+  }
+
+  /*------------ hero*/
+  /* .hero img {
+    height: 60vh;
+  } */
+  .hero {
+    height: 600px;
   }
 
   /*------- about ---*/
@@ -1032,12 +1031,15 @@ align-content: center;
 
 /*---------------------------- for laptop screens (1024px) */
 @media screen and (min-width: 1024px) {
-  /*---------- Intro*/
+  /*------------ hero*/
+  .hero img {
+    height: 65vh;
+  }
 
-    /*------- about ---*/
-    .about-text {
-      font-size: 1.1rem;
-    }
+  /*------- about ---*/
+  .about-text {
+    font-size: 1.1rem;
+  }
 
   /*---------- services / onboarding images  --*/
   .service-img,
@@ -1075,12 +1077,20 @@ align-content: center;
     height: 350px;
   }
 
-
   /*------- about ---*/
   .about-text {
     font-size: 1.3rem;
   }
-  /*---------- Intro*/
+
+  /*------------ hero*/
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    height: 550px;
+  }
 
   /*---------- services section --*/
   .service-item {
@@ -1110,14 +1120,7 @@ align-content: center;
   .g-map iframe {
     width: 456px;
   }
-  /*----- hero images ---*/
-  /* .hero {
-    height: 650px;
-  }
 
-  .hero img {
-    height: 650px;
-  } */
 }
 
 /*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
@@ -1133,24 +1136,15 @@ align-content: center;
     font-size: 1.4rem;
   }
 
+  .statement p {
+    font-size: 1.2rem;
+    min-height: 152px;
+  }
+
   /*------ hero ---*/
-   /* .hero {
-    height: 800px;
-    overflow: hidden;
-  } */
-
-  /* .hero img {
-    height: 100%;
-    position: absolute;
-    top: 30px;
-    left: 0; 
-  } */
-
-  /* .hero h1 {
-    font-size: 3rem;
-    height: 90px;
-    width: 800px;
-  } */
+  .hero {
+    height: 700px;
+  }
 
   /*---------- services / onboarding images  --*/
   .service-img,

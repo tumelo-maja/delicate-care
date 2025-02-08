@@ -7,6 +7,7 @@
   --cool-gray: #8c92ac;
   --chilly-blue: #8badc1;
   --air-force-blue: #5d8aa8;
+  /* --air-force-blue: #507A95; */
   --robin-egg-blue: #00cccc;
   --dark-gray: #3a3a3a;
   --light-gray: #f5f5f5;
@@ -21,7 +22,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* background-color: rgba(190, 233, 232, 0.5); */
   padding-top: 80px; /*--- adjust section title under fixed navbar*/
   width: 100%;
   font-family: "Manrope", sans-serif;
@@ -33,24 +33,32 @@ main {
   width: 100vw;
 }
 
+h2,
+h1 {
+  font-size: 1.2rem;
+
+}
+
 /*------ colors ---*/
 body {
-  background-color: rgba(167, 237, 138, 0.2);
+  /* background-color: rgba(167, 237, 138, 0.2); */
+  background-color: #cbf7ff;
 }
 
 .hero h1 {
-  background-color: rgba(93, 138, 168, 0.9);
+  background-color: rgba(53, 79, 95, 0.8);
   color: var(--light-gray);
 }
 
 .page-title h1 {
-  color: var(--chilly-blue);
+  color: #354F5F;
 }
 
 nav,
-.navbar-nav a {
-  background-color: #385467;
-  color: #9fbacc;
+.navbar a {
+  background-color: #354F5F;
+  color: #FFFFFF ;
+  /* color: #f1ab50; */
 }
 
 .navbar-nav a::after,
@@ -59,7 +67,10 @@ nav,
 }
 
 .navbar-nav .selected a {
-  color: #9fbacc;
+  /* color: #fff; */
+  color: #497088;
+  background-color:  var(--light-gray);
+
 }
 
 .service-body {
@@ -88,7 +99,7 @@ nav,
 .text-body h2,
 .text-body h3,
 .text-body strong {
-  color: #496f89;
+  color: #354F5F;
 }
 
 .text-body p {
@@ -222,7 +233,7 @@ h1 {
 }
 
 #services {
-  padding-top: 5rem; /* adjust for the fixed-navbar*/
+  padding-top: 4rem; /* adjust for the fixed-navbar*/
 }
 
 h3 {
@@ -234,7 +245,7 @@ h3 {
 .text-footer address,
 .text-footer th,
 .text-footer td {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .text-footer i:hover,
@@ -304,7 +315,7 @@ h3 {
   padding: 10px 20px;
   height: 60px;
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   width: 100%;
   align-content: center;
@@ -339,13 +350,17 @@ h3 {
   align-content: start;
 }
 
+.intro-item h2{
+  font-size: 1.2rem;
+}
+
 #intro-image2,
 #intro-cta {
   order: 1;
 }
 
-#intro-cta p {
-  font-size: 150%;
+#intro {
+  margin-bottom: 0;
 }
 
 #intro-cta {
@@ -895,7 +910,7 @@ footer h3::after {
 
   .hero h1 {
     width: 500px;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     padding: 20px;
     height: 80px;
     border-radius: 10px 0;
@@ -913,19 +928,14 @@ footer h3::after {
 
   .intro-text p {
     padding: 0 5px;
-    font-size: 115%;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
   }
 
   .intro-item {
     height: 300px;
     padding-top: 10px;
   }
-  /*------- about ---*/
-  /* .about-text {
-      font-size: 8rem;
-    } */
-
+  
   /*--------- services section --*/
 
   .service-body {
@@ -1116,9 +1126,9 @@ footer h3::after {
 
   /*------------ hero*/
 
-  .hero h1 {
+  /* .hero h1 {
     font-size: 2rem;
-  }
+  } */
 
   .hero {
     height: 550px;

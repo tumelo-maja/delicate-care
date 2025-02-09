@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding-top: 80px; /*--- adjust section title under fixed navbar*/
+  padding-top: 79px; /*--- adjust section title under fixed navbar*/
   width: 100%;
   font-family: "Manrope", sans-serif;
 }

@@ -558,6 +558,7 @@ footer h2 {
   transform: translate(-50%, 0);
   height: 100px;
   width: 295px;
+  align-content: center;
 }
 
 .footer-video p {

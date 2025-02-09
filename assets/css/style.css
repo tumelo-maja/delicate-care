@@ -785,6 +785,9 @@ footer h3::after {
   align-content: center;
 }
 
+.intro-image img{
+  /* padding: 0 10px; */
+}
 .statement p {
   font-size: 1.1rem;
 }
@@ -818,7 +821,7 @@ footer h3::after {
 .about-text {
   align-content: center;
   margin: 0;
-  padding: 20px;
+  padding: 20px 20px 0;
 }
 
 .staff-message {
@@ -827,14 +830,20 @@ footer h3::after {
 }
 
 /*--------------------- mission & vision ---*/
+.about-image {
+margin-top: 20px;
+padding-top: 10px;
+}
+
 .about-image img {
   width: 100%;
-  border-radius: 10px 10px 0 0;
+  border-radius: 0 0 10px 10px ;
 }
 
 .statement p {
   padding: 20px 5px 0;
   text-align: left;
+  min-height: 204px;
 }
 
 /*--------------------------- Media queries --*/
@@ -1037,6 +1046,15 @@ footer h3::after {
   }
 
   /*---------------- about us page ---*/
+
+  .about-image {
+    padding: 0 16px;
+  }
+
+  .statement p {
+    padding: 20px 0 0;
+  }
+  
 }
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */

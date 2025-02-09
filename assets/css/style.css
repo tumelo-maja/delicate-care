@@ -23,7 +23,6 @@ body {
 }
 
 /*-------- main ---*/
-
 main {
   width: 100vw;
 }
@@ -62,8 +61,6 @@ nav,
 
 .navbar-nav .selected a {
   color: var(--white-edgar);
-  /* background-color: var(--white-edgar); */
-  /* border: 1px solid var(--white-edgar); */
 }
 
 .service-body {
@@ -192,7 +189,7 @@ footer {
   background-color: var(--white-edgar);
 }
 
-#contact-form input[type="radio"]{
+#contact-form input[type="radio"] {
   accent-color: var(--velvet-evening);
 }
 /*----- end colors------*/
@@ -242,7 +239,7 @@ h1 {
 }
 
 #services {
-  padding-top: 2rem; /* adjust for the fixed-navbar*/
+  padding-top: 2rem;
 }
 
 h3 {
@@ -403,14 +400,14 @@ h3 {
 #check-service-two:checked ~ .service-more-two,
 #check-service-three:checked ~ .service-more-three,
 #check-service-four:checked ~ .service-more-four {
-  display: block; /*--- display on when checked --*/
+  display: block;
 }
 
 #check-service-one:checked ~ .service-buttons,
 #check-service-two:checked ~ .service-buttons,
 #check-service-three:checked ~ .service-buttons,
 #check-service-four:checked ~ .service-buttons {
-  display: none; /*--- display off when checked --*/
+  display: none;
 }
 
 .service-body strong,
@@ -463,10 +460,6 @@ address strong,
 #choose-us h2,
 #choose-us h3 {
   text-align: center;
-}
-
-#choose-us strong {
-  /* font-size: 150%; */
 }
 
 /*------------------ getting started ----*/
@@ -607,8 +600,8 @@ footer h3::after {
   width: 20px;
 }
 
-.business-hours table{
-margin-top: 15px;
+.business-hours table {
+  margin-top: 15px;
 }
 
 .business-hours tr {
@@ -671,7 +664,6 @@ margin-top: 15px;
 /*--------------------- Contact Us page --*/
 
 .contact-text {
-  /* align-content: center; */
   padding-top: 30px;
 }
 
@@ -776,9 +768,6 @@ margin-top: 15px;
   align-content: center;
 }
 
-.intro-image img {
-  /* padding: 0 10px; */
-}
 .statement p {
   font-size: 1.1rem;
 }
@@ -840,11 +829,10 @@ margin-top: 15px;
 /*--------------------------- Media queries --*/
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
-  /*----------- float image - home,about,contact*/
+  /*----------- float image ---*/
   .float-image img {
     height: 250px;
   }
-  /*---------- Intro section ---*/
 
   /*---------- services / onboarding images  --*/
   .service-img,
@@ -868,7 +856,7 @@ margin-top: 15px;
 
 /*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
-  /*----------- float image - home,about,contact*/
+  /*----------- float image ---*/
   .float-image img {
     height: 280px;
   }
@@ -901,7 +889,7 @@ margin-top: 15px;
 
 /*----------------------------Bootstrap breakpoint for medium screens (768px) */
 @media screen and (min-width: 768px) {
-  /*----------- float image - home,about,contact*/
+  /*----------- float image ---*/
   .float-image img {
     height: 250px;
   }
@@ -987,7 +975,6 @@ margin-top: 15px;
   }
 
   .footer-video .cta-video {
-    /* background-color: red; */
     width: 216px;
     top: 63%;
     left: 50%;
@@ -1055,15 +1042,12 @@ margin-top: 15px;
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
 @media screen and (min-width: 992px) {
-  /*----------- float image - home,about,contact*/
+  /*----------- float image ---*/
   .float-image img {
     height: 300px;
   }
 
   /*------------ hero*/
-  /* .hero img {
-    height: 60vh;
-  } */
   .hero {
     height: 600px;
   }
@@ -1163,10 +1147,9 @@ margin-top: 15px;
   }
 }
 
-/*----------------------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px) {
-) */
+/*----------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px)) */
 @media screen and (min-width: 1440px) {
-  /*----------- float image - home,about,contact*/
+  /*----------- float image ---*/
   .float-image img {
     height: 400px;
   }

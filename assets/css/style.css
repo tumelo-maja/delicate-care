@@ -447,7 +447,7 @@ address strong,
 }
 
 .value-text {
-  height: 270px;
+  height: max-content;
 }
 
 #choose-us p,
@@ -1061,7 +1061,6 @@ footer h3::after {
 
   /*--------- our-values section---*/
   .value-text {
-    height: 220px;
     padding: 20px;
   }
 
@@ -1107,9 +1106,7 @@ footer h3::after {
   } */
 
   /*--------- our-values section---*/
-  .value-item {
-    width: 480px;
-  }
+
 }
 
 /*-------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px)) */

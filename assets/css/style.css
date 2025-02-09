@@ -517,6 +517,10 @@ footer h2 {
   padding-top: 20px;
 }
 
+.contact-info p {
+  padding-top: 15px;
+}
+
 /*---- accessibilty --*/
 
 .accessibilty {
@@ -615,6 +619,10 @@ footer h3::after {
   padding: 10px;
   text-align: center;
   width: 20px;
+}
+
+.business-hours table{
+margin-top: 15px;
 }
 
 .business-hours tr {

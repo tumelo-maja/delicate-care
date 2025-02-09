@@ -661,6 +661,7 @@ footer h3::after {
 
 .social-media i {
   font-size: 2rem;
+  color: var(--white-edgar);
 }
 
 .social-media i:hover {

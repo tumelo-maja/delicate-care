@@ -199,6 +199,9 @@ footer {
   background-color: var(--white-edgar);
 }
 
+#contact-form input[type="radio"]{
+  accent-color: var(--velvet-evening);
+}
 /*----- end colors------*/
 
 nav {

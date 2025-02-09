@@ -178,12 +178,26 @@ footer h3::after {
 }
 
 .credits a {
-  color: darkred;
+  color: var(--white-edgar);
 }
 
 footer {
   background-color: var(--velvet-evening);
   padding-top: 40px;
+}
+
+#contact-form h1,
+#contact-form h2,
+#contact-form p,
+#contact-form label
+ {
+  color: var(--velvet-evening);
+}
+
+#contact-form input,
+#contact-form textarea
+ {
+  background-color: var(--white-edgar);
 }
 
 /*----- end colors------*/

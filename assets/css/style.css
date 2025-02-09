@@ -166,7 +166,7 @@ nav,
   background-color: var(--velvet-evening);
 }
 
-.footer-logo p {
+.footer-video p {
   color: var(--white-edgar);
 }
 
@@ -533,7 +533,7 @@ footer h2 {
 
 /*-------------  footer video --*/
 
-.footer-logo {
+.footer-video {
   justify-content: center;
   position: relative;
   height: 300px;
@@ -551,7 +551,7 @@ footer h2 {
   object-fit: cover;
 }
 
-.footer-logo .cta-logo {
+.footer-video .cta-logo {
   position: absolute;
   top: 70%;
   left: 50%;
@@ -560,7 +560,7 @@ footer h2 {
   width: 295px;
 }
 
-.footer-logo p {
+.footer-video p {
   font-weight: bold;
   font-style: italic;
 }
@@ -984,19 +984,19 @@ margin-top: 15px;
     height: 250px;
   }
 
-  .footer-logo {
+  .footer-video {
     border-radius: 10px;
     align-self: center;
   }
 
-  .footer-logo .cta-logo {
+  .footer-video .cta-logo {
     /* background-color: red; */
     width: 216px;
     top: 63%;
     left: 50%;
   }
 
-  .footer-logo,
+  .footer-video,
   .contact-info,
   .business-hours {
     height: 330px;

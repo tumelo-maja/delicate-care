@@ -8,6 +8,8 @@
   --chilly-blue: #8badc1;
   --air-force-blue: #5d8aa8;
   --velvet-evening: #354f5f;
+  --white-edgar: #ededed;
+  --thin-air: #cbf7ff;
   --robin-egg-blue: #00cccc;
   --dark-gray: #3a3a3a;
   --light-gray: #f5f5f5;
@@ -40,13 +42,12 @@ h1 {
 
 /*------ colors ---*/
 body {
-  /* background-color: rgba(167, 237, 138, 0.2); */
-  background-color: #cbf7ff;
+  background-color: var(--thin-air);
 }
 
 .hero h1 {
   background-color: rgba(53, 79, 95, 0.8);
-  color: var(--light-gray);
+  color: var(--white-edgar);
 }
 
 .page-title h1,
@@ -57,23 +58,22 @@ h2 {
 nav,
 .navbar a {
   background-color: var(--velvet-evening);
-  color: #ffffff;
-  /* color: #f1ab50; */
+  color: var(--white-edgar);
 }
 
 .navbar-nav a::after,
 .navbar-nav .selected a::after {
-  background-color: var(--light-gray);
+  background-color: var(--white-edgar);
 }
 
 .navbar-nav .selected a {
-  /* color: #fff; */
-  color: #497088;
-  background-color: var(--light-gray);
+  color: var(--white-edgar);
+  /* background-color: var(--white-edgar); */
+  /* border: 1px solid var(--white-edgar); */
 }
 
 .service-body {
-  background-color: lightgrey;
+  background-color: var(--white-edgar);
 }
 
 .text-footer h2,
@@ -82,7 +82,7 @@ nav,
 .text-footer address,
 .text-footer th,
 .text-footer td {
-  color: var(--light-gray);
+  color: var(--white-edgar);
 }
 
 .text-footer i,
@@ -102,29 +102,28 @@ nav,
 }
 
 .text-body p {
-  color: var(--dark-gray);
+  color: var(--velvet-evening);
 }
 
 .button-style {
-  color: var(--light-gray);
+  color: var(--white-edgar);
   background-color: var(--velvet-evening);
 }
 
 .button-style:hover {
   border: 2px solid var(--velvet-evening);
-  background-color: var(--light-gray);
-  color: #496f89;
+  background-color: var(--white-edgar);
+  color: var(--velvet-evening);
 }
 
 .button-style-light {
-  color: var(--light-gray);
-  /* background-color: rgba(190, 233, 232, 0.5); */
+  color: var(--white-edgar);
   background-color: var(--velvet-evening);
 }
 
 .button-style-light:hover {
   color: var(--velvet-evening);
-  background-color: var(--light-gray);
+  background-color: var(--white-edgar);
 }
 
 .cross-bar {
@@ -132,7 +131,7 @@ nav,
 }
 
 .cross-bar p {
-  color: var(--light-gray);
+  color: var(--white-edgar);
 }
 
 #choose-us {
@@ -143,23 +142,23 @@ nav,
 #choose-us strong,
 #choose-us h2,
 #choose-us h3 {
-  color: var(--light-gray);
+  color: var(--white-edgar);
 }
 
 .value-icon img {
-  filter: invert(100%) sepia(3%) saturate(265%) hue-rotate(174deg)
-    brightness(114%) contrast(92%);
+  filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
+    brightness(117%) contrast(86%);
 }
 
 .inquiry-label img,
 .icon-service img {
-  filter: invert(28%) sepia(3%) saturate(5490%) hue-rotate(160deg)
-    brightness(97%) contrast(91%);
+  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
 }
 
 .onboard-step p,
 .onboard-step h3 {
-  color: var(--light-gray);
+  color: var(--white-edgar);
 }
 
 .onboard-body {
@@ -167,27 +166,27 @@ nav,
 }
 
 .footer-logo p {
-  color: #fff;
+  color: var(--white-edgar);
 }
 
 footer h3::after {
-  background-color: var(--light-gray);
+  background-color: var(--white-edgar);
 }
 
 .social-media i {
-  color: #385467;
+  color: var(--velvet-evening);
 }
 
 .credits a {
   color: darkred;
 }
 
-/*----- end colors------*/
-
 footer {
-  background-color: var(--cool-gray);
+  background-color: var(--velvet-evening);
   padding-top: 40px;
 }
+
+/*----- end colors------*/
 
 nav {
   border-bottom: 1px solid var(--dark-gray);
@@ -260,7 +259,7 @@ h3 {
 }
 
 .button-style {
-  border: 2px solid #496f89;
+  border: 2px solid var(--velvet-evening);
   margin: 20px;
   border-radius: 5px;
   display: inline-block;
@@ -270,16 +269,16 @@ h3 {
 }
 
 .button-style:hover {
-  border: 2px solid #496f89;
+  border: 2px solid var(--velvet-evening);
 }
 
 .button-style-light {
-  border: 2px solid var(--light-gray);
+  border: 2px solid var(--white-edgar);
   font-weight: bold;
 }
 
 .button-style-light:hover {
-  border: 2px solid #496f89;
+  border: 2px solid var(--velvet-evening);
 }
 
 .cross-bar {
@@ -693,7 +692,7 @@ footer h3::after {
 
 .form-fields {
   width: 100%;
-  border: 1px solid lightslategray;
+  border: 1px solid var(--velvet-evening);
   border-radius: 5px;
   padding: 6px 12px;
 }
@@ -719,7 +718,7 @@ footer h3::after {
 
 .inquiry-input input:focus,
 .inquiry-input textarea:focus {
-  border: 2px solid #496f89;
+  border: 2px solid var(--velvet-evening);
   box-shadow: 0 0 10px var(--robin-egg-blue);
 }
 
@@ -990,10 +989,6 @@ footer h3::after {
   .text-footer h2 {
     margin-bottom: 20px;
   }
-  /*-------------- contct us page ---*/
-  /* #contact-form form {
-    width: 100%;
-  } */
 
   /*------  social ---*/
 
@@ -1106,7 +1101,6 @@ footer h3::after {
   } */
 
   /*--------- our-values section---*/
-
 }
 
 /*-------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px)) */

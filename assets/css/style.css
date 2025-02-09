@@ -190,14 +190,12 @@ footer {
 #contact-form h1,
 #contact-form h2,
 #contact-form p,
-#contact-form label
- {
+#contact-form label {
   color: var(--velvet-evening);
 }
 
 #contact-form input,
-#contact-form textarea
- {
+#contact-form textarea {
   background-color: var(--white-edgar);
 }
 
@@ -330,7 +328,7 @@ h3 {
   padding: 10px 20px;
   height: 60px;
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: bold;
   width: 100%;
   align-content: center;
@@ -784,7 +782,7 @@ footer h3::after {
   align-content: center;
 }
 
-.intro-image img{
+.intro-image img {
   /* padding: 0 10px; */
 }
 .statement p {
@@ -830,13 +828,13 @@ footer h3::after {
 
 /*--------------------- mission & vision ---*/
 .about-image {
-margin-top: 20px;
-padding-top: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
 .about-image img {
   width: 100%;
-  border-radius: 0 0 10px 10px ;
+  border-radius: 0 0 10px 10px;
 }
 
 .statement p {
@@ -919,9 +917,6 @@ padding-top: 10px;
   }
 
   /*------------ hero*/
-  /* .hero img {
-    height: 50vh;
-  } */
 
   .hero {
     height: 500px;
@@ -931,10 +926,23 @@ padding-top: 10px;
 
   .hero h1 {
     width: 500px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 20px;
     height: 80px;
     border-radius: 10px 0 0 0;
+  }
+
+  /*---- other head elements --*/
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
   }
 
   /*---------- Intro*/
@@ -1053,7 +1061,6 @@ padding-top: 10px;
   .statement p {
     padding: 20px 0 0;
   }
-  
 }
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
@@ -1147,10 +1154,6 @@ padding-top: 10px;
   }
 
   /*------------ hero*/
-
-  /* .hero h1 {
-    font-size: 2rem;
-  } */
 
   .hero {
     height: 550px;

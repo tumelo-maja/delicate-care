@@ -1081,6 +1081,10 @@ footer h3::after {
   #services {
     padding-top: 4rem;
   }
+
+  .service-text {
+    min-height: 98px;
+  }
 }
 
 /*---------------------------- for laptop screens (1024px) */

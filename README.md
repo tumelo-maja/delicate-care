@@ -42,6 +42,13 @@ The site is helps individuals and families understand available care options for
 
 
 ### Features Left to Implement
+This subsection covers other feature that would add good value to the site but are reserved for future releases of the project site.
+1) Testimonials image carousel
+- This would display past and existing cleint's stories/testimonial about their experiences with Zalama care's level of service. This is to build trust and confidence in the brand/service for the business.
+2) Sign-up form for newsletter 
+- A form to allow users to subscribe for business news, updates and any events from the business 
+3) Careers's page
+- For recruitment purposes, this page will provide information about working at zalama care, how to apply and what vacancies are available. The page will feature an application form for interested job-seekers.
 
 ## Project planning
 in this section, we provide all tasks related to project planning. 

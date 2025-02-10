@@ -26,6 +26,16 @@ The site is helps individuals and families understand available care options for
 
 - **Navbar | Contact** - This navigates users to the contact page where they can complete a form to get in touch with the business or inquiry about a service
 
+2) landing page image
+  <figure>
+    <img src="docs/site-screenshots/home-hero-large-screen.png" width="80%" height="50%">
+    <figcaption><strong><em>landing page image: Home page</em></strong></figcaption>
+  </figure>
+
+- **Image** - the landing home page features a high quality images of three people smiling. A woman in a wheel is representative of target audience with mobility needs.
+
+- **Welcome text** - the background image has a 'Welcome To Zalama Care' text; together with the image they create a warm welcoming and will grab the attention of the users. 
+
 
 2) Expand/collapse button in services section
 - 'Read more' to expand 

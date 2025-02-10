@@ -10,9 +10,24 @@ The site is helps individuals and families understand available care options for
 
 
 ### Existing Features
-1) Logo icon and site name
-2) Navbar - pages: Home, About, Services and Contact
-3) Expand/collapse button in services section
+1) Logo icon and Navigation Bar - pages: Home, About, Services and Contact
+  <figure>
+    <img src="docs/site-screenshots/navbar-view-large-screen.png" width="80%" height="50%">
+    <figcaption><strong><em>Navbar: Home page</em></strong></figcaption>
+  </figure>
+
+- **Logo** - when clicked, it allows users to return to home from any part of the website
+
+- **Navbar | Home** - returns user to home pages
+
+- **Navbar | About** - Allows user to navigate to the about page to learn more about the company's history, mission, vision statements and the team
+
+- **Navbar | Services** - Allows users to navigate to the services section within the home page to get information about the types of care services we offer at Zalama care.
+
+- **Navbar | Contact** - This navigates users to the contact page where they can complete a form to get in touch with the business or inquiry about a service
+
+
+2) Expand/collapse button in services section
 - 'Read more' to expand 
 - 'Show less' to collapse
 - Corresponding services icon are clickable with the same  functionality as the 'Read more'/'Show less' buttons 
@@ -199,19 +214,19 @@ There should be confirmation to acknowledge submission of application form
 
 ### Wireframes
 <figure>
-  <img src="docs/wireframe-home.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-home.png" width="50%" height="50%">
   <figcaption><strong><em>Wireframe: Home page</em></strong></figcaption>
 </figure>
 <figure>
-  <img src="docs/wireframe-about.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-about.png" width="50%" height="50%">
   <figcaption><strong><em>Wireframe: About page</em></strong></figcaption>
 </figure>
 <figure>
-  <img src="docs/wireframe-contact.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-contact.png" width="50%" height="50%">
   <figcaption><strong><em>Wireframe: Contact Us page</em></strong></figcaption>
 </figure>
 <figure>
-  <img src="docs/wireframe-careers.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-careers.png" width="50%" height="50%">
   <figcaption><strong><em>Wireframe: Careers page</em></strong></figcaption>
 </figure>
 

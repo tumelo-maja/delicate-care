@@ -553,7 +553,7 @@ footer h2 {
 
 .footer-video .cta-video {
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, 0);
   height: 100px;
@@ -961,10 +961,11 @@ footer h3::after {
 
   .footer-video .cta-video {
     width: 216px;
-    top: 63%;
+    top: 58%;
     left: 50%;
   }
 
+  
   .footer-video,
   .contact-info,
   .business-hours {

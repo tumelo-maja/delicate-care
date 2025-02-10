@@ -1062,6 +1062,10 @@ footer h3::after {
   .onboard-text {
     min-height: 82px;
   }
+
+  #services {
+    padding-top: 4rem;
+  }
 }
 
 /*---------------------------- for laptop screens (1024px) */

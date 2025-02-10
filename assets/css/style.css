@@ -327,15 +327,14 @@ h3 {
   align-content: center;
 }
 
-/*----------- float image - home,about,contact*/
 
-.float-image img,
-.contact-image {
-  background-position: center center;
-  background-size: cover;
-  height: 200px;
+.float-image {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.float-image img {
   width: 100%;
-  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -351,13 +350,14 @@ h3 {
   align-content: center;
 }
 
-/*---------- Intro*/
-.intro-item {
-  align-content: start;
+.intro-item p {
+  display: flex;
+  justify-self: center;
 }
 
 .intro-item h2 {
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 #intro-image2,
@@ -391,7 +391,6 @@ h3 {
   border-top: 0;
 }
 
-/* remove elements from display*/
 .hidden-item {
   display: none;
 }
@@ -761,11 +760,10 @@ footer h3::after {
   font-size: 120%;
 }
 
-/*---------- Success page ---*/
-
 /*------------- about page ---*/
 .intro-image {
   align-content: center;
+  justify-content: center;
 }
 
 .statement p {
@@ -829,10 +827,6 @@ footer h3::after {
 /*--------------------------- Media queries --*/
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
-  /*----------- float image ---*/
-  .float-image img {
-    height: 250px;
-  }
 
   /*---------- services / onboarding images  --*/
   .service-img,
@@ -856,11 +850,9 @@ footer h3::after {
 
 /*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
-  /*----------- float image ---*/
-  .float-image img {
-    height: 280px;
-  }
-  /*---------- Intro*/
+
+  /*---------- about/ home intro ---*/
+  .intro-text p, 
   .about-text p {
     padding: 5px;
   }
@@ -889,17 +881,13 @@ footer h3::after {
 
 /*----------------------------Bootstrap breakpoint for medium screens (768px) */
 @media screen and (min-width: 768px) {
-  /*----------- float image ---*/
-  .float-image img {
-    height: 250px;
-  }
-
-  .float-image {
-    padding: 18px;
+  /*----------- intro ---*/
+  .intro-item,
+  .intro-text {
+    align-self: center;
   }
 
   /*------------ hero*/
-
   .hero {
     height: 500px;
     background-position: top center;
@@ -930,25 +918,14 @@ footer h3::after {
   /*---------- Intro*/
   #intro-image2,
   #intro-cta {
-    order: 0; /*---- change image order*/
+    order: 0; 
   }
 
   .intro-text {
-    align-self: center;
-  }
-
-  .intro-text p {
-    padding: 0 5px;
-    line-height: 1.5rem;
-  }
-
-  .intro-item {
-    height: 300px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   /*--------- services section --*/
-
   .service-body {
     min-height: 220px;
   }
@@ -1042,9 +1019,9 @@ footer h3::after {
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
 @media screen and (min-width: 992px) {
-  /*----------- float image ---*/
-  .float-image img {
-    height: 300px;
+  /*----------- intro ---*/
+  .intro-item {
+    align-self: start;
   }
 
   /*------------ hero*/
@@ -1052,7 +1029,8 @@ footer h3::after {
     height: 600px;
   }
 
-  /*------- about ---*/
+  /*------- home / about ---*/
+  .intro-text, 
   .about-text {
     font-size: 1.1rem;
   }
@@ -1084,11 +1062,6 @@ footer h3::after {
     height: 65vh;
   }
 
-  /*------- about ---*/
-  .about-text {
-    font-size: 1.1rem;
-  }
-
   /*---------- services / onboarding images  --*/
   .service-img,
   .onboard-step img {
@@ -1104,23 +1077,19 @@ footer h3::after {
 
 /*-------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px)) */
 @media screen and (min-width: 1200px) {
-  /*----------- float image - home,about,contact*/
-  .float-image img {
-    height: 350px;
-  }
-
-  /*------- about ---*/
+  /*------- home / about ---*/
+  .intro-text, 
   .about-text {
     font-size: 1.3rem;
   }
 
   /*------------ hero*/
-
   .hero {
     height: 550px;
   }
 
-  /*---------- services section --*/
+  /*---------- services / float --*/
+  .float-image,
   .service-item {
     padding: 25px 50px;
   }
@@ -1149,13 +1118,10 @@ footer h3::after {
 
 /*----------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px)) */
 @media screen and (min-width: 1440px) {
-  /*----------- float image ---*/
-  .float-image img {
-    height: 400px;
-  }
 
-  /*------- about ---*/
-  .about-text {
+  /*------- home / about ---*/
+  .intro-text, 
+  .about-text  {
     font-size: 1.4rem;
   }
 

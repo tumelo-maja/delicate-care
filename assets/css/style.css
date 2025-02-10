@@ -229,6 +229,10 @@ h1 {
   width: 60px;
 }
 
+.navbar-nav a:hover {
+  color: var(--thin-air);
+}
+
 .navbar-nav a::after {
   content: "";
   width: 100%;
@@ -237,11 +241,8 @@ h1 {
   transform-origin: center;
   transition: transform 0.8s ease;
   transform: scale(0);
-}
-
-.navbar-nav a:hover::before,
-.navbar-nav a:hover::after {
-  transform: scale(1);
+  color: var(--thin-air);
+  background-color: var(--thin-air);
 }
 
 .navbar-nav .selected a::after {
@@ -253,6 +254,20 @@ h1 {
   transition: transform 0.8s ease;
   transform: scale(1);
 }
+
+.navbar-nav a:hover::after {
+  transform: scale(1);
+  color: var(--thin-air);
+  background-color: var(--thin-air);
+}
+
+.navbar-brand {
+color: var(--white-edgar);
+}
+
+.navbar-brand:hover {
+  color: var(--thin-air);
+  }
 
 #services {
   padding-top: 2rem;

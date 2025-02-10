@@ -10,7 +10,35 @@ The site is helps individuals and families understand available care options for
 
 
 ### Existing Features
-
+1) Logo icon and site name
+2) Navbar - pages: Home, About, Services and Contact
+3) Expand/collapes button in services section
+- 'Read more' to expand 
+- 'Show less' to collapse
+- Correspondin services icon are clickable with the same  functionality as the 'Read more'/'Show less' buttons 
+4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
+- On click, they redirect the user to the contact page where there is a contact form
+5) Contact information in the footer
+- phone number with a clickable icon to initiate a call (also available in about and success page)
+- email address with a clickable icon for sending an email (opens and email app or prompts user to email - also available in about page)
+- office address with clickable icon which opens a google maps link in new tab
+6) Disability accessibility icon - informs users that the business premises support and are accessible to individuals with mobility needs
+7) Video in footer
+- shows an elder man being comforted overlaid witha contact us button
+8) Business hours section in the footer
+- Shows the office opening and closing times during weekdays, weekend and bank holidays
+9) After hours notice in the footer
+- informs users how to contact the business outside working hours
+10) Link to Images and video credits modal in the footer
+- when clicked, it open a modal listing sources of images, video and icon used inthe project
+11) Social media links
+- when click, each link will open in a new tab and direct user to the home page of the relevant social media 
+11) Contact form in contact page
+- Comprises name, email, phone number, inquiry type (radio select) and message (text-area)
+- all fields are required before form submission
+12) success page
+- appears when user submits a valid form and it confirms submission was successful and has a return to homepage link to redirect user back to home page
+13) 
 
 
 ### Features Left to Implement

@@ -1,6 +1,6 @@
 # Zalama Care Services
 
-Zalama care service is a site aim at providing infomartion about social care services offered at Zalama care. The site offers visitors seeking care for themselves or their loved ones.
+Zalama care service is a site aim at providing information about social care services offered at Zalama care. The site offers visitors seeking care for themselves or their loved ones.
 
 Target audience: adults with limited mobility or living with disability, elderly, individuals/families seeking care support for their loved ones and individuals who have just had a surgery and require support temporarily.
 
@@ -12,27 +12,27 @@ The site is helps individuals and families understand available care options for
 ### Existing Features
 1) Logo icon and site name
 2) Navbar - pages: Home, About, Services and Contact
-3) Expand/collapes button in services section
+3) Expand/collapse button in services section
 - 'Read more' to expand 
 - 'Show less' to collapse
-- Correspondin services icon are clickable with the same  functionality as the 'Read more'/'Show less' buttons 
+- Corresponding services icon are clickable with the same  functionality as the 'Read more'/'Show less' buttons 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form
 5) Contact information in the footer
 - phone number with a clickable icon to initiate a call (also available in about and success page)
 - email address with a clickable icon for sending an email (opens and email app or prompts user to email - also available in about page)
-- office address with clickable icon which opens a google maps link in new tab
+- office address with clickable icon which opens a google maps link in new tab. This helps users to easily and conveniently locate the business 
 6) Disability accessibility icon - informs users that the business premises support and are accessible to individuals with mobility needs
 7) Video in footer
-- shows an elder man being comforted overlaid witha contact us button
+- shows an elder man being comforted overlaid with a contact us button
 8) Business hours section in the footer
 - Shows the office opening and closing times during weekdays, weekend and bank holidays
 9) After hours notice in the footer
 - informs users how to contact the business outside working hours
 10) Link to Images and video credits modal in the footer
-- when clicked, it open a modal listing sources of images, video and icon used inthe project
+- when clicked, it open a modal listing sources of images, video and icon used in the project
 11) Social media links
-- when click, each link will open in a new tab and direct user to the home page of the relevant social media 
+- when clicked, each link will open in a new tab and direct user to the home page of the relevant social media 
 11) Contact form in contact page
 - Comprises name, email, phone number, inquiry type (radio select) and message (text-area)
 - all fields are required before form submission
@@ -45,7 +45,7 @@ The site is helps individuals and families understand available care options for
 ### Features Left to Implement
 This subsection covers other feature that would add good value to the site but are reserved for future releases of the project site.
 1) Testimonials image carousel
-- This would display past and existing cleint's stories/testimonial about their experiences with Zalama care's level of service. This is to build trust and confidence in the brand/service for the business.
+- This would display past and existing client's stories/testimonial about their experiences with Zalama care's level of service. This is to build trust and confidence in the brand/service for the business.
 2) Sign-up form for newsletter 
 - A form to allow users to subscribe for business news, updates and any events from the business 
 3) Careers's page
@@ -252,5 +252,6 @@ Codepen for coloring png icons using hex color code (https://codepen.io/sosuke/p
 
 Learn CSS ::before and ::after in 4 minutes - used for nav hover/ footer underline (https://www.youtube.com/watch?v=dIUOWdwwZBw)
 
-JavaScript to collapse Bootsrap mobile navbar when navigating to in-page links
+JavaScript to collapse Bootstrap mobile navbar when navigating to in-page links
 
+Spell checker extension for grammar fixes in the readme (https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)

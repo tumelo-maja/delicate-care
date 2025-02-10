@@ -1,10 +1,10 @@
 # Zalama Care Services
 
-Zalama care service is a site aim at providing infomartion about social care services offered at Zalama care. The site offers visitors seeking care for themselves or their loved one.
+Zalama care service is a site aim at providing infomartion about social care services offered at Zalama care. The site offers visitors seeking care for themselves or their loved ones.
 
-target audience: adults with limited mobility or living with disability, elderly, individuals/families seeking care support for their loved ones.
+Target audience: adults with limited mobility or living with disability, elderly, individuals/families seeking care support for their loved ones and individuals who have just had a surgery and require support temporarily.
 
-the site is helps individuals and families understand available care option for themselves or their loved ones. This site will ensure that the quality of life for our clients remain positive and their dignity is respected.
+The site is helps individuals and families understand available care options for themselves or their loved ones. This site will ensure that the quality of life for our clients remain positive and their dignity is respected.
 
 ## Features 
 

@@ -76,14 +76,32 @@ nav,
   color: var(--white-edgar);
 }
 
-.text-footer i,
-#team i,
-.fa-phone,
-.text-footer i:hover,
-#team i:hover,
-.fa-phone:hover {
+#team i ,
+.thank-you i {
   color: var(--velvet-evening);
 }
+
+.social-media i:hover {
+  transform: scale(1.5);
+}
+
+.contact-info i,
+.office-note i {
+  color: var(--white-edgar);
+}
+
+.contact-info i:hover,
+.office-note i:hover,
+.social-media i:hover,
+#team i:hover,
+.thank-you i:hover {
+  transform: scale(1.5);
+}
+
+.credits a:hover {
+  text-decoration: underline;
+} 
+
 
 .text-body h1,
 .text-body h2,
@@ -164,10 +182,6 @@ footer h3::after {
   background-color: var(--white-edgar);
 }
 
-.social-media i {
-  color: var(--velvet-evening);
-}
-
 .credits a {
   color: var(--white-edgar);
 }
@@ -192,6 +206,8 @@ footer {
 #contact-form input[type="radio"] {
   accent-color: var(--velvet-evening);
 }
+
+
 /*----- end colors------*/
 
 nav {
@@ -254,11 +270,7 @@ h3 {
   font-size: 1rem;
 }
 
-.text-footer i:hover,
-#team i:hover,
-.fa-phone:hover {
-  transform: scale(1.5);
-}
+
 
 .text-body {
   padding: 20px;
@@ -566,7 +578,7 @@ footer h3::after {
   content: "";
   width: 40%;
   height: 5px;
-  background-color: var(--light-gray);
+  background-color: var(--white-edgar);
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -643,10 +655,6 @@ footer h3::after {
 .social-media i {
   font-size: 2rem;
   color: var(--white-edgar);
-}
-
-.social-media i:hover {
-  transform: scale(1.5);
 }
 
 /*----  credits ---*/

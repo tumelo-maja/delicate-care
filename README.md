@@ -38,7 +38,8 @@ The site is helps individuals and families understand available care options for
 - all fields are required before form submission
 12) success page
 - appears when user submits a valid form and it confirms submission was successful and has a return to homepage link to redirect user back to home page
-13) 
+13) Responsive design
+- Website layout and outlook remains consistent on different screen sizes which improves user experience 
 
 
 ### Features Left to Implement

@@ -422,6 +422,15 @@ The website's layout and responsivity was tested on the commonly used browsers. 
 
 ### Code validation
 
+| Page Tested | Screenshot of Errors | Solution Applied   | Screenshot of Clear Validator Output |  
+|------------ |------------          |------------        |------------                          |
+| index.html  |                      |                    |                                      |    
+| about.html  |                      |                    |                                      |    
+| contact-us.html  |                      |                    |                                      |    
+| success.html  |                      |                    |                                      |    
+| styles.css  |                      |                    |                                      |    
+
+
 ### Bugs
 
 ### Lighthouse Testing

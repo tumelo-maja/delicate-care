@@ -219,138 +219,139 @@ Other goals:
 - Share information about social care options we offer
 - Increase engagement from visitors through enquiries and social media
 - Improve online presence with high quality and accessible website
-- attrack potential employees through careers's page
+- attract potential employees through careers's page
 
 ### User stories
 
-1) Accessible and User-Friendly Navigation (Must-have)
+- **Accessible and User-Friendly Navigation (must-have)**
 
-Story: 
-As a visitor (general), I want a user-friendly website with a clear and intuitive navigation so I can find specific information about care services.
+  - Story: 
+  As a visitor (general), I want a user-friendly website with a clear and intuitive navigation so I can find specific information about care services.
 
-Acceptance Criteria:
-The website layout and navigation are intuitive making it easier for visitors to find important information on the site
-The website is fully responsive and accessible on various devices with different screen sizes
-All website content can be accessed by assistive technologies like screen-readers 
+  - Acceptance Criteria:
+  The website layout and navigation are intuitive making it easier for visitors to find important information on the site
+  The website is fully responsive and accessible on various devices with different screen sizes
+  All website content can be accessed by assistive technologies like screen-readers 
 
-Tasks:
-Implement HTML/CSS code to ensure responsiveness on different screen sizes
-Use the appropriate aria attributes to ensure compatability with assistive technologies (e.g. screen readers)
-Implement a user-friendly and intuitive layout with clear navigation for the website for ease of access to important information
+  - Tasks:
+  Implement HTML/CSS code to ensure responsiveness on different screen sizes
+  Use the appropriate aria attributes to ensure compatibility with assistive technologies (e.g. screen readers)
+  Implement a user-friendly and intuitive layout with clear navigation for the website for ease of access to important information
 
-2) Information on types of services offered (must-have)
+- **Information on types of services offered (must-have)**
 
-Story: 
-As a potential service user (or family/friend of), I need detailed descriptions of types of services offered so I can decide on a suitable service for me (or loved one).
+  - Story: 
+  As a potential service user (or family/friend of), I need detailed descriptions of types of services offered so I can decide on a suitable service for me (or loved one).
 
-Acceptance Criteria:
-There is a dedicated page with detailed information and description of different types of services offered
-There is a section in the home page with brief/summary information about different types of services offered and with links to the services page
+  - Acceptance Criteria:
+  There is a dedicated page with detailed information and description of different types of services offered
+  There is a section in the home page with brief/summary information about different types of services offered and with links to the services page
 
-Task:
-implement HTML to provide descriptions of services in the services page and in a section of the home page 
-Structure and style the content to include quality images
-Include a clear CTA button/link in under each service type in the services page 
-ensure responsivity across different screen sizes
+  - Task:
+  implement HTML to provide descriptions of services in the services page and in a section of the home page 
+  Structure and style the content to include quality images
+  Include a clear CTA button/link in under each service type in the services page 
+  ensure responsivity across different screen sizes
 
-3) Contact and address information (must-have)
+- **Contact and address information (must-have)**
 
-Story:
-As a family member seeking care support for my loved one, I need to find contact details so I can call or visit the office and enquire about some of the services.
+  - Story:
+  As a family member seeking care support for my loved one, I need to find contact details so I can call or visit the office and enquire about some of the services.
 
-Acceptance Criteria:
-Essential contact information is present in a clear and well-structured manner (phone, email, address and operating times) 
+  - Acceptance Criteria:
+  Essential contact information is present in a clear and well-structured manner (phone, email, address and operating times) 
 
-Task:
-Implement HTML section for the contact information (phone, email and address) and business hours
-Structure and style the content to ensure responsivity on screen sizes
+  - Task:
+  Implement HTML section for the contact information (phone, email and address) and business hours
+  Structure and style the content to ensure responsivity on screen sizes
 
-4) Enquiry form (must have)
+- **Enquiry form (must-have)**
 
-Story:
-As potential service user, I want to enquire about my specific needs for care and ask to be contacted.
+- Story:
+  As potential service user, I want to enquire about my specific needs for care and ask to be contacted.
 
-Acceptance Criteria:
-A page dedicated for enquiries with a user-friendly form to submit, the form confirms on submission
-Add floating CTA buttons so visitors can click to be re-directed to the contact us page 
-All form fields are validated where required and form is responsive 
+  - Acceptance Criteria:
+  A page dedicated for enquiries with a user-friendly form to submit, the form confirms on submission
+  Add floating CTA buttons so visitors can click to be re-directed to the contact us page 
+  All form fields are validated where required and form is responsive 
 
-Task:
-Implement an enquiry form in the contact us page 
-Ensure all essential fields in the form are validated before submission
-create a confirmation page to acknowledge submission
+  - Task:
+  Implement an enquiry form in the contact us page 
+  Ensure all essential fields in the form are validated before submission
+  create a confirmation page to acknowledge submission
 
-5) Company mission, vision, values and team (should have)
-Story:
-As a family member/potential service user, I want to learn and understand the company's values and team expertise so I can feel confident about my expectations of care for my loved one 
+- **Company mission, vision, values and team (should-have)**
 
-Acceptance Criteria:
-An about page clearly presents the company's vision and mission statements in an easy to read manner
-organisation staff are displayed with their name, email and one-liner about why they're in social care 
-core values are briefly described in the 'why choose us' section of the home page with a link to 'about' page
-CTA to guide visitors to explore more about our service (links to services section) or contact us (links to contact us)
+  - Story:
+  As a family member/potential service user, I want to learn and understand the company's values and team expertise so I can feel confident about my expectations of care for my loved one 
 
-Task:
-Implement about-us page with the company's mission & vision statements presented in a friendly and informative format
-Add 'Our team' section in the about page, include an image, name, role, email and one line of positive comment about work
-present core values in the 'why chose us' section using icons and brief description of those values
-Include a small text with links/buttons to invite the visitors to explore 'services' sections or CTA for contact us
+  - Acceptance Criteria:
+  An about page clearly presents the company's vision and mission statements in an easy to read manner
+  organisation staff are displayed with their name, email and one-liner about why they're in social care 
+  core values are briefly described in the 'why choose us' section of the home page with a link to 'about' page
+  CTA to guide visitors to explore more about our service (links to services section) or contact us (links to contact us)
 
-5) Onboarding steps (should-have)
+  - Task:
+  Implement about-us page with the company's mission & vision statements presented in a friendly and informative format
+  Add 'Our team' section in the about page, include an image, name, role, email and one line of positive comment about work
+  present core values in the 'why chose us' section using icons and brief description of those values
+  Include a small text with links/buttons to invite the visitors to explore 'services' sections or CTA for contact us
 
-User story:
-As a prospective service user/family member, I want to see a brief outline of the different stages to go through in order to receive care services, so i can make an informed decision about requesting the service for myself/family member.
+- **Onboarding steps (should-have)**
 
-Acceptance criteria:
-A section that gives an outline of the 4 stages of new service user onboarding from initial enquiry
-Each step/stage is clearly presented in an easy to read format
-CTA is included to guide the client towards the inquiry form
+  - User story:
+  As a prospective service user/family member, I want to see a brief outline of the different stages to go through in order to receive care services, so i can make an informed decision about requesting the service for myself/family member.
 
-Task:
-Add HTML and content for onboarding section
-Style and format the section with the use of appropriate icons/images
-Include a clear CTA for visitors to send an inquiry via the contact-us page 
+  - Acceptance criteria:
+  A section that gives an outline of the 4 stages of new service user onboarding from initial enquiry
+  Each step/stage is clearly presented in an easy to read format
+  CTA is included to guide the client towards the inquiry form
 
-6) Testimonials  with positive stories (could have)
+  - Task:
+  Add HTML and content for onboarding section
+  Style and format the section with the use of appropriate icons/images
+  Include a clear CTA for visitors to send an inquiry via the contact-us page 
 
-Story:
-As a potential service user, I want to read testimonies from from current/past service users so I can be assured and confident about the quality of service offered.
+- **Testimonials  with positive stories (could-have)**
 
-Acceptance Criteria:
-A dedicated testimonial section features stories from current clients, shows name of client, type of service, year and one liner of feedback
-Visually appealing high-quality images have been used and visitors can navigate through multiple testimonies with ease.
+  - Story:
+  As a potential service user, I want to read testimonies from from current/past service users so I can be assured and confident about the quality of service offered.
 
-Task:
-Create an auto sliding carousel of bootstrap cards with essential text (name, service type, year service received, comment) and quality images
-Style the section to ensure it is responsive 
+  - Acceptance Criteria:
+  A dedicated testimonial section features stories from current clients, shows name of client, type of service, year and one liner of feedback
+  Visually appealing high-quality images have been used and visitors can navigate through multiple testimonies with ease.
 
-7) Newsletter Sign-Up form (Could have)
+  - Task:
+  Create an auto sliding carousel of bootstrap cards with essential text (name, service type, year service received, comment) and quality images
+  Style the section to ensure it is responsive 
 
-Story:
-As a family member of service user, I want to sign-up for newsletter so I can stay informed about tips and guides we can employ to support our loved one 
+- **Newsletter Sign-Up form (could-have)**
 
-Acceptance Criteria:
-Newsletter sign-up form is available at the bottom of all pages
-Visitors get confirmation about their subsciption after submiting the form
+  - Story:
+  As a family member of service user, I want to sign-up for newsletter so I can stay informed about tips and guides we can employ to support our loved one 
 
-Tasks:
-Create a sign-up form for the newsletter, include fields (full name and email)
-Imeplement confirmation message once submission has been completed.
+  - Acceptance Criteria:
+  Newsletter sign-up form is available at the bottom of all pages
+  Visitors get confirmation about their subscription after submitting the form
 
-8) Careers page for recruitment (could-have)
+  - Tasks:
+  Create a sign-up form for the newsletter, include fields (full name and email)
+  Implement confirmation message once submission has been completed.
 
-Story:
-As a job seeker, I want to find information about career/employment opportunities so I can submit an application online to be considered for future opportunities 
+- **Careers page for recruitment (could-have)**
 
-Acceptance Criteria:
-A careers page has been created with a responsive application form
-The page has content relevant for job seekers explaining benefits, job requirements and overview about working for the company
-Confirmation is sent when the user (job seeker) submits an application form
+  - Story:
+  As a job seeker, I want to find information about career/employment opportunities so I can submit an application online to be considered for future opportunities 
 
-Task:
-create a careers page with an overview of benefits, general job requirements
-Add an application form with fields (name, contact, email, address, experience, submit CV)
-There should be confirmation to acknowledge submission of application form
+  - Acceptance Criteria:
+  A careers page has been created with a responsive application form
+  The page has content relevant for job seekers explaining benefits, job requirements and overview about working for the company
+  Confirmation is sent when the user (job seeker) submits an application form
+
+  - Task:
+  create a careers page with an overview of benefits, general job requirements
+  Add an application form with fields (name, contact, email, address, experience, submit CV)
+  There should be confirmation to acknowledge submission of application form
 
 ### Wireframes
 <figure>
@@ -377,6 +378,19 @@ We used the color pallet generator from
 
 ## Testing 
 
+### Feature Testing
+
+### Browser Compatibility
+
+### Responsive Testing 
+
+### Code validation
+
+### Bugs
+
+### Lighthouse Testing
+
+### Accessibility Testing
 
 
 ## Deployment

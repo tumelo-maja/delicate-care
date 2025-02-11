@@ -379,6 +379,13 @@ We used the color pallet generator from
 ## Testing 
 
 ### Feature Testing
+For each interactive feature, a testing was conducted and the results are outlined below in a table
+
+| Feature    | Testing | Outcome |
+| -------- | ------- |------- |
+| Logo Icon  | Click on the logo    | User is brought to the home  |
+
+
 
 ### Browser Compatibility
 

@@ -179,6 +179,19 @@ The footer is consistent section featured in all pages similar to the navbar. Th
   
   - Name and message field accept text as input, phone number can only numerical integers, email address must follow email address format including having the '@' symbol. The user is required to select the type of inquiry they have from the given options. 
 
+
+- **Success: valid submission** 
+  <figure>
+    <img src="docs/site-screenshots/success-large-screen.png" width="60%" height="40%">
+    <figcaption><strong><em>Success: valid form submission</em></strong></figcaption>
+  </figure>
+
+  - Successful submission confirmation will appear when the user submits a valid form. This confirmation is good user experience as it alerts the user the their form was submitted successfully. It also provides a message on the next step i.e. a team member will reach to them as soon as possible. This create a positive anticipation from the user wanting to communicate with us.
+
+  - Return to homepage - There are no further actions once the form is successfully submitted, the user is shown a way back to the home page.
+
+  - Urgent queries notice - This is useful for users who have submitted a form but require urgent assistance. The presented contact number is reachable for urgent queries even after office hours. 
+
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form
 5) Contact information in the footer

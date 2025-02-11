@@ -142,7 +142,8 @@ The footer is consistent section featured in all pages similar to the navbar. Th
 
   - This section provides users with information about the company's history which will add to its credibility and build trust with users. 
 
-  - Family lunch image - A quality image with positive emotions will further enhance user experience visually.   
+  - Family lunch image - A quality image with positive emotions will further enhance user experience visually. 
+    
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form

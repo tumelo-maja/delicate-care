@@ -167,6 +167,18 @@ The footer is consistent section featured in all pages similar to the navbar. Th
 
   - field staff count - Showing number of available field staff builds trust and confidence in our capability to provide services. 
 
+- **Contact: Contact form** 
+  <figure>
+    <img src="docs/site-screenshots/contact-form-large-screen.png" width="60%" height="40%">
+    <figcaption><strong><em>Contact: Contact form</em></strong></figcaption>
+  </figure>
+
+  - Form - this allows users to contact the business about any questions they may have about care services and or to initiate getting a package for Zalama Care. This is a valuable feature as it facilitates communication between the users and the business with ease. 
+
+  - Form validation - all fields in the form are required. Users will not be able to submit the form with empty field or invalid inputs. 
+  
+  - Name and message field accept text as input, phone number can only numerical integers, email address must follow email address format including having the '@' symbol. The user is required to select the type of inquiry they have from the given options. 
+
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form
 5) Contact information in the footer

@@ -381,10 +381,14 @@ We used the color pallet generator from
 ### Feature Testing
 For each interactive feature, a testing was conducted and the results are outlined below in a table
 
-| Feature         | Testing | Outcome |
-| --------        | ------- |------- |
-| Logo Icon       | Click on the logo            | User is brought to the home page |
-| Navbar \| Home  | Click on "Home" in Navbar    | User is brought to the home page |
+| Feature                 | Testing                         | Outcome                             |
+| --------                | -------                         |-------                              |
+| Logo Icon               | Click on the logo               | User is brought to the home page    |
+| Navbar \| Home          | Click on "HOME" in Navbar       | User is brought to the home page    |
+| Navbar \| About         | Click on "ABOUT" in Navbar      | User is directed to the about page  |
+| Navbar \| Services      | Click on "SERVICES" in Navbar   | User is directed to the home page  and scrolled down to the services section |
+| Navbar \| Contact       | Click on "CONTACT" in Navbar    | User is directed to the contact page  |
+
 
 
 
@@ -432,3 +436,6 @@ Learn CSS ::before and ::after in 4 minutes - used for nav hover/ footer underli
 JavaScript to collapse Bootstrap mobile navbar when navigating to in-page links
 
 Spell checker extension for grammar fixes in the readme (https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+This website was used to create the MD tables:
+https://www.codecademy.com/resources/docs/markdown/tables

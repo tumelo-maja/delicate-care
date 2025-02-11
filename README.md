@@ -75,27 +75,35 @@ The site is helps individuals and families understand available care options for
     <figcaption><strong><em>Getting started section: Home page</em></strong></figcaption>
   </figure>
 
-- **Onboarding steps** - This section provides an easy guide to the onboarding steps for users interested in get care support from Zalama care. The users are able to have information on what to expect once they complete a contact form or reach out to us by any means. This information shows transparency and will enhance user's confidence in our care services. 
-- Call-to-Action - There is a clear and visible prompt 'Let's talk today!' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
+- **Onboarding steps** 
+  - This section provides an easy guide to the onboarding steps for users interested in get care support from Zalama care. The users are able to have information on what to expect once they complete a contact form or reach out to us by any means. This information shows transparency and will enhance user's confidence in our care services. 
+  - Call-to-Action - There is a clear and visible prompt 'Let's talk today!' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
 
 7) **Find us section**
-  <figure>
-    <img src="docs/site-screenshots/footer-section-large-screen.png" width="80%" height="50%">
-    <figcaption><strong><em>Getting started section: Home page</em></strong></figcaption>
-  </figure>
 
 The footer is consistent section featured in all pages similar to the navbar. These are the sub-sections within the footer:
 
 - **Contact information** - This sub-section provides the user with essential contact information about the business. 
+  <figure>
+    <img src="docs/site-screenshots/footer-contact-info-large-screen.png" width="40%" height="40%">
+    <figcaption><strong><em>Contact Info in footer: All pages</em></strong></figcaption>
+  </figure>
 
-- Phone number - Full contact number with the relevant dial extension. For convenience, the phone icon besides the phone number is clickable and will take mobile users dial pad screen with the contact number inputted and ready to call. For laptop and desktop users, it will prompt client to make a call if they have a relevant application for making calls.
+  - Phone number - Full contact number with the relevant dial extension. For convenience, the phone icon besides the phone number is clickable and will take mobile users dial pad screen with the contact number inputted and ready to call. For laptop and desktop users, it will prompt client to make a call if they have a relevant application for making calls.
 
-- Email address - An info@zalamacare.com email address is shown for users who prefer to send an email. Similar to the phone icon, the 'envelope' icon besides the email address is also clickable and with prompt user to send and email with default emailing application on their device. 
+  - Email address - An info@zalamacare.com email address is shown for users who prefer to send an email. Similar to the phone icon, the 'envelope' icon besides the email address is also clickable and with prompt user to send and email with default emailing application on their device. 
 
-- Office address - The location of our offices is presented so users can see how close or far the offices are to their places of residence. This is also useful for users who prefer to visit our offices. The location icon is clickable and will launch a navigation app (e.g. Google Maps App) on mobile devices. For larger devices it will open a new tab in the browser with a location on Google maps.
+  - Office address - The location of our offices is presented so users can see how close or far the offices are to their places of residence. This is also useful for users who prefer to visit our offices. The location icon is clickable and will launch a navigation app (e.g. Google Maps App) on mobile devices. For larger devices it will open a new tab in the browser with a location on Google maps.
 
-- Disability accessibility - A note is shown to users so they know that our business offices accommodate individuals with mobility needs. This will enhance comfort and confidence in users with mobility needs who may want to visit our offices. 
+  - Disability accessibility - A note is shown to users so they know that our business offices accommodate individuals with mobility needs. This will enhance comfort and confidence in users with mobility needs who may want to visit our offices. 
 
+- **Video clip with CTA** 
+  <figure>
+    <img src="docs/site-screenshots/footer-video-clip-large-screen.png" width="40%" height="40%">
+    <figcaption><strong><em>Video in footer: All pages</em></strong></figcaption>
+  </figure>
+  
+  - A good quality video with dimmed brightness and a 'Contact us' button offer a visually appealing user experience while prompting them to contact us. The video auto-plays in a loop but is always muted and there are no controls to interact with the video
 
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons

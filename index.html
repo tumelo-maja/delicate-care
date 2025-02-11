@@ -590,9 +590,13 @@
           <div class="col-12 col-md-4 text-center contact-info text-footer">
             <h3>Contact info</h3>
             <p>
-              <a href="tel:+441234567890" aria-label="Call +44 1234 567890"><i class="fa-solid fa-phone"></i></a>
+              <a href="tel:+441234567890" aria-label="Call +44 1234 567890"
+                ><i class="fa-solid fa-phone"></i
+              ></a>
               +4412 345 67890<br />
-              <a href="mailto:info@zalamacare.com" aria-label="Send an email to info@zalamacare.com"
+              <a
+                href="mailto:info@zalamacare.com"
+                aria-label="Send an email to info@zalamacare.com"
                 ><i class="fa-solid fa-envelope"></i
               ></a>
               info@zalamacare.com
@@ -615,10 +619,16 @@
               <p class="accessibilty-note">
                 Our offices are accessible for people with mobility needs
               </p>
-              <i
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#accessibilityModal"
+                aria-label="Read more information about our office accessibility in a modal window"
+                ><i
                 class="fa-brands fa-accessible-icon fa-2xl fa-beat"
                 title="Our offices are accessible for people with mobility needs"
               ></i>
+              </a>
             </div>
           </div>
           <div class="col-12 col-md-4 text-center footer-video">
@@ -665,13 +675,19 @@
               *Should you require any urgent assistance outside office hours,
               please contact our Duty Officer on
               <strong>+4412 345 67890</strong>
-              <a href="tel:+441234567890" aria-label="Call +44 1234 567890"><i class="fa-solid fa-phone"></i></a>.
+              <a href="tel:+441234567890" aria-label="Call +44 1234 567890"
+                ><i class="fa-solid fa-phone"></i></a
+              >.
             </p>
           </div>
           <div class="col-12 col-md-6 text-center text-footer credits">
             <p>© 2025 Zalama Care - Website for educational purposes only</p>
             <p>
-              <a href="#" data-bs-toggle="modal" data-bs-target="#creditsModal" aria-label="View images and video credits in a modal window"
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#creditsModal"
+                aria-label="View images and video credits in a modal window"
                 >Images & Video Credits
               </a>
             </p>
@@ -932,6 +948,42 @@
               <a href="https://pixabay.com/">Pixabay</a>,
               <a href="https://www.pexels.com/">Pexels</a> and
               <a href="https://www.unsplash.com/">Unsplash</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap accessibility Modal -->
+    <div
+      class="modal fade"
+      id="accessibilityModal"
+      tabindex="-1"
+      aria-labelledby="accessibilityModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="accessibilityModalLabel">
+              Accessibility info
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Our office are fully accessible for individuals with mobility
+              needs and we have designated parking spaces for our visitors.
+            </p>
+            <p>
+              If you require assistance or have specific requirements for your
+              visit, kindly let us know in advance and we will do our best to
+              accommodate you or your loved ones.
             </p>
           </div>
         </div>

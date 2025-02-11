@@ -134,6 +134,16 @@ The footer is consistent section featured in all pages similar to the navbar. Th
 
   - This section provides links to social media accounts for the business. NB: since this is a fictional business it has not accounts on those platforms. The links will open in a new tab and direct the user to the home page of each social platform. The icons enlarge when hovered to enhance user experience. 
 
+- **About us: Our history** 
+  <figure>
+    <img src="docs/site-screenshots/about-history-large-screen.png" width="60%" height="40%">
+    <figcaption><strong><em>Our history: About page</em></strong></figcaption>
+  </figure>
+
+  - This section provides users with information about the company's history which will add to its credibility and build trust with users. 
+
+  - Family lunch image - A quality image with positive emotions will further enhance user experience visually.   
+
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form
 5) Contact information in the footer

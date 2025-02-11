@@ -143,7 +143,17 @@ The footer is consistent section featured in all pages similar to the navbar. Th
   - This section provides users with information about the company's history which will add to its credibility and build trust with users. 
 
   - Family lunch image - A quality image with positive emotions will further enhance user experience visually. 
-    
+
+- **About us: Our Mission and Vision sections** 
+  <figure>
+    <img src="docs/site-screenshots/about-mission-vision-large-screen.png" width="60%" height="40%">
+    <figcaption><strong><em>Our Mission and Vision: About page</em></strong></figcaption>
+  </figure>
+
+  - Mission and vision statements enhance user's confidence in the expected service and assures them that our goals are aligned their care needs.
+
+  - Images - Good quality images showing happy people will enhance and excite a positive emotion in the user.  
+
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form

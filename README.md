@@ -165,6 +165,8 @@ The footer is consistent section featured in all pages similar to the navbar. Th
 
   - contact info - Each team member has phone number and email address. This will make it more convenient for users to direct their emails to the relevant staff member or to call. Phone and email icons will enlarge when hovered over, and a clickable to initiate and email or call 
 
+  - field staff count - Showing number of available field staff builds trust and confidence in our capability to provide services. 
+
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form
 5) Contact information in the footer

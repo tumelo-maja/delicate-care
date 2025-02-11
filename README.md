@@ -10,129 +10,129 @@ The site is helps individuals and families understand available care options for
 
 
 ### Existing Features
-1) **Logo icon and Navigation Bar - pages: Home, About, Services and Contact**
+- **Logo icon and Navigation Bar - pages: Home, About, Services and Contact**
   <figure>
     <img src="docs/site-screenshots/navbar-view-large-screen.png" width="80%" height="50%">
     <figcaption><strong><em>Navbar: Home page</em></strong></figcaption>
   </figure>
 
-- **Logo** - when clicked, it allows users to return to home from any part of the website
+  - **Logo** - when clicked, it allows users to return to home from any part of the website
 
-- **Navbar | Home** - returns user to home pages
+  - **Navbar | Home** - returns user to home pages
 
-- **Navbar | About** - Allows user to navigate to the about page to learn more about the company's history, mission, vision statements and the team
+  - **Navbar | About** - Allows user to navigate to the about page to learn more about the company's history, mission, vision statements and the team
 
-- **Navbar | Services** - Allows users to navigate to the services section within the home page to get information about the types of care services we offer at Zalama care.
+  - **Navbar | Services** - Allows users to navigate to the services section within the home page to get information about the types of care services we offer at Zalama care.
 
-- **Navbar | Contact** - This navigates users to the contact page where they can complete a form to get in touch with the business or inquiry about a service
+  - **Navbar | Contact** - This navigates users to the contact page where they can complete a form to get in touch with the business or inquiry about a service
 
-2) **Landing page image**
+- **Landing page image**
   <figure>
     <img src="docs/site-screenshots/home-hero-large-screen.png" width="80%" height="50%">
     <figcaption><strong><em>landing page image: Home page</em></strong></figcaption>
   </figure>
 
-- **Image** - the landing home page features a high quality images of three people smiling. A woman in a wheel is representative of target audience with mobility needs.
+  - **Image** - the landing home page features a high quality images of three people smiling. A woman in a wheel is representative of target audience with mobility needs.
 
-- **Welcome text** - the background image has a 'Welcome To Zalama Care' text; together with the image they create a warm welcoming and will grab the attention of the users. 
+  - **Welcome text** - the background image has a 'Welcome To Zalama Care' text; together with the image they create a warm welcoming and will grab the attention of the users. 
 
-3) **Introduction section** 
+- **Introduction section** 
   <figure>
     <img src="docs/site-screenshots/home-intro-section-large-screen.png" width="80%" height="50%">
     <figcaption><strong><em>Introduction section: Home page</em></strong></figcaption>
   </figure>
 
-- **Introduction text** - This introductory text describes Zalama care's approach and belief in service practice. This is to give user confidence that our goal is to support and empower our service users.
+  - **Introduction text** - This introductory text describes Zalama care's approach and belief in service practice. This is to give user confidence that our goal is to support and empower our service users.
 
-- **Introduction images** - Good quality images supporting the introductory text further enhances the users experience  
+  - **Introduction images** - Good quality images supporting the introductory text further enhances the users experience  
 
-4) **Our services section**
+- **Our services section**
   <figure>
     <img src="docs/site-screenshots/home-services-section-large-screen.png" width="80%" height="50%">
     <figcaption><strong><em>Our services section: Home page</em></strong></figcaption>
   </figure>
 
-- **service types** - This section present the different types of care service Zalama Care offers. This will allow users to learn more and decide on a suitable for themselves or their loved ones. 
--  A 'Read more' button under each service type can be used to expand the description text for users to view additional information about the service type. Once expanded, there is a 'Show less' button to collapse the additional text.
-- The icon displayed besides the 'Read more'/ 'Show less' icons is clickable and has the same functionality to expand and collapse additional text.
-  <figure>
-    <img src="docs/site-screenshots/home-services-section-expand-large-screen.png" width="50%" height="50%">
-    <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
-  </figure>
+  - **service types** - This section present the different types of care service Zalama Care offers. This will allow users to learn more and decide on a suitable for themselves or their loved ones. 
+  -  A 'Read more' button under each service type can be used to expand the description text for users to view additional information about the service type. Once expanded, there is a 'Show less' button to collapse the additional text.
+  - The icon displayed besides the 'Read more'/ 'Show less' icons is clickable and has the same functionality to expand and collapse additional text.
+    <figure>
+      <img src="docs/site-screenshots/home-services-section-expand-large-screen.png" width="50%" height="50%">
+      <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
+    </figure>
 
-5) **Why choose us section**
+- **Why choose us section**
   <figure>
     <img src="docs/site-screenshots/home-our-values-section-large-screen.png" width="80%" height="50%">
     <figcaption><strong><em>Why choose us section: Home page</em></strong></figcaption>
   </figure>
 
-- **Our values** - The section allows the user to see and understand Zalama Care's values as a care service provider so the user can be confident about their expectations on our service.
-- Call-to-Action - There is a clear and visible prompt 'Enquire now' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
+  - **Our values** - The section allows the user to see and understand Zalama Care's values as a care service provider so the user can be confident about their expectations on our service.
+  - Call-to-Action - There is a clear and visible prompt 'Enquire now' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
 
-6) **Getting started section**
+- **Getting started section**
   <figure>
     <img src="docs/site-screenshots/home-onboarding-section-large-screen.png" width="80%" height="50%">
     <figcaption><strong><em>Getting started section: Home page</em></strong></figcaption>
   </figure>
 
-- **Onboarding steps** 
-  - This section provides an easy guide to the onboarding steps for users interested in get care support from Zalama care. The users are able to have information on what to expect once they complete a contact form or reach out to us by any means. This information shows transparency and will enhance user's confidence in our care services. 
-  - Call-to-Action - There is a clear and visible prompt 'Let's talk today!' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
+  **Onboarding steps** 
+    - This section provides an easy guide to the onboarding steps for users interested in get care support from Zalama care. The users are able to have information on what to expect once they complete a contact form or reach out to us by any means. This information shows transparency and will enhance user's confidence in our care services. 
+    - Call-to-Action - There is a clear and visible prompt 'Let's talk today!' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
 
-7) **Find us section**
+- **Find us section**
 
-The footer is consistent section featured in all pages similar to the navbar. These are the sub-sections within the footer:
+  The footer is consistent section featured in all pages similar to the navbar. These are the sub-sections within the footer:
 
-- **Contact information** - This sub-section provides the user with essential contact information about the business. The phone, email and address icons will enlarge when hovered over to enhance user experience.
-  <figure>
-    <img src="docs/site-screenshots/footer-contact-info-large-screen.png" width="40%" height="40%">
-    <figcaption><strong><em>Contact Info in footer: All pages</em></strong></figcaption>
-  </figure>
+  - **Contact information** - This sub-section provides the user with essential contact information about the business. The phone, email and address icons will enlarge when hovered over to enhance user experience.
+    <figure>
+      <img src="docs/site-screenshots/footer-contact-info-large-screen.png" width="40%" height="40%">
+      <figcaption><strong><em>Contact Info in footer: All pages</em></strong></figcaption>
+    </figure>
 
-  - Phone number - Full contact number with the relevant dial extension. For convenience, the phone icon besides the phone number is clickable and will take mobile users dial pad screen with the contact number inputted and ready to call. For laptop and desktop users, it will prompt client to make a call if they have a relevant application for making calls.
+    - Phone number - Full contact number with the relevant dial extension. For convenience, the phone icon besides the phone number is clickable and will take mobile users dial pad screen with the contact number inputted and ready to call. For laptop and desktop users, it will prompt client to make a call if they have a relevant application for making calls.
 
-  - Email address - An info@zalamacare.com email address is shown for users who prefer to send an email. Similar to the phone icon, the 'envelope' icon besides the email address is also clickable and with prompt user to send and email with default emailing application on their device. 
+    - Email address - An info@zalamacare.com email address is shown for users who prefer to send an email. Similar to the phone icon, the 'envelope' icon besides the email address is also clickable and with prompt user to send and email with default emailing application on their device. 
 
-  - Office address - The location of our offices is presented so users can see how close or far the offices are to their places of residence. This is also useful for users who prefer to visit our offices. The location icon is clickable and will launch a navigation app (e.g. Google Maps App) on mobile devices. For larger devices it will open a new tab in the browser with a location on Google maps.
+    - Office address - The location of our offices is presented so users can see how close or far the offices are to their places of residence. This is also useful for users who prefer to visit our offices. The location icon is clickable and will launch a navigation app (e.g. Google Maps App) on mobile devices. For larger devices it will open a new tab in the browser with a location on Google maps.
 
-  - Disability accessibility - A note is shown to users so they know that our business offices accommodate individuals with mobility needs. This will enhance comfort and confidence in users with mobility needs who may want to visit our offices. 
+    - Disability accessibility - A note is shown to users so they know that our business offices accommodate individuals with mobility needs. This will enhance comfort and confidence in users with mobility needs who may want to visit our offices. 
 
-- **Video clip with CTA** 
-  <figure>
-    <img src="docs/site-screenshots/footer-video-clip-large-screen.png" width="40%" height="40%">
-    <figcaption><strong><em>Video in footer: All pages</em></strong></figcaption>
-  </figure>
+  - **Video clip with CTA** 
+    <figure>
+      <img src="docs/site-screenshots/footer-video-clip-large-screen.png" width="40%" height="40%">
+      <figcaption><strong><em>Video in footer: All pages</em></strong></figcaption>
+    </figure>
 
-  - A good quality video with dimmed brightness and a 'Contact us' button offer a visually appealing user experience while prompting them to contact us. The video auto-plays in a loop but is always muted and there are no controls to interact with the video
+    - A good quality video with dimmed brightness and a 'Contact us' button offer a visually appealing user experience while prompting them to contact us. The video auto-plays in a loop but is always muted and there are no controls to interact with the video
 
-- **Business hours** 
-  <figure>
-    <img src="docs/site-screenshots/footer-business-hours-large-screen.png" width="40%" height="40%">
-    <figcaption><strong><em>Business hours in footer: All pages</em></strong></figcaption>
-  </figure>
-  
-  - The business hours section allows the user to be informed on the opening and closing times during weekdays, weekends and bank holidays. This information is useful for users to know when they can contact our offices. 
+  - **Business hours** 
+    <figure>
+      <img src="docs/site-screenshots/footer-business-hours-large-screen.png" width="40%" height="40%">
+      <figcaption><strong><em>Business hours in footer: All pages</em></strong></figcaption>
+    </figure>
+    
+    - The business hours section allows the user to be informed on the opening and closing times during weekdays, weekends and bank holidays. This information is useful for users to know when they can contact our offices. 
 
-  - After hours notice - This information informs the users that they can still get in touch with our office even outside office hours through a dedicated Duty Officer line. This assures users that we are always reach at all times should they require assistance. The phone icon will enlarge when hovered over to enhance user experience and is clickable to initiate a call.  
+    - After hours notice - This information informs the users that they can still get in touch with our office even outside office hours through a dedicated Duty Officer line. This assures users that we are always reach at all times should they require assistance. The phone icon will enlarge when hovered over to enhance user experience and is clickable to initiate a call.  
 
-- **Images and video credits** 
-  <figure>
-    <img src="docs/site-screenshots/footer-credits-large-screen.png" width="60%" height="40%">
-    <img src="docs/site-screenshots/footer-credits-modal-large-screen.png" width="40%" height="40%">
-    <figcaption><strong><em>Images and video credits in footer: All pages</em></strong></figcaption>
-  </figure>
-  
-  - Credits link - the 'Images and video credits' link allows user to see the source and attribution of images, video and icons used in this website. The link opens a modal with a list specifying images, image addresses and the authors were required. All links in the modal open in a new tab.
+  - **Images and video credits** 
+    <figure>
+      <img src="docs/site-screenshots/footer-credits-large-screen.png" width="60%" height="40%">
+      <img src="docs/site-screenshots/footer-credits-modal-large-screen.png" width="40%" height="40%">
+      <figcaption><strong><em>Images and video credits in footer: All pages</em></strong></figcaption>
+    </figure>
+    
+    - Credits link - the 'Images and video credits' link allows user to see the source and attribution of images, video and icons used in this website. The link opens a modal with a list specifying images, image addresses and the authors were required. All links in the modal open in a new tab.
 
-  - Educational purpose note - This is only presented for educational purpose to inform any user that may access this to understand that is not a real service company.
+    - Educational purpose note - This is only presented for educational purpose to inform any user that may access this to understand that is not a real service company.
 
-- **Follow us section** 
-  <figure>
-    <img src="docs/site-screenshots/footer-social-media-large-screen.png" width="60%" height="40%">
-    <figcaption><strong><em>Follow us in footer: All pages</em></strong></figcaption>
-  </figure>
+  - **Follow us section** 
+    <figure>
+      <img src="docs/site-screenshots/footer-social-media-large-screen.png" width="60%" height="40%">
+      <figcaption><strong><em>Follow us in footer: All pages</em></strong></figcaption>
+    </figure>
 
-  - This section provides links to social media accounts for the business. NB: since this is a fictional business it has not accounts on those platforms. The links will open in a new tab and direct the user to the home page of each social platform. The icons enlarge when hovered to enhance user experience. 
+    - This section provides links to social media accounts for the business. NB: since this is a fictional business it has not accounts on those platforms. The links will open in a new tab and direct the user to the home page of each social platform. The icons enlarge when hovered to enhance user experience. 
 
 - **About us: Our history** 
   <figure>
@@ -192,28 +192,7 @@ The footer is consistent section featured in all pages similar to the navbar. Th
 
   - Urgent queries notice - This is useful for users who have submitted a form but require urgent assistance. The presented contact number is reachable for urgent queries even after office hours. 
 
-4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
-- On click, they redirect the user to the contact page where there is a contact form
-5) Contact information in the footer
-- phone number with a clickable icon to initiate a call (also available in about and success page)
-- email address with a clickable icon for sending an email (opens and email app or prompts user to email - also available in about page)
-- office address with clickable icon which opens a google maps link in new tab. This helps users to easily and conveniently locate the business 
-6) Disability accessibility icon - informs users that the business premises support and are accessible to individuals with mobility needs
-7) Video in footer
-- shows an elder man being comforted overlaid with a contact us button
-8) Business hours section in the footer
-- Shows the office opening and closing times during weekdays, weekend and bank holidays
-9) After hours notice in the footer
-- informs users how to contact the business outside working hours
-10) Link to Images and video credits modal in the footer
-- when clicked, it open a modal listing sources of images, video and icon used in the project
-11) Social media links
-- when clicked, each link will open in a new tab and direct user to the home page of the relevant social media 
-11) Contact form in contact page
-- Comprises name, email, phone number, inquiry type (radio select) and message (text-area)
-- all fields are required before form submission
-12) success page
-- appears when user submits a valid form and it confirms submission was successful and has a return to homepage link to redirect user back to home page
+
 13) Responsive design
 - Website layout and outlook remains consistent on different screen sizes which improves user experience 
 

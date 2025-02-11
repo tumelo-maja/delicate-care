@@ -388,6 +388,7 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Navbar \| About         | Click on "ABOUT" in Navbar      | User is directed to the about page  |
 | Navbar \| Services      | Click on "SERVICES" in Navbar   | User is directed to the home page  and scrolled down to the services section |
 | Navbar \| Contact       | Click on "CONTACT" in Navbar    | User is directed to the contact page  |
+| Navbar Responsivity     | Adjust screen view in Dev Tools for mobile/laptop/desktop   | Navbar is collapsed for screens size below (<992px width) and expanded for larger screens (>=992px)  |
 | 'Read more' button  (when collapsed)    | Click on "Read more" button in the services section of for all the service types   | Service type section expand and additional information is shown. 'Show less' button appears in place of 'Read more' |
 | 'Show less' button (when expanded)     | Click on "Show less" button in the services section of for all the service types   | Service type section collapse and additional information is hidden. 'Read more' button re-appears in place of 'Show less' |
 | Service type icon (besides 'Read more' / 'Show less')     | Click on the service icon in the services section of for all the service types   | Service type section collapse and additional information is hidden. 'Read more' button re-appears in place of 'Show less' |

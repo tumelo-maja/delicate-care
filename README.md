@@ -415,7 +415,7 @@ The website's layout and responsivity was tested on the commonly used browsers. 
 |---------------  |---------------------|-------------------------|  
 | Google Chrome   |                     |                         |  
 | Mozilla Firefox |                     |                         |  
-| Mozilla Firefox |                     |                         |  
+| Microsoft Edge  |                     |                         |  
 
 
 ### Responsive Testing 

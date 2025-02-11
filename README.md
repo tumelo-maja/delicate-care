@@ -399,6 +399,8 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Phone icon in the footer - all pages (desktop) | Click on the phone icon button in the footer - all pages tested | User gets a pop-up prompt to launch dialer application  |
 | Email icon in the footer - all pages (mobile) | Click on the email icon button in the footer - all pages tested |  mobile device's default email app is launched with the receiver's email address pre-filled |
 | Email icon in the footer - all pages (desktop) | Click on the email icon button in the footer - all pages tested |  desktop/laptop's default email app is launched with the receiver's email address pre-filled |
+| Location icon in the footer - all pages (mobile) | Click on the location icon button in the footer - all pages tested |  mobile device's default navigation app is launched with the location address pre-filled |
+| Location icon in the footer - all pages (desktop) | Click on the location icon button in the footer - all pages tested |  a new Google maps tab is launched with the location address pre-filled |
 
 ### Browser Compatibility
 

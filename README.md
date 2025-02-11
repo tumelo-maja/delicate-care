@@ -115,7 +115,16 @@ The footer is consistent section featured in all pages similar to the navbar. Th
 
   - After hours notice - This information informs the users that they can still get in touch with our office even outside office hours through a dedicated Duty Officer line. This assures users that we are always reach at all times should they require assistance.  
 
+- **Images and video credits** 
+  <figure>
+    <img src="docs/site-screenshots/footer-credits-large-screen.png" width="60%" height="40%">
+    <img src="docs/site-screenshots/footer-credits-modal-large-screen.png" width="40%" height="40%">
+    <figcaption><strong><em>Images and video credits in footer: All pages</em></strong></figcaption>
+  </figure>
   
+  - Credits link - the 'Images and video credits' link allows user to see the source and attribution of images, video and icons used in this website. The link opens a modal with a list specifying images, image addresses and the authors were required. 
+
+  - Educational purpose note - This is only presented for educational purpose to inform any user that may access this to understand that is not a real service company.
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form

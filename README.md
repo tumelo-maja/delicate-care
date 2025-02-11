@@ -391,6 +391,10 @@ For each interactive feature, a testing was conducted and the results are outlin
 | 'Read more' button  (when collapsed)    | Click on "Read more" button in the services section of for all the service types   | Service type section expand and additional information is shown. 'Show less' button appears in place of 'Read more' |
 | 'Show less' button (when expanded)     | Click on "Show less" button in the services section of for all the service types   | Service type section collapse and additional information is hidden. 'Read more' button re-appears in place of 'Show less' |
 | Service type icon (besides 'Read more' / 'Show less')     | Click on the service icon in the services section of for all the service types   | Service type section collapse and additional information is hidden. 'Read more' button re-appears in place of 'Show less' |
+| 'Contact us' button in the home page - intro section | Click on 'Contact Us' button in the intro section (home) |  User is directed to the contact page |
+| 'Enquire now' button in the home page - 'why choose us' section | Click on 'Enquire now' button in the 'why choose us' section (home) |  User is directed to the contact page |
+| 'Let's talk today!' button in the home page - 'Getting started' section | Click on 'Let's talk today!' button in the 'Getting started' section (home) |  User is directed to the contact page |
+| 'Contact us' button in the footer - all pages | Click on 'Contact Us' button in the footer - all pages tested |  User is directed to the contact page |
 
 ### Browser Compatibility
 

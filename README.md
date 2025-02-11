@@ -83,7 +83,7 @@ The site is helps individuals and families understand available care options for
 
 The footer is consistent section featured in all pages similar to the navbar. These are the sub-sections within the footer:
 
-- **Contact information** - This sub-section provides the user with essential contact information about the business. 
+- **Contact information** - This sub-section provides the user with essential contact information about the business. The phone, email and address icons will enlarge when hovered over to enhance user experience.
   <figure>
     <img src="docs/site-screenshots/footer-contact-info-large-screen.png" width="40%" height="40%">
     <figcaption><strong><em>Contact Info in footer: All pages</em></strong></figcaption>
@@ -113,7 +113,7 @@ The footer is consistent section featured in all pages similar to the navbar. Th
   
   - The business hours section allows the user to be informed on the opening and closing times during weekdays, weekends and bank holidays. This information is useful for users to know when they can contact our offices. 
 
-  - After hours notice - This information informs the users that they can still get in touch with our office even outside office hours through a dedicated Duty Officer line. This assures users that we are always reach at all times should they require assistance.  
+  - After hours notice - This information informs the users that they can still get in touch with our office even outside office hours through a dedicated Duty Officer line. This assures users that we are always reach at all times should they require assistance. The phone icon will enlarge when hovered over to enhance user experience and is clickable to initiate a call.  
 
 - **Images and video credits** 
   <figure>
@@ -122,9 +122,17 @@ The footer is consistent section featured in all pages similar to the navbar. Th
     <figcaption><strong><em>Images and video credits in footer: All pages</em></strong></figcaption>
   </figure>
   
-  - Credits link - the 'Images and video credits' link allows user to see the source and attribution of images, video and icons used in this website. The link opens a modal with a list specifying images, image addresses and the authors were required. 
+  - Credits link - the 'Images and video credits' link allows user to see the source and attribution of images, video and icons used in this website. The link opens a modal with a list specifying images, image addresses and the authors were required. All links in the modal open in a new tab.
 
   - Educational purpose note - This is only presented for educational purpose to inform any user that may access this to understand that is not a real service company.
+
+- **Follow us section** 
+  <figure>
+    <img src="docs/site-screenshots/footer-social-media-large-screen.png" width="60%" height="40%">
+    <figcaption><strong><em>Follow us in footer: All pages</em></strong></figcaption>
+  </figure>
+
+  - This section provides links to social media accounts for the business. NB: since this is a fictional business it has not accounts on those platforms. The links will open in a new tab and direct the user to the home page of each social platform. The icons enlarge when hovered to enhance user experience. 
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form

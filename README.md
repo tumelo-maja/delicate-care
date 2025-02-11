@@ -401,6 +401,8 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Email icon in the footer - all pages (desktop) | Click on the email icon button in the footer - all pages tested |  desktop/laptop's default email app is launched with the receiver's email address pre-filled |
 | Location icon in the footer - all pages (mobile) | Click on the location icon button in the footer - all pages tested |  mobile device's default navigation app is launched with the location address pre-filled |
 | Location icon in the footer - all pages (desktop) | Click on the location icon button in the footer - all pages tested |  a new Google maps tab is launched with the location address pre-filled |
+| Disability accessibility  icon in the footer - all pages (desktop/mobile) | Click on the disability icon button in the footer - all pages tested |  a pop-up modal is launched and display additional information relating to accessibility |
+
 
 ### Browser Compatibility
 

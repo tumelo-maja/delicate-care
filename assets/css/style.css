@@ -207,6 +207,13 @@ footer {
   accent-color: var(--velvet-evening);
 }
 
+.modal-content {
+  background-color: var(--velvet-evening);
+  color: var(--white-edgar);
+}
+.modal-body a{
+  color: var(--thin-air);
+}
 
 /*----- end colors------*/
 

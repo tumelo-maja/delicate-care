@@ -39,12 +39,27 @@ The site is helps individuals and families understand available care options for
 3) Introduction section 
   <figure>
     <img src="docs/site-screenshots/home-intro-section-large-screen.png" width="80%" height="50%">
-    <figcaption><strong><em>landing page image: Home page</em></strong></figcaption>
+    <figcaption><strong><em>Introduction section: Home page</em></strong></figcaption>
   </figure>
 
 - **Introduction text** - This introductory text describes Zalama care's approach and belief in service practice. This is to give user confidence that our goal is to support and empower our service users.
 
 - **Introduction images** - Good quality images supporting the introductory text further enhances the users experience  
+
+4) Our services section
+  <figure>
+    <img src="docs/site-screenshots/home-services-section-large-screen.png" width="80%" height="50%">
+    <figcaption><strong><em>Our services section: Home page</em></strong></figcaption>
+  </figure>
+
+- **Our services section** - This section present the different types of care service Zalama Care offers. This will allow users to learn more and decide on a suitable for themselves or their loved ones. 
+-  A 'Read more' button under each service type can be used to expand the description text for users to view additional information about the service type. Once expanded, there is a 'Show less' button to collapse the additional text.
+- The icon displayed besides the 'Read more'/ 'Show less' icons is clickable and has the same functionality to expand and collapse additional text.
+  <figure>
+    <img src="docs/site-screenshots/home-services-section-expand-large-screen.png" width="50%" height="50%">
+    <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
+  </figure>
+
 
 4) Expand/collapse button in services section
 - 'Read more' to expand 

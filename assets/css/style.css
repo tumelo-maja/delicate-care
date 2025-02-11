@@ -819,6 +819,29 @@ footer h3::after {
   box-shadow: 1px 1px 20px var(--robin-egg-blue);
 }
 
+.staff-field {
+  background-color: var(--white-edgar);
+  margin: 30px;
+  border-radius: 10px;
+  border: 3px solid var(--velvet-evening);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 20px var(--robin-egg-blue);
+
+}
+
+.staff-field p{
+  color: var(--velvet-evening);
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+
 .about-text {
   align-content: center;
   margin: 0;

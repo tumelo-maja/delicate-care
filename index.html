@@ -1,1027 +1,729 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zalama Care | Home</title>
 
-    <!-- Favicons-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zalama Care | Home</title>
 
-    <!-- Bootstrap 5 CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="assets/images/zalama-care-logo.png"
-              alt="Zalama Care logo"
-              class="logo"
-            />
-            Zalama Care
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item selected">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact-us.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="col-12 text-center hero">
-        <h1>Welcome to Zalama Care</h1>
-      </div>
-      <section id="intro" class="container">
-        <div class="row text-body">
-          <div class="col-12 col-md-6 text-center intro-text intro-item">
-            <h2>Providing Comfort, Dignity, and Independence</h2>
-            <p>
-              At Zalama Care, we understand and appreciate that no two people
-              are the same, and that is why we provide care that is tailored to
-              each individual. Our goal is to provide support and enable you and
-              your loved ones to have the best experience of life, no matter the
-              physical, mental, or psychological impairments.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 float-image intro-item">
-            <img
-              src="assets/images/man-checking-medical-device-on-wrist-of-woman.jpg"
-              alt="male carer checking a medical device on an elder woman's wrist while both are seated on a couch"
-            />
-          </div>
-          <div id="intro-image2" class="col-12 col-md-6 float-image">
-            <img
-              src="assets/images/woman-careworker-communicating-with-senior-woman-during-home-visit.jpg"
-              alt="female carer communicating with an elder woman while holding her hand and resting the other hand on her shoulder"
-            />
-          </div>
-          <div class="col-12 col-md-6 text-center intro-text">
-            <p>
-              We believe that everyone deserves to live with dignity, comfort,
-              and independence, and our team is here to make that possible.
-              Whether it's helping with daily tasks, offering companionship, or
-              providing specialized care, we focus on what truly matters—your
-              well-being and happiness.
-            </p>
-          </div>
-          <div id="intro-cta" class="col-12 text-center">
-            <p>
-              If you or a loved one needs support, we're here to help - get in
-              touch with us today.
-            </p>
-            <a href="contact-us.html" class="btn button-style">Contact Us</a>
-          </div>
-        </div>
-      </section>
-      <section id="services" class="container">
-        <div class="row justify-content-center text-body">
-          <div class="col-12 text-center">
-            <h2>Our services</h2>
-          </div>
-          <div class="service-item col-12 col-md-6">
-            <img
-              src="assets/images/elder-man-raising-hand-with-pill.jpg"
-              alt="an elder man seated and holding a glass of water while raising up a pill with his other hand to a man standing behind him"
-              class="service-img"
-            />
-            <div class="service-body">
-              <input
-                type="checkbox"
-                name="check-service-one"
-                id="check-service-one"
-                class="hidden-item"
-              />
-              <h3 class="service-title">Home care</h3>
-              <p class="service-text">
-                Our package will provide you short visits for personal care and
-                assistance with activities of daily living (ADLs).
-              </p>
-              <div class="service-more-one hidden-item">
-                <p>ADLs include:</p>
-                <ul>
-                  <li>
-                    <strong>Personal care & hygiene</strong> - bathing,
-                    grooming, putting on clothes and hygiene (mouth, dental,
-                    nail, and hair care).
-                  </li>
-                  <li>
-                    <strong>Mobility & toileting</strong> - the ability to walk
-                    around independently, use the toilet and stay continent
-                    (bladder and bowel control).
-                  </li>
-                  <li>
-                    <strong>Eating & meal preparation</strong> - the capability
-                    for one to eat as well as prepare tasty and nutritious
-                    meals, do grocery shopping, or even cook.
-                  </li>
-                  <li>
-                    <strong>Household & finances</strong> - living in a clean
-                    enviroment and the capability to handle money, payment of
-                    bills, and communications (telephone/mobile phone, post
-                    mail, etc.).
-                  </li>
-                  <li>
-                    <strong>Taking medication</strong> - the ability to take
-                    medication appropriately and timely.
-                  </li>
-                </ul>
-                <div class="service-buttons">
-                  <label for="check-service-one" class="button-style"
-                    >Show less</label
-                  >
-                  <label for="check-service-one" class="icon-service">
-                    <img
-                      src="assets/images/icon-home-care.png"
-                      alt="home care icon"
-                  /></label>
-                </div>
-              </div>
-              <div class="service-buttons">
-                <label for="check-service-one" class="button-style"
-                  >Read more</label
-                >
-                <label for="check-service-one" class="icon-service">
-                  <img
-                    src="assets/images/icon-home-care.png"
-                    alt="home care icon"
-                /></label>
-              </div>
-            </div>
-          </div>
-          <div class="service-item col-12 col-md-6">
-            <img
-              src="assets/images/woman-fixing-pillow-of-sleeping-man.jpg"
-              alt="female carer fixing the pillow of an elder man sleeping in bed"
-              class="service-img"
-            />
-            <div class="service-body">
-              <input
-                type="checkbox"
-                name="check-service-two"
-                id="check-service-two"
-                class="hidden-item"
-              />
-              <h3 class="service-title">Supported living</h3>
-              <p class="service-text">
-                More help when you need it. For loved ones that require extra
-                care, we offer personalized care 24/7.
-              </p>
-              <div class="service-more-two hidden-item">
-                <p>Included in this package:</p>
-                <ul>
-                  <li>
-                    <strong>All ADLs</strong> - full support for mobility issues
-                    and all Daily Living Activities (ADLs) including shopping.
-                  </li>
-                  <li>
-                    <strong>Social support</strong> - assistance with social
-                    functions and attending community activities.
-                  </li>
-                  <li>
-                    <strong>Independence</strong> - enabling care to encourage
-                    one to stay active and live as independently as possible.
-                  </li>
-                  <li>
-                    <strong>Transportation</strong> - organising travel/trips
-                    for appointments (e.g. visit to the GP).
-                  </li>
-                </ul>
-                <div class="service-buttons">
-                  <label for="check-service-two" class="button-style"
-                    >Show less</label
-                  >
-                  <label for="check-service-two" class="icon-service">
-                    <img
-                      src="assets/images/icon-supported-living.png"
-                      alt="supported living icon"
-                  /></label>
-                </div>
-              </div>
-              <div class="service-buttons">
-                <label for="check-service-two" class="button-style"
-                  >Read more</label
-                >
-                <label for="check-service-two" class="icon-service">
-                  <img
-                    src="assets/images/icon-supported-living.png"
-                    alt="supported living icon"
-                /></label>
-              </div>
-            </div>
-          </div>
-          <div class="service-item col-12 col-md-6">
-            <img
-              src="assets/images/respite-woman-in-wheelcair-with-leg-cast.jpg"
-              alt="A woman sitting in a wheelchair, legs visible from the knees down, with one leg in an orthopedic cast."
-              class="service-img"
-            />
-            <div class="service-body">
-              <input
-                type="checkbox"
-                name="check-service-three"
-                id="check-service-three"
-                class="hidden-item"
-              />
-              <h3 class="service-title">Respite / reablement care</h3>
-              <p class="service-text">
-                Respite care provides flexible, on-demand short term care for
-                your loved one when you need to take break or after a surgery.
-              </p>
-              <div class="service-more-three hidden-item">
-                <p>More on respite care:</p>
-                <ul>
-                  <li>
-                    <strong>Flexible location</strong> - short term or temporary
-                    care could be provided in the comfort of your own home or in
-                    a different care setting.
-                  </li>
-                  <li>
-                    <strong>Time for rest</strong> - this will allow you and
-                    your family to take some break and for your loved one to
-                    experience care from good professionals.
-                  </li>
-                  <li>
-                    <strong>Adjustable options</strong> - care is available
-                    on-demand and can be extended from a few hours, overnight to
-                    extended periods according to your needs.
-                  </li>
-                  <li>
-                    <strong>reablement</strong> - for when temporary care is
-                    necessary for a loved one to transition back to
-                    independence.
-                  </li>
-                </ul>
-                <div class="service-buttons">
-                  <label for="check-service-three" class="button-style"
-                    >Show less</label
-                  >
-                  <label for="check-service-three" class="icon-service">
-                    <img
-                      src="assets/images/icon-respite-care.png"
-                      alt="respite icon"
-                  /></label>
-                </div>
-              </div>
-              <div class="service-buttons">
-                <label for="check-service-three" class="button-style"
-                  >Read more</label
-                >
-                <label for="check-service-three" class="icon-service">
-                  <img
-                    src="assets/images/icon-respite-care.png"
-                    alt="respite care icon"
-                /></label>
-              </div>
-            </div>
-          </div>
-          <div class="service-item col-12 col-md-6">
-            <img
-              src="assets/images/woman-resting-face-on-her-hand.jpg"
-              alt="an elder woman resting her face on her hand while facing away"
-              class="service-img"
-            />
-            <div class="service-body">
-              <input
-                type="checkbox"
-                name="check-service-four"
-                id="check-service-four"
-                class="hidden-item"
-              />
-              <h3 class="service-title">Dementia & complex care</h3>
-              <p class="service-text">
-                Proving care for a loved one with dementia or complex needs can
-                be challenging for families. Let us help you.
-              </p>
-              <div class="service-more-four hidden-item">
-                <p>Complex care:</p>
-                <ul>
-                  <li>
-                    <strong>dementia & alzheimer's care</strong> - care plan
-                    with simple and predictable routines combined with memory
-                    exercises to improve their mental health.
-                  </li>
-                  <li>
-                    <strong>physical neurological conditions</strong> -
-                    personalized care routines for your loved ones suffering
-                    from Parkinson's, recovery from stroke and other complex
-                    mobility issues.
-                  </li>
-                  <li>
-                    <strong>behavioural & emotional support</strong> - 24/7
-                    support in situations where a loved one feels agitation,
-                    confusion, and anxiety.
-                  </li>
-                  <li>
-                    <strong>crisis response team</strong> - we offer a dedicated
-                    team to support you and your loved one during episodes of
-                    distress or sudden behavioural changes.
-                  </li>
-                </ul>
-                <div class="service-buttons">
-                  <label for="check-service-four" class="button-style"
-                    >Show less</label
-                  >
-                  <label for="check-service-four" class="icon-service">
-                    <img
-                      src="assets/images/icon-complex-care.png"
-                      alt="dementia & complex care icon"
-                  /></label>
-                </div>
-              </div>
-              <div class="service-buttons">
-                <label for="check-service-four" class="button-style"
-                  >Read more</label
-                >
-                <label for="check-service-four" class="icon-service">
-                  <img
-                    src="assets/images/icon-complex-care.png"
-                    alt="respite care icon"
-                /></label>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="choose-us" class="">
-        <div class="row justify-content-center text-body">
-          <div class="col-12 text-center">
-            <h2>Why choose us?</h2>
-          </div>
-          <div class="col-12 col-md-10 col-lg-10 col-xl-8 text-center">
-            <h3>Our values</h3>
-            <p>
-              Our values are an essential part of our identity; a foundation of
-              who we are and how we care. Every member of our team lives by
-              these values, because they guide the way we connect, support, and
-              empower our clients and their families. These values remind us
-              every day why we do what we do.
-            </p>
-          </div>
-          <div class="col-12 col-md-10 col-lg-12 col-xl-8 our-values">
-            <div class="col-lg-6 value-item">
-              <div class="value-icon">
-                <img src="assets/images/icon-respect.png" alt="respect icon" />
-              </div>
-              <div class="value-text">
-                <p><strong>Respect</strong></p>
-                <p>
-                  We appreciate and celebrate every person's unique story. Your
-                  voice, choices and dignity matter deeply to us. We're here to
-                  support you and your family. Being respectful is how we build
-                  trust and form meaningful connections.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6 value-item">
-              <div class="value-icon">
-                <img
-                  src="assets/images/icon-compassion.png"
-                  alt="compassion icon"
-                />
-              </div>
-              <div class="value-text">
-                <p><strong>compassion</strong></p>
-                <p>
-                  We bring deep empathy and have a genuine desire to brighten up
-                  your life because we truly care about all the people we
-                  support. We take every opportunity to listen, understand and
-                  adjust our approach to suit your care needs.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6 value-item">
-              <div class="value-icon">
-                <img
-                  src="assets/images/icon-integrity.png"
-                  alt="integrity icon"
-                />
-              </div>
-              <div class="value-text">
-                <p><strong>integrity</strong></p>
-                <p>
-                  We're commited to always do what is right even when no one is
-                  watching. We believe in fairness and honesty while keeping
-                  your well-being first. We carry our services with great pride,
-                  transparency and accountability for all decisions we make
-                  regarding your care.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6 value-item">
-              <div class="value-icon">
-                <img
-                  src="assets/images/icon-kindness.png"
-                  alt="kindness icon"
-                />
-              </div>
-              <div class="value-text">
-                <p><strong>kindness</strong></p>
-                <p>
-                  It's those small gestures here and there that make a big
-                  difference. Whether its a smile or just listening, we make
-                  every moment count. Our kindness starts from within, how we
-                  treat each other and the people we care for.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="text-center cross-bar">
-        <div class="text-center">
-          <p>
-            Tell us about your care needs for you or your loved ones<br />
-            Get in touch today!
-          </p>
-          <a href="contact-us.html" class="btn button-style-light"
-            >Enquire now</a
-          >
-        </div>
-      </section>
-      <section id="onboarding" class="container">
-        <div class="row justify-content-center text-body">
-          <div class="col-12 text-center">
-            <h2>Getting started</h2>
-          </div>
-          <div class="col-12 col-md-10 col-xxl-8 text-center onboard-intro">
-            <p>
-              Our onboarding process is simple and gives you the flexibility you
-              need. Throughout our onboarding process, you always have the
-              opportunity to ask questions, suggest revisions or share your
-              desired outcome from receiveing care support. We're here with you
-              now, and we'll always be there to support you.
-            </p>
-            <p>Here's how we welcome you:</p>
-          </div>
-          <div class="onboard-step col-12 col-md-6">
-            <div class="onboard-body">
-              <h3 class="onboard-title">Step 1: Reach out</h3>
-              <p class="onboard-text">
-                Call, email or fill out our form, it is as easy as that! A
-                friendly team member is just a call away.
-              </p>
-            </div>
-            <img
-              src="assets/images/onboard-reach-out.jpg"
-              alt="An elder man talking on the with his wife sitting besides him and looking at him"
-              class="onboard-img"
-            />
-          </div>
-          <div class="onboard-step col-12 col-md-6">
-            <div class="onboard-body">
-              <h3 class="onboard-title">Step 2: Free consultaion</h3>
-              <p class="onboard-text">
-                We arrange a free consultaion to further understand your
-                situation and desired care support so we can prepare care plan.
-              </p>
-            </div>
-            <img
-              src="assets/images/onboard-consultation.jpg"
-              alt="A male carer taking notes and discussing with an elder man while both are seated on a couch in the living room"
-              class="onboard-img"
-            />
-          </div>
-          <div class="onboard-step col-12 col-md-6">
-            <div class="onboard-body">
-              <h3 class="onboard-title">Step 3: Personalised care plan</h3>
-              <p class="onboard-text">
-                In discusssion with you, a personalised care plan is developed
-                based on your care needs and preferences.
-              </p>
-            </div>
-            <img
-              src="assets/images/onboard-care-plan.jpg"
-              alt="A below-face close view of a woman's writing in a notebook with a golden pen"
-              class="onboard-img"
-            />
-          </div>
-          <div class="onboard-step col-12 col-md-6">
-            <div class="onboard-body">
-              <h3 class="onboard-title">Step 4: Welcome to the family</h3>
-              <p class="onboard-text">
-                Care starts, our trained carers will now be supporting you or
-                your loved one according to the agreed schedule.
-              </p>
-            </div>
-            <img
-              src="assets/images/onboard-care-start.jpg"
-              alt="A female carer standing behind an elder man holding a glass of juice with breakfast on a table in front on him"
-              class="onboard-img"
-            />
-          </div>
-          <div class="col-12 text-center onboard-last">
-            <p>
-              During the course of care support, our coordinators may
-              occassionaly reach out to you to find out if everything is going
-              according to care plan and to your satisfatction.
-            </p>
-            <p>
-              You and your loved ones will not just be receiveing care support -
-              you're joining a family that truly cares. Ready to begin?
-            </p>
-            <a href="contact-us.html" class="btn button-style"
-              >Let's talk today!</a
-            >
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="mt-auto">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-12 text-center text-footer">
-            <h2>Find us!</h2>
-          </div>
-
-          <div class="col-12 col-md-4 text-center contact-info text-footer">
-            <h3>Contact info</h3>
-            <p>
-              <a href="tel:+441234567890" aria-label="Call +44 1234 567890"
-                ><i class="fa-solid fa-phone"></i
-              ></a>
-              +4412 345 67890<br />
-              <a
-                href="mailto:info@zalamacare.com"
-                aria-label="Send an email to info@zalamacare.com"
-                ><i class="fa-solid fa-envelope"></i
-              ></a>
-              info@zalamacare.com
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/zalama-care-logo.png" alt="Zalama Care logo" class="logo" />
+          Zalama Care
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item selected">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="col-12 text-center hero">
+      <h1>Welcome to Zalama Care</h1>
+    </div>
+    <section id="intro" class="container">
+      <div class="row text-body">
+        <div class="col-12 col-md-6 text-center intro-text intro-item">
+          <h2>Providing Comfort, Dignity, and Independence</h2>
+          <p>
+            At Zalama Care, we understand and appreciate that no two people
+            are the same, and that is why we provide care that is tailored to
+            each individual. Our goal is to provide support and enable you and
+            your loved ones to have the best experience of life, no matter the
+            physical, mental, or psychological impairments.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 float-image intro-item">
+          <img src="assets/images/man-checking-medical-device-on-wrist-of-woman.jpg"
+            alt="male carer checking a medical device on an elder woman's wrist while both are seated on a couch" />
+        </div>
+        <div id="intro-image2" class="col-12 col-md-6 float-image">
+          <img src="assets/images/woman-careworker-communicating-with-senior-woman-during-home-visit.jpg"
+            alt="female carer communicating with an elder woman while holding her hand and resting the other hand on her shoulder" />
+        </div>
+        <div class="col-12 col-md-6 text-center intro-text">
+          <p>
+            We believe that everyone deserves to live with dignity, comfort,
+            and independence, and our team is here to make that possible.
+            Whether it's helping with daily tasks, offering companionship, or
+            providing specialized care, we focus on what truly matters—your
+            well-being and happiness.
+          </p>
+        </div>
+        <div id="intro-cta" class="col-12 text-center">
+          <p>
+            If you or a loved one needs support, we're here to help - get in
+            touch with us today.
+          </p>
+          <a href="contact-us.html" class="btn button-style">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="container">
+      <div class="row justify-content-center text-body">
+        <div class="col-12 text-center">
+          <h2>Our services</h2>
+        </div>
+        <div class="service-item col-12 col-md-6">
+          <img src="assets/images/elder-man-raising-hand-with-pill.jpg"
+            alt="an elder man seated and holding a glass of water while raising up a pill with his other hand to a man standing behind him"
+            class="service-img" />
+          <div class="service-body">
+            <input type="checkbox" name="check-service-one" id="check-service-one" class="hidden-item" />
+            <h3 class="service-title">Home care</h3>
+            <p class="service-text">
+              Our package will provide you short visits for personal care and
+              assistance with activities of daily living (ADLs).
             </p>
-            <address>
-              <strong>Zalama care</strong><br />
-              <a
-                href="https://maps.app.goo.gl/Suc87V72pywZ4cUT7"
-                target="_blank"
-                rel="noopener"
-                aria-label="Open location in Google Maps"
-                title="For educational purposes only: This location does not represent an actual business site."
-                ><i class="fa-solid fa-location-dot"></i
-              ></a>
-              333 Zalama Avenue<br />
-              Trafalgar Square, London<br />
-              WC2N 5DS, United Kingdom <br />
-            </address>
-            <div class="accessibilty text-footer">
-              <p class="accessibilty-note">
-                Our offices are accessible for people with mobility needs
+            <div class="service-more-one hidden-item">
+              <p>ADLs include:</p>
+              <ul>
+                <li>
+                  <strong>Personal care & hygiene</strong> - bathing,
+                  grooming, putting on clothes and hygiene (mouth, dental,
+                  nail, and hair care).
+                </li>
+                <li>
+                  <strong>Mobility & toileting</strong> - the ability to walk
+                  around independently, use the toilet and stay continent
+                  (bladder and bowel control).
+                </li>
+                <li>
+                  <strong>Eating & meal preparation</strong> - the capability
+                  for one to eat as well as prepare tasty and nutritious
+                  meals, do grocery shopping, or even cook.
+                </li>
+                <li>
+                  <strong>Household & finances</strong> - living in a clean
+                  enviroment and the capability to handle money, payment of
+                  bills, and communications (telephone/mobile phone, post
+                  mail, etc.).
+                </li>
+                <li>
+                  <strong>Taking medication</strong> - the ability to take
+                  medication appropriately and timely.
+                </li>
+              </ul>
+              <div class="service-buttons">
+                <label for="check-service-one" class="button-style">Show less</label>
+                <label for="check-service-one" class="icon-service">
+                  <img src="assets/images/icon-home-care.png" alt="home care icon" /></label>
+              </div>
+            </div>
+            <div class="service-buttons">
+              <label for="check-service-one" class="button-style">Read more</label>
+              <label for="check-service-one" class="icon-service">
+                <img src="assets/images/icon-home-care.png" alt="home care icon" /></label>
+            </div>
+          </div>
+        </div>
+        <div class="service-item col-12 col-md-6">
+          <img src="assets/images/woman-fixing-pillow-of-sleeping-man.jpg"
+            alt="female carer fixing the pillow of an elder man sleeping in bed" class="service-img" />
+          <div class="service-body">
+            <input type="checkbox" name="check-service-two" id="check-service-two" class="hidden-item" />
+            <h3 class="service-title">Supported living</h3>
+            <p class="service-text">
+              More help when you need it. For loved ones that require extra
+              care, we offer personalized care 24/7.
+            </p>
+            <div class="service-more-two hidden-item">
+              <p>Included in this package:</p>
+              <ul>
+                <li>
+                  <strong>All ADLs</strong> - full support for mobility issues
+                  and all Daily Living Activities (ADLs) including shopping.
+                </li>
+                <li>
+                  <strong>Social support</strong> - assistance with social
+                  functions and attending community activities.
+                </li>
+                <li>
+                  <strong>Independence</strong> - enabling care to encourage
+                  one to stay active and live as independently as possible.
+                </li>
+                <li>
+                  <strong>Transportation</strong> - organising travel/trips
+                  for appointments (e.g. visit to the GP).
+                </li>
+              </ul>
+              <div class="service-buttons">
+                <label for="check-service-two" class="button-style">Show less</label>
+                <label for="check-service-two" class="icon-service">
+                  <img src="assets/images/icon-supported-living.png" alt="supported living icon" /></label>
+              </div>
+            </div>
+            <div class="service-buttons">
+              <label for="check-service-two" class="button-style">Read more</label>
+              <label for="check-service-two" class="icon-service">
+                <img src="assets/images/icon-supported-living.png" alt="supported living icon" /></label>
+            </div>
+          </div>
+        </div>
+        <div class="service-item col-12 col-md-6">
+          <img src="assets/images/respite-woman-in-wheelcair-with-leg-cast.jpg"
+            alt="A woman sitting in a wheelchair, legs visible from the knees down, with one leg in an orthopedic cast."
+            class="service-img" />
+          <div class="service-body">
+            <input type="checkbox" name="check-service-three" id="check-service-three" class="hidden-item" />
+            <h3 class="service-title">Respite / reablement care</h3>
+            <p class="service-text">
+              Respite care provides flexible, on-demand short term care for
+              your loved one when you need to take break or after a surgery.
+            </p>
+            <div class="service-more-three hidden-item">
+              <p>More on respite care:</p>
+              <ul>
+                <li>
+                  <strong>Flexible location</strong> - short term or temporary
+                  care could be provided in the comfort of your own home or in
+                  a different care setting.
+                </li>
+                <li>
+                  <strong>Time for rest</strong> - this will allow you and
+                  your family to take some break and for your loved one to
+                  experience care from good professionals.
+                </li>
+                <li>
+                  <strong>Adjustable options</strong> - care is available
+                  on-demand and can be extended from a few hours, overnight to
+                  extended periods according to your needs.
+                </li>
+                <li>
+                  <strong>reablement</strong> - for when temporary care is
+                  necessary for a loved one to transition back to
+                  independence.
+                </li>
+              </ul>
+              <div class="service-buttons">
+                <label for="check-service-three" class="button-style">Show less</label>
+                <label for="check-service-three" class="icon-service">
+                  <img src="assets/images/icon-respite-care.png" alt="respite icon" /></label>
+              </div>
+            </div>
+            <div class="service-buttons">
+              <label for="check-service-three" class="button-style">Read more</label>
+              <label for="check-service-three" class="icon-service">
+                <img src="assets/images/icon-respite-care.png" alt="respite care icon" /></label>
+            </div>
+          </div>
+        </div>
+        <div class="service-item col-12 col-md-6">
+          <img src="assets/images/woman-resting-face-on-her-hand.jpg"
+            alt="an elder woman resting her face on her hand while facing away" class="service-img" />
+          <div class="service-body">
+            <input type="checkbox" name="check-service-four" id="check-service-four" class="hidden-item" />
+            <h3 class="service-title">Dementia & complex care</h3>
+            <p class="service-text">
+              Proving care for a loved one with dementia or complex needs can
+              be challenging for families. Let us help you.
+            </p>
+            <div class="service-more-four hidden-item">
+              <p>Complex care:</p>
+              <ul>
+                <li>
+                  <strong>dementia & alzheimer's care</strong> - care plan
+                  with simple and predictable routines combined with memory
+                  exercises to improve their mental health.
+                </li>
+                <li>
+                  <strong>physical neurological conditions</strong> -
+                  personalized care routines for your loved ones suffering
+                  from Parkinson's, recovery from stroke and other complex
+                  mobility issues.
+                </li>
+                <li>
+                  <strong>behavioural & emotional support</strong> - 24/7
+                  support in situations where a loved one feels agitation,
+                  confusion, and anxiety.
+                </li>
+                <li>
+                  <strong>crisis response team</strong> - we offer a dedicated
+                  team to support you and your loved one during episodes of
+                  distress or sudden behavioural changes.
+                </li>
+              </ul>
+              <div class="service-buttons">
+                <label for="check-service-four" class="button-style">Show less</label>
+                <label for="check-service-four" class="icon-service">
+                  <img src="assets/images/icon-complex-care.png" alt="dementia & complex care icon" /></label>
+              </div>
+            </div>
+            <div class="service-buttons">
+              <label for="check-service-four" class="button-style">Read more</label>
+              <label for="check-service-four" class="icon-service">
+                <img src="assets/images/icon-complex-care.png" alt="respite care icon" /></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="choose-us" class="">
+      <div class="row justify-content-center text-body">
+        <div class="col-12 text-center">
+          <h2>Why choose us?</h2>
+        </div>
+        <div class="col-12 col-md-10 col-lg-10 col-xl-8 text-center">
+          <h3>Our values</h3>
+          <p>
+            Our values are an essential part of our identity; a foundation of
+            who we are and how we care. Every member of our team lives by
+            these values, because they guide the way we connect, support, and
+            empower our clients and their families. These values remind us
+            every day why we do what we do.
+          </p>
+        </div>
+        <div class="col-12 col-md-10 col-lg-12 col-xl-8 our-values">
+          <div class="col-lg-6 value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-respect.png" alt="respect icon" />
+            </div>
+            <div class="value-text">
+              <p><strong>Respect</strong></p>
+              <p>
+                We appreciate and celebrate every person's unique story. Your
+                voice, choices and dignity matter deeply to us. We're here to
+                support you and your family. Being respectful is how we build
+                trust and form meaningful connections.
               </p>
-              <a
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#accessibilityModal"
-                aria-label="Read more information about our office accessibility in a modal window"
-                ><i
+            </div>
+          </div>
+          <div class="col-lg-6 value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-compassion.png" alt="compassion icon" />
+            </div>
+            <div class="value-text">
+              <p><strong>compassion</strong></p>
+              <p>
+                We bring deep empathy and have a genuine desire to brighten up
+                your life because we truly care about all the people we
+                support. We take every opportunity to listen, understand and
+                adjust our approach to suit your care needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-integrity.png" alt="integrity icon" />
+            </div>
+            <div class="value-text">
+              <p><strong>integrity</strong></p>
+              <p>
+                We're commited to always do what is right even when no one is
+                watching. We believe in fairness and honesty while keeping
+                your well-being first. We carry our services with great pride,
+                transparency and accountability for all decisions we make
+                regarding your care.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-kindness.png" alt="kindness icon" />
+            </div>
+            <div class="value-text">
+              <p><strong>kindness</strong></p>
+              <p>
+                It's those small gestures here and there that make a big
+                difference. Whether its a smile or just listening, we make
+                every moment count. Our kindness starts from within, how we
+                treat each other and the people we care for.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center cross-bar">
+      <div class="text-center">
+        <p>
+          Tell us about your care needs for you or your loved ones<br />
+          Get in touch today!
+        </p>
+        <a href="contact-us.html" class="btn button-style-light">Enquire now</a>
+      </div>
+    </section>
+    <section id="onboarding" class="container">
+      <div class="row justify-content-center text-body">
+        <div class="col-12 text-center">
+          <h2>Getting started</h2>
+        </div>
+        <div class="col-12 col-md-10 col-xxl-8 text-center onboard-intro">
+          <p>
+            Our onboarding process is simple and gives you the flexibility you
+            need. Throughout our onboarding process, you always have the
+            opportunity to ask questions, suggest revisions or share your
+            desired outcome from receiveing care support. We're here with you
+            now, and we'll always be there to support you.
+          </p>
+          <p>Here's how we welcome you:</p>
+        </div>
+        <div class="onboard-step col-12 col-md-6">
+          <div class="onboard-body">
+            <h3 class="onboard-title">Step 1: Reach out</h3>
+            <p class="onboard-text">
+              Call, email or fill out our form, it is as easy as that! A
+              friendly team member is just a call away.
+            </p>
+          </div>
+          <img src="assets/images/onboard-reach-out.jpg"
+            alt="An elder man talking on the with his wife sitting besides him and looking at him"
+            class="onboard-img" />
+        </div>
+        <div class="onboard-step col-12 col-md-6">
+          <div class="onboard-body">
+            <h3 class="onboard-title">Step 2: Free consultaion</h3>
+            <p class="onboard-text">
+              We arrange a free consultaion to further understand your
+              situation and desired care support so we can prepare care plan.
+            </p>
+          </div>
+          <img src="assets/images/onboard-consultation.jpg"
+            alt="A male carer taking notes and discussing with an elder man while both are seated on a couch in the living room"
+            class="onboard-img" />
+        </div>
+        <div class="onboard-step col-12 col-md-6">
+          <div class="onboard-body">
+            <h3 class="onboard-title">Step 3: Personalised care plan</h3>
+            <p class="onboard-text">
+              In discusssion with you, a personalised care plan is developed
+              based on your care needs and preferences.
+            </p>
+          </div>
+          <img src="assets/images/onboard-care-plan.jpg"
+            alt="A below-face close view of a woman's writing in a notebook with a golden pen" class="onboard-img" />
+        </div>
+        <div class="onboard-step col-12 col-md-6">
+          <div class="onboard-body">
+            <h3 class="onboard-title">Step 4: Welcome to the family</h3>
+            <p class="onboard-text">
+              Care starts, our trained carers will now be supporting you or
+              your loved one according to the agreed schedule.
+            </p>
+          </div>
+          <img src="assets/images/onboard-care-start.jpg"
+            alt="A female carer standing behind an elder man holding a glass of juice with breakfast on a table in front on him"
+            class="onboard-img" />
+        </div>
+        <div class="col-12 text-center onboard-last">
+          <p>
+            During the course of care support, our coordinators may
+            occassionaly reach out to you to find out if everything is going
+            according to care plan and to your satisfatction.
+          </p>
+          <p>
+            You and your loved ones will not just be receiveing care support -
+            you're joining a family that truly cares. Ready to begin?
+          </p>
+          <a href="contact-us.html" class="btn button-style">Let's talk today!</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="mt-auto">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-12 text-center text-footer">
+          <h2>Find us!</h2>
+        </div>
+
+        <div class="col-12 col-md-4 text-center contact-info text-footer">
+          <h3>Contact info</h3>
+          <p>
+            <a href="tel:+441234567890" aria-label="Call +44 1234 567890"><i class="fa-solid fa-phone"></i></a>
+            +4412 345 67890<br />
+            <a href="mailto:info@zalamacare.com" aria-label="Send an email to info@zalamacare.com"><i
+                class="fa-solid fa-envelope"></i></a>
+            info@zalamacare.com
+          </p>
+          <address>
+            <strong>Zalama care</strong><br />
+            <a href="https://maps.app.goo.gl/Suc87V72pywZ4cUT7" target="_blank" rel="noopener"
+              aria-label="Open location in Google Maps"
+              title="For educational purposes only: This location does not represent an actual business site."><i
+                class="fa-solid fa-location-dot"></i></a>
+            333 Zalama Avenue<br />
+            Trafalgar Square, London<br />
+            WC2N 5DS, United Kingdom <br />
+          </address>
+          <div class="accessibilty text-footer">
+            <p class="accessibilty-note">
+              Our offices are accessible for people with mobility needs
+            </p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#accessibilityModal"
+              aria-label="Read more information about our office accessibility in a modal window"><i
                 class="fa-brands fa-accessible-icon fa-2xl fa-beat"
-                title="Our offices are accessible for people with mobility needs"
-              ></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 text-center footer-video">
-            <video class="video-bg" autoplay loop muted>
-              <!--<source src="assets/images/man-fixing-bed-for-elder-man.mp4" type="video/mp4">-->
-              <source
-                src="assets/images/Elder-man-comforted-by-female-carer.mp4"
-                type="video/mp4"
-              />
-            </video>
-            <div class="cta-video text-footer">
-              <p>Start your journey with us today</p>
-              <a href="contact-us.html" class="btn button-style-light"
-                >Contact Us</a
-              >
-            </div>
-          </div>
-          <div class="col-12 col-md-4 text-center business-hours text-footer">
-            <h3>Business hours</h3>
-            <table>
-              <tr>
-                <th class="top-left">Day</th>
-                <th class="top">Open</th>
-                <th class="top">Close</th>
-              </tr>
-              <tr>
-                <th>Monday - Friday</th>
-                <td>08:30</td>
-                <td>17:00</td>
-              </tr>
-              <tr>
-                <th>Saturday</th>
-                <td>09:00</td>
-                <td>14:00</td>
-              </tr>
-              <tr>
-                <th>Sunday and Bank Holidays</th>
-                <td colspan="2">Closed</td>
-              </tr>
-            </table>
-          </div>
-          <div class="col-12 text-center text-footer office-note">
-            <p>
-              *Should you require any urgent assistance outside office hours,
-              please contact our Duty Officer on
-              <strong>+4412 345 67890</strong>
-              <a href="tel:+441234567890" aria-label="Call +44 1234 567890"
-                ><i class="fa-solid fa-phone"></i></a
-              >.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 text-center text-footer credits">
-            <p>© 2025 Zalama Care - Website for educational purposes only</p>
-            <p>
-              <a
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#creditsModal"
-                aria-label="View images and video credits in a modal window"
-                >Images & Video Credits
-              </a>
-            </p>
-          </div>
-          <div class="col-12 col-md-6 social-media text-footer">
-            <h3>Follow us</h3>
-            <ul>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our Facebook page (opens in a new tab)"
-                >
-                  <i class="fa-brands fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.x.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our Twitter page (opens in a new tab)"
-                >
-                  <i class="fa-brands fa-x-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our LinkedIn page (opens in a new tab)"
-                >
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Visit our Instagram page (opens in a new tab)"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
+                title="Our offices are accessible for people with mobility needs"></i>
+            </a>
           </div>
         </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap image & video credit Modal -->
-    <div
-      class="modal fade"
-      id="creditsModal"
-      tabindex="-1"
-      aria-labelledby="creditsModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="creditsModalLabel">
-              Image & Video Credits
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
+        <div class="col-12 col-md-4 text-center footer-video">
+          <video class="video-bg" autoplay loop muted>
+            <!--<source src="assets/images/man-fixing-bed-for-elder-man.mp4" type="video/mp4">-->
+            <source src="assets/images/Elder-man-comforted-by-female-carer.mp4" type="video/mp4" />
+          </video>
+          <div class="cta-video text-footer">
+            <p>Start your journey with us today</p>
+            <a href="contact-us.html" class="btn button-style-light">Contact Us</a>
           </div>
-          <div class="modal-body">
-            <p>
-              Some images and videos used on this website are sourced from
-              <a href="https://www.freepik.com/" target="_blank" rel="noopener"
-                >Freepik</a
-              >: by authors listed below
-            </p>
-            <ul>
-              <li>
-                <a
-                  href="https://img.freepik.com/free-photo/female-nurse-communicating-with-senior-woman-while-being-home-visit-focus-is-senior-woman_637285-3636.jpg?t=st=1738070029~exp=1738073629~hmac=1f6bddb9f089d09c92117bfbf3324b823e734a29aaa8157879a124f9a9f2a998&w=996"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Intro image - home page</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/drazenzigic"
-                  target="_blank"
-                  rel="noopener"
-                  >Drazen Zigic</a
-                >
-                on
-                <a
-                  href="https://www.freepik.com/"
-                  target="_blank"
-                  rel="noopener"
-                  >Freepik</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://img.freepik.com/free-photo/old-patient-suffering-from-parkinson_23-2149370437.jpg?t=st=1738077309~exp=1738080909~hmac=bbc91c75e3684b36cbde8e65f3e627e45f3bd0c02aa61cbdb92863b5f6b8c4cb&w=996"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Home care image - services section</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/freepik"
-                  target="_blank"
-                  rel="noopener"
-                  >Freepik</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://videocdn.cdnpk.net/videos/e33cfe12-b445-49de-b5d1-768b5d633e67/horizontal/previews/clear/large.mp4?token=exp=1738254809~hmac=d2568c67c652ea7dbfb037e742d287dad7be9c83ad540735f56fb00b19349466"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Footer video - footer section</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/freepik"
-                  target="_blank"
-                  rel="noopener"
-                  >Freepik</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://img.freepik.com/free-photo/disabled-senior-wheelchair-man-having-conversation-with-son-family-brunch-kitchen-senior-parents-together-with-mature-children_482257-10265.jpg?t=st=1738405431~exp=1738409031~hmac=d87cec2de8f91fd77328a5061fa9fd27ad74d0462c5657b4dfec8a5d5d7d578a&w=996"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Intro image - about page</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/freepik"
-                  target="_blank"
-                  rel="noopener"
-                  >Freepik</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://img.freepik.com/free-photo/medium-shot-woman-getting-tasty-breakfast_23-2149046132.jpg?t=st=1738405513~exp=1738409113~hmac=6857ba3094c9a40de8196e6fc19cc036ec5e1dcb861cdbc4f0fa6db9ec874f33&w=996"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Our mission image - about page</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/freepik"
-                  target="_blank"
-                  rel="noopener"
-                  >Freepik</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://img.freepik.com/free-photo/side-view-caregiver-high-fiving-with-old-man_23-2148239050.jpg?t=st=1738404970~exp=1738408570~hmac=6b52867793ce00d81c6dffb466ab9f037073e52a310728c718ac7d258c18be7d&w=996"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Our vision image - about page</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/freepik"
-                  target="_blank"
-                  rel="noopener"
-                  >Freepik</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.freepik.com/icon/assisted-living_18240471"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Supported living icon</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/zerowing/icons"
-                  target="_blank"
-                  rel="noopener"
-                  >Zero Wing</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.freepik.com/icon/time_12204041"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Home care icon</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/dewi-sari/icons"
-                  target="_blank"
-                  rel="noopener"
-                  >Dewi Sari</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.freepik.com/icon/emotional-intelligence_17259667"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Dementia and complex care icon</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/ragil-heru-fitriyan/icons"
-                  target="_blank"
-                  rel="noopener"
-                  >Ragil Heru Fitriyan</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.freepik.com/icon/physiotherapist_8493477"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>Respite care icon</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/prosymbols/icons"
-                  target="_blank"
-                  rel="noopener"
-                  >Prosymbols Premium</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.freepik.com/icon/know-how_15309935"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>General inquiry icon</strong></a
-                >
-                by
-                <a
-                  href="https://www.freepik.com/author/leremy/icons"
-                  target="_blank"
-                  rel="noopener"
-                  >Leremy</a
-                >
-              </li>
-            </ul>
-            <p>
-              Other images were obtained from
-              <a href="https://pixabay.com/">Pixabay</a>,
-              <a href="https://www.pexels.com/">Pexels</a> and
-              <a href="https://www.unsplash.com/">Unsplash</a>
-            </p>
-          </div>
+        </div>
+        <div class="col-12 col-md-4 text-center business-hours text-footer">
+          <h3>Business hours</h3>
+          <table>
+            <tr>
+              <th class="top-left">Day</th>
+              <th class="top">Open</th>
+              <th class="top">Close</th>
+            </tr>
+            <tr>
+              <th>Monday - Friday</th>
+              <td>08:30</td>
+              <td>17:00</td>
+            </tr>
+            <tr>
+              <th>Saturday</th>
+              <td>09:00</td>
+              <td>14:00</td>
+            </tr>
+            <tr>
+              <th>Sunday and Bank Holidays</th>
+              <td colspan="2">Closed</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-12 text-center text-footer office-note">
+          <p>
+            *Should you require any urgent assistance outside office hours,
+            please contact our Duty Officer on
+            <strong>+4412 345 67890</strong>
+            <a href="tel:+441234567890" aria-label="Call +44 1234 567890"><i class="fa-solid fa-phone"></i></a>.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 text-center text-footer credits">
+          <p>© 2025 Zalama Care - Website for educational purposes only</p>
+          <p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#creditsModal"
+              aria-label="View images and video credits in a modal window">Images & Video Credits
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-md-6 social-media text-footer">
+          <h3>Follow us</h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.x.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)">
+                <i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                aria-label="Visit our LinkedIn page (opens in a new tab)">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </footer>
 
-    <!-- Bootstrap accessibility Modal -->
-    <div
-      class="modal fade"
-      id="accessibilityModal"
-      tabindex="-1"
-      aria-labelledby="accessibilityModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="accessibilityModalLabel">
-              Accessibility info
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Our office are fully accessible for individuals with mobility
-              needs and we have designated parking spaces for our visitors.
-            </p>
-            <p>
-              If you require assistance or have specific requirements for your
-              visit, kindly let us know in advance and we will do our best to
-              accommodate you or your loved ones.
-            </p>
-          </div>
+  <!-- Bootstrap image & video credit Modal -->
+  <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="creditsModalLabel">
+            Image & Video Credits
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Some images and videos used on this website are sourced from
+            <a href="https://www.freepik.com/" target="_blank" rel="noopener">Freepik</a>: by authors listed below
+          </p>
+          <ul>
+            <li>
+              <a href="https://img.freepik.com/free-photo/female-nurse-communicating-with-senior-woman-while-being-home-visit-focus-is-senior-woman_637285-3636.jpg?t=st=1738070029~exp=1738073629~hmac=1f6bddb9f089d09c92117bfbf3324b823e734a29aaa8157879a124f9a9f2a998&w=996"
+                target="_blank" rel="noopener"><strong>Intro image - home page</strong></a>
+              by
+              <a href="https://www.freepik.com/author/drazenzigic" target="_blank" rel="noopener">Drazen Zigic</a>
+              on
+              <a href="https://www.freepik.com/" target="_blank" rel="noopener">Freepik</a>
+            </li>
+            <li>
+              <a href="https://img.freepik.com/free-photo/old-patient-suffering-from-parkinson_23-2149370437.jpg?t=st=1738077309~exp=1738080909~hmac=bbc91c75e3684b36cbde8e65f3e627e45f3bd0c02aa61cbdb92863b5f6b8c4cb&w=996"
+                target="_blank" rel="noopener"><strong>Home care image - services section</strong></a>
+              by
+              <a href="https://www.freepik.com/author/freepik" target="_blank" rel="noopener">Freepik</a>
+            </li>
+            <li>
+              <a href="https://videocdn.cdnpk.net/videos/e33cfe12-b445-49de-b5d1-768b5d633e67/horizontal/previews/clear/large.mp4?token=exp=1738254809~hmac=d2568c67c652ea7dbfb037e742d287dad7be9c83ad540735f56fb00b19349466"
+                target="_blank" rel="noopener"><strong>Footer video - footer section</strong></a>
+              by
+              <a href="https://www.freepik.com/author/freepik" target="_blank" rel="noopener">Freepik</a>
+            </li>
+            <li>
+              <a href="https://img.freepik.com/free-photo/disabled-senior-wheelchair-man-having-conversation-with-son-family-brunch-kitchen-senior-parents-together-with-mature-children_482257-10265.jpg?t=st=1738405431~exp=1738409031~hmac=d87cec2de8f91fd77328a5061fa9fd27ad74d0462c5657b4dfec8a5d5d7d578a&w=996"
+                target="_blank" rel="noopener"><strong>Intro image - about page</strong></a>
+              by
+              <a href="https://www.freepik.com/author/freepik" target="_blank" rel="noopener">Freepik</a>
+            </li>
+            <li>
+              <a href="https://img.freepik.com/free-photo/medium-shot-woman-getting-tasty-breakfast_23-2149046132.jpg?t=st=1738405513~exp=1738409113~hmac=6857ba3094c9a40de8196e6fc19cc036ec5e1dcb861cdbc4f0fa6db9ec874f33&w=996"
+                target="_blank" rel="noopener"><strong>Our mission image - about page</strong></a>
+              by
+              <a href="https://www.freepik.com/author/freepik" target="_blank" rel="noopener">Freepik</a>
+            </li>
+            <li>
+              <a href="https://img.freepik.com/free-photo/side-view-caregiver-high-fiving-with-old-man_23-2148239050.jpg?t=st=1738404970~exp=1738408570~hmac=6b52867793ce00d81c6dffb466ab9f037073e52a310728c718ac7d258c18be7d&w=996"
+                target="_blank" rel="noopener"><strong>Our vision image - about page</strong></a>
+              by
+              <a href="https://www.freepik.com/author/freepik" target="_blank" rel="noopener">Freepik</a>
+            </li>
+            <li>
+              <a href="https://www.freepik.com/icon/assisted-living_18240471" target="_blank"
+                rel="noopener"><strong>Supported living icon</strong></a>
+              by
+              <a href="https://www.freepik.com/author/zerowing/icons" target="_blank" rel="noopener">Zero Wing</a>
+            </li>
+            <li>
+              <a href="https://www.freepik.com/icon/time_12204041" target="_blank" rel="noopener"><strong>Home care
+                  icon</strong></a>
+              by
+              <a href="https://www.freepik.com/author/dewi-sari/icons" target="_blank" rel="noopener">Dewi Sari</a>
+            </li>
+            <li>
+              <a href="https://www.freepik.com/icon/emotional-intelligence_17259667" target="_blank"
+                rel="noopener"><strong>Dementia and complex care icon</strong></a>
+              by
+              <a href="https://www.freepik.com/author/ragil-heru-fitriyan/icons" target="_blank" rel="noopener">Ragil
+                Heru Fitriyan</a>
+            </li>
+            <li>
+              <a href="https://www.freepik.com/icon/physiotherapist_8493477" target="_blank"
+                rel="noopener"><strong>Respite care icon</strong></a>
+              by
+              <a href="https://www.freepik.com/author/prosymbols/icons" target="_blank" rel="noopener">Prosymbols
+                Premium</a>
+            </li>
+            <li>
+              <a href="https://www.freepik.com/icon/know-how_15309935" target="_blank" rel="noopener"><strong>General
+                  inquiry icon</strong></a>
+              by
+              <a href="https://www.freepik.com/author/leremy/icons" target="_blank" rel="noopener">Leremy</a>
+            </li>
+          </ul>
+          <p>
+            Other images were obtained from
+            <a href="https://pixabay.com/">Pixabay</a>,
+            <a href="https://www.pexels.com/">Pexels</a> and
+            <a href="https://www.unsplash.com/">Unsplash</a>
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font Awesome JS -->
-    <script
-      src="https://kit.fontawesome.com/759c893288.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-    <script>
-      document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-          link.addEventListener("click", function (e) {
-            let section = document.querySelector(e.target.getAttribute("href"));
-            if (section) {
-              e.preventDefault(); // Prevent default anchor click behavior
-              let navbarHeight =
-                document.querySelector(".navbar-toggler").offsetHeight;
-              window.scroll({
-                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                behavior: "smooth",
-              });
-              document
-                .querySelector(".navbar-collapse")
-                .classList.remove("show"); // Collapse navbar
-            }
-          });
+  <!-- Bootstrap accessibility Modal -->
+  <div class="modal fade" id="accessibilityModal" tabindex="-1" aria-labelledby="accessibilityModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="accessibilityModalLabel">
+            Accessibility info
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Our office are fully accessible for individuals with mobility
+            needs and we have designated parking spaces for our visitors.
+          </p>
+          <p>
+            If you require assistance or have specific requirements for your
+            visit, kindly let us know in advance and we will do our best to
+            accommodate you or your loved ones.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome JS -->
+  <script src="https://kit.fontawesome.com/759c893288.js" crossorigin="anonymous"></script>
+  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+  <script>
+    document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            let navbarHeight =
+              document.querySelector(".navbar-toggler").offsetHeight;
+            window.scroll({
+              top: section.offsetTop - navbarHeight, // Adjust for navbar height
+              behavior: "smooth",
+            });
+            document
+              .querySelector(".navbar-collapse")
+              .classList.remove("show"); // Collapse navbar
+          }
         });
-    </script>
-  </body>
+      });
+  </script>
+</body>
+
 </html>

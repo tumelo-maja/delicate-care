@@ -60,11 +60,16 @@ The site is helps individuals and families understand available care options for
     <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
   </figure>
 
+5) Our values section
+  <figure>
+    <img src="docs/site-screenshots/home-our-values-section-large-screen.png" width="80%" height="50%">
+    <figcaption><strong><em>Our values section: Home page</em></strong></figcaption>
+  </figure>
 
-4) Expand/collapse button in services section
-- 'Read more' to expand 
-- 'Show less' to collapse
-- Corresponding services icon are clickable with the same  functionality as the 'Read more'/'Show less' buttons 
+- **Our services section** - The section allows the user to see Zalama Care's values as a care service provider so the user can be confident about their expectations on our service.
+- Call-to-Action - There is a clear and visible prompt 'Enquire now' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
+
+
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form
 5) Contact information in the footer

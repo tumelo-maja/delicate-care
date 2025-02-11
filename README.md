@@ -102,9 +102,20 @@ The footer is consistent section featured in all pages similar to the navbar. Th
     <img src="docs/site-screenshots/footer-video-clip-large-screen.png" width="40%" height="40%">
     <figcaption><strong><em>Video in footer: All pages</em></strong></figcaption>
   </figure>
-  
+
   - A good quality video with dimmed brightness and a 'Contact us' button offer a visually appealing user experience while prompting them to contact us. The video auto-plays in a loop but is always muted and there are no controls to interact with the video
 
+- **Business hours** 
+  <figure>
+    <img src="docs/site-screenshots/footer-business-hours-large-screen.png" width="40%" height="40%">
+    <figcaption><strong><em>Business hours in footer: All pages</em></strong></figcaption>
+  </figure>
+  
+  - The business hours section allows the user to be informed on the opening and closing times during weekdays, weekends and bank holidays. This information is useful for users to know when they can contact our offices. 
+
+  - After hours notice - This information informs the users that they can still get in touch with our office even outside office hours through a dedicated Duty Officer line. This assures users that we are always reach at all times should they require assistance.  
+
+  
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons
 - On click, they redirect the user to the contact page where there is a contact form

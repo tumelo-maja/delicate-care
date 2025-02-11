@@ -60,14 +60,23 @@ The site is helps individuals and families understand available care options for
     <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
   </figure>
 
-5) Our values section
+5) Why choose us section
   <figure>
     <img src="docs/site-screenshots/home-our-values-section-large-screen.png" width="80%" height="50%">
-    <figcaption><strong><em>Our values section: Home page</em></strong></figcaption>
+    <figcaption><strong><em>Why choose us section: Home page</em></strong></figcaption>
   </figure>
 
-- **Our services section** - The section allows the user to see Zalama Care's values as a care service provider so the user can be confident about their expectations on our service.
+- **Our values** - The section allows the user to see and understand Zalama Care's values as a care service provider so the user can be confident about their expectations on our service.
 - Call-to-Action - There is a clear and visible prompt 'Enquire now' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
+
+6) Getting started section
+  <figure>
+    <img src="docs/site-screenshots/home-onboarding-section-large-screen.png" width="80%" height="50%">
+    <figcaption><strong><em>Getting started section: Home page</em></strong></figcaption>
+  </figure>
+
+- **Onboarding steps** - This section provides an easy guide to the onboarding steps for users interested in get care support from Zalama care. The users are able to have information on what to expect once they complete a contact form or reach out to us by any means. This information shows transparency and will enhance user's confidence in our care services. 
+- Call-to-Action - There is a clear and visible prompt 'Let's talk today!' button to invite the user to contact us. Once clicked, the user will be directed to the contact page where there is a contact form. 
 
 
 4) 'Contact us', 'Enquire now' and 'Let's talk today' buttons

@@ -76,7 +76,7 @@ nav,
   color: var(--white-edgar);
 }
 
-#team i ,
+#team i,
 .thank-you i {
   color: var(--velvet-evening);
 }
@@ -100,8 +100,7 @@ nav,
 
 .credits a:hover {
   text-decoration: underline;
-} 
-
+}
 
 .text-body h1,
 .text-body h2,
@@ -212,7 +211,7 @@ footer {
   color: var(--white-edgar);
   border: 2px solid var(--thin-air);
 }
-.modal-body a{
+.modal-body a {
   color: var(--thin-air);
 }
 
@@ -270,12 +269,12 @@ h1 {
 }
 
 .navbar-brand {
-color: var(--white-edgar);
+  color: var(--white-edgar);
 }
 
 .navbar-brand:hover {
   color: var(--thin-air);
-  }
+}
 
 #services {
   padding-top: 2rem;
@@ -292,8 +291,6 @@ h3 {
 .text-footer td {
   font-size: 1rem;
 }
-
-
 
 .text-body {
   padding: 20px;
@@ -361,7 +358,6 @@ h3 {
   width: 100%;
   align-content: center;
 }
-
 
 .float-image {
   margin-top: 20px;
@@ -830,16 +826,18 @@ footer h3::after {
 .staff-field {
   background-color: var(--white-edgar);
   margin: 30px;
-  border-radius: 10px;
+  padding: 0;
+  border-radius: 50%;
   border: 3px solid var(--velvet-evening);
-  height: 70px;
+  height: 233px;
+  /* width: 30%; */
+  aspect-ratio: 1/1;
   display: flex;
   align-items: center;
   box-shadow: 1px 1px 20px var(--robin-egg-blue);
-
 }
 
-.staff-field p{
+.staff-field p {
   color: var(--velvet-evening);
   font-weight: bold;
   text-align: center;
@@ -848,7 +846,6 @@ footer h3::after {
   font-size: 1.3rem;
   text-transform: capitalize;
 }
-
 
 .about-text {
   align-content: center;
@@ -881,7 +878,6 @@ footer h3::after {
 /*--------------------------- Media queries --*/
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
-
   /*---------- services / onboarding images  --*/
   .service-img,
   .onboard-step img {
@@ -900,13 +896,17 @@ footer h3::after {
   .text-footer td {
     font-size: 1rem;
   }
+
+  /*------ about team ---*/
+  .staff-field {
+    height: 279.16px;
+  }
 }
 
 /*---------------------------Adjust for large phone screens (425px) */
 @media screen and (min-width: 425px) {
-
   /*---------- about/ home intro ---*/
-  .intro-text p, 
+  .intro-text p,
   .about-text p {
     padding: 5px;
   }
@@ -930,6 +930,11 @@ footer h3::after {
 
   .business-hours table {
     width: 80%;
+  }
+
+  /*------ about team ---*/
+  .staff-field {
+    height: 320px;
   }
 }
 
@@ -972,7 +977,7 @@ footer h3::after {
   /*---------- Intro*/
   #intro-image2,
   #intro-cta {
-    order: 0; 
+    order: 0;
   }
 
   .intro-text {
@@ -1011,7 +1016,6 @@ footer h3::after {
     left: 50%;
   }
 
-  
   .footer-video,
   .contact-info,
   .business-hours {
@@ -1070,6 +1074,11 @@ footer h3::after {
   .statement p {
     padding: 20px 0 0;
   }
+
+  /*------ about team ---*/
+  .staff-field {
+    height: 226px;
+  }
 }
 
 /*----------------------------Bootstrap breakpoint for large screens (992px) */
@@ -1085,7 +1094,7 @@ footer h3::after {
   }
 
   /*------- home / about ---*/
-  .intro-text, 
+  .intro-text,
   .about-text {
     font-size: 1.1rem;
   }
@@ -1135,13 +1144,17 @@ footer h3::after {
   .video-bg {
     width: 75%;
   }
-  /*--------- our-values section---*/
+
+  /*------ about team ---*/
+  .staff-field {
+    height: 230px;
+  }
 }
 
 /*-------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px)) */
 @media screen and (min-width: 1200px) {
   /*------- home / about ---*/
-  .intro-text, 
+  .intro-text,
   .about-text {
     font-size: 1.3rem;
   }
@@ -1174,17 +1187,17 @@ footer h3::after {
     width: 80%;
   }
 
-  .g-map iframe {
-    width: 456px;
+  /*------ about team ---*/
+  .staff-field {
+    height: 275px;
   }
 }
 
 /*----------------Bootstrap breakpoint for 2XL screens (@media screen and (min-width: 1440px)) */
 @media screen and (min-width: 1440px) {
-
   /*------- home / about ---*/
-  .intro-text, 
-  .about-text  {
+  .intro-text,
+  .about-text {
     font-size: 1.4rem;
   }
 
@@ -1207,5 +1220,10 @@ footer h3::after {
   /*----- onboarding text ---*/
   .onboard-text {
     font-size: 1.1rem;
+  }
+
+  /*------ about team ---*/
+  .staff-field {
+    height: 320px;
   }
 }

@@ -407,6 +407,7 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Social media icons in the footer - all icons in all pages (mobile) | Click on each of the social media icons (facebook, twitter, Linkedin & Instagram) in the footer - all pages tested |  mobile device's corresponding app is launched or a new tab in the browser is lunched and the user is directed to the home page for each social media link |
 | Social media icons in the footer - all icons in all pages (desktop) | Click on each of the social media icons (facebook, twitter, Linkedin & Instagram) in the footer - all pages tested |  a a new tab is launched and the user is directed to the home page for each social media link |
 
+
 ### Browser Compatibility
 
 ### Responsive Testing 

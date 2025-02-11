@@ -401,8 +401,10 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Email icon in the footer - all pages (desktop) | Click on the email icon button in the footer - all pages tested |  desktop/laptop's default email app is launched with the receiver's email address pre-filled |
 | Location icon in the footer - all pages (mobile) | Click on the location icon button in the footer - all pages tested |  mobile device's default navigation app is launched with the location address pre-filled |
 | Location icon in the footer - all pages (desktop) | Click on the location icon button in the footer - all pages tested |  a new Google maps tab is launched with the location address pre-filled |
-| Disability accessibility  icon in the footer - all pages (desktop/mobile) | Click on the disability icon button in the footer - all pages tested |  a pop-up modal is launched and display additional information relating to accessibility |
+| Disability accessibility  icon in the footer - all pages (desktop/mobile) | Click on the disability icon in the footer - all pages tested |  a pop-up modal is launched and display additional information relating to accessibility |
 | Images and video credits link in the footer - all pages (desktop/mobile) | Click on the "Images and video credits" link in the footer - all pages tested |  a pop-up modal is launched and display additional information about images, video and icons sources/credits |
+| Social media icons in the footer - all icons in all pages (mobile) | Click on each of the social media icons (facebook, twitter, Linkedin & Instagram) in the footer - all pages tested |  mobile device's corresponding app is launched or a new tab in the browser is lunched and the user is directed to the home page for each social media link |
+| Social media icons in the footer - all icons in all pages (desktop) | Click on each of the social media icons (facebook, twitter, Linkedin & Instagram) in the footer - all pages tested |  a a new tab is launched and the user is directed to the home page for each social media link |
 
 ### Browser Compatibility
 

@@ -395,6 +395,9 @@ For each interactive feature, a testing was conducted and the results are outlin
 | 'Enquire now' button in the home page - 'why choose us' section | Click on 'Enquire now' button in the 'why choose us' section (home) |  User is directed to the contact page |
 | 'Let's talk today!' button in the home page - 'Getting started' section | Click on 'Let's talk today!' button in the 'Getting started' section (home) |  User is directed to the contact page |
 | 'Contact us' button in the footer - all pages | Click on 'Contact Us' button in the footer - all pages tested |  User is directed to the contact page |
+| Phone icon in the footer - all pages (mobile) | Click on the phone icon button in the footer - all pages tested |  mobile device's phone dialer app is launched with the contact number pre-filled  |
+| Phone icon in the footer - all pages (desktop) | Click on the phone icon button in the footer - all pages tested | User gets a pop-up prompt to launch dialer application  |
+
 
 ### Browser Compatibility
 

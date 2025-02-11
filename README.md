@@ -379,7 +379,7 @@ We used the color pallet generator from
 ## Testing 
 
 ### Feature Testing
-For each interactive feature, a testing was conducted and the results are outlined below in a table
+For each interactive feature, a testing was conducted and the results are outlined in a table below
 
 | Feature                 | Testing                         | Outcome                             |
 | --------                | -------                         |-------                              |
@@ -409,6 +409,14 @@ For each interactive feature, a testing was conducted and the results are outlin
 
 
 ### Browser Compatibility
+The website's layout and responsivity was tested on the commonly used browsers. The test is based on the quality of browser rendering of the website as intended and its responsivity to screen width variations. 
+
+| Browser         | Intended Appearance | Intended Responsiveness |  
+|---------------  |---------------------|-------------------------|  
+| Google Chrome   |                     |                         |  
+| Mozilla Firefox |                     |                         |  
+| Mozilla Firefox |                     |                         |  
+
 
 ### Responsive Testing 
 

@@ -402,7 +402,7 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Location icon in the footer - all pages (mobile) | Click on the location icon button in the footer - all pages tested |  mobile device's default navigation app is launched with the location address pre-filled |
 | Location icon in the footer - all pages (desktop) | Click on the location icon button in the footer - all pages tested |  a new Google maps tab is launched with the location address pre-filled |
 | Disability accessibility  icon in the footer - all pages (desktop/mobile) | Click on the disability icon button in the footer - all pages tested |  a pop-up modal is launched and display additional information relating to accessibility |
-
+| Images and video credits link in the footer - all pages (desktop/mobile) | Click on the "Images and video credits" link in the footer - all pages tested |  a pop-up modal is launched and display additional information about images, video and icons sources/credits |
 
 ### Browser Compatibility
 

@@ -232,7 +232,7 @@ footer {
 /*----- end colors------*/
 
 nav {
-  border-bottom: 1px solid var(--dark-gray);
+  border-bottom: 1px solid var(--white-edgar);
   font-weight: 500;
 }
 

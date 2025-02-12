@@ -272,7 +272,6 @@ h1 {
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
           transform: scale(0);
-  color: var(--thin-air);
   background-color: var(--thin-air);
 }
 
@@ -298,7 +297,7 @@ h1 {
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1);
-  color: var(--thin-air);
+  background-color: var(--thin-air);
 }
 
 .navbar-brand {

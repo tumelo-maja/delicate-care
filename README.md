@@ -436,7 +436,7 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 | Browser         | Intended Appearance | Intended Responsiveness |  
 |---------------  |---------------------|-------------------------|  
-| Google Chrome   |          Good       |            Good         |  
+| Google Chrome   |          Good       |           Good          |  
 | Mozilla Firefox |          Fair       |           Good          |  
 | Microsoft Edge  |          Good       |           Good          |  
 
@@ -447,11 +447,11 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 | Page Tested | Screenshot of Errors | Solution Applied   | Screenshot of Clear Validator Output |  
 |------------ |------------          |------------        |------------                          |
-| index.html  |                      |                    |                                      |    
-| about.html  |                      |                    |                                      |    
-| contact-us.html  |                      |                    |                                      |    
-| success.html  |                      |                    |                                      |    
-| styles.css  |                      |                    |                                      |    
+| index.html  |<img src="docs/Testing-screenshots/index-initial-validator-results.png" width="50%" height="50%"> |**warnings:** section element without header was changed to a div <br><br>**info:** redundant forward slash in self closing elements were removed |<img src="docs/Testing-screenshots/index-final-validator-results.png" width="80%" height="80%"> |    
+| about.html  |<img src="docs/Testing-screenshots/about-initial-validator-results.png" width="50%" height="50%"> |**info:** redundant forward slash in self closing elements were removed |<img src="docs/Testing-screenshots/about-final-validator-results.png" width="80%" height="80%"> |  
+| contact-us.html  |<img src="docs/Testing-screenshots/contact-initial-validator-results.png" width="50%" height="50%"> |**error:** label tag without corresponding input field; the radio buttons were wrapped in a fieldset <br><br>**info:** redundant forward slash in self closing elements were removed |<img src="docs/Testing-screenshots/contact-final-validator-results.png" width="80%" height="80%"> |     
+| success.html  |<img src="docs/Testing-screenshots/success-initial-validator-results.png" width="50%" height="50%"> |**info:** redundant forward slash in self closing elements were removed |<img src="docs/Testing-screenshots/success-final-validator-results.png" width="80%" height="80%"> | 
+| styles.css  |<img src="docs/Testing-screenshots/styles-initial-validator-results.png" width="80%" height="80%"> |**error:** border attribute with too many values; this was an unused styling and was removed <br><br>**warnings:** Underline styling on the navbar elements had 'background-color' and 'color' set to the same values; 'color' was removed as there is not content <br><br>- About 118 warnings from variables added by Autoprefixer to accommodate other browsers; nothing can be done about these warnings - they do not affect functionality and layout of the website i.e. they would be ignored by browsers that cannot interpret them |<img src="docs/Testing-screenshots/styles-final-validator-results.png" width="100%" height="100%"> |   
 
 
 ### Bugs

@@ -456,6 +456,77 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 ### Bugs
 
+**Form validation message: Contact form** 
+  <figure>
+    <img src="docs/bugs-screenshots/contact-form-validation-message-showing-bug.png" width="350px" height="650px">
+    <img src="docs/bugs-screenshots/contact-form-validation-message-not-showing-bug.png" width="350px" height="650px">
+    <br>
+    <figcaption><strong><em>navigating to 'Services' not scrolling to display section header: Nav Bar - Services</em></strong></figcaption>
+  </figure>
+- (All browsers) Due to an unknown effect/cause, the validation message for when a users attempts to submit an invalid form (empty fields/ incorrect input format) does not appear on certain occasions . Since this occurs occasionally with no clear pattern, there is no solution for it at present. 
+
+- **Status:** Not resolved.
+
+
+**Navigation to Services: Nav Bar** 
+  <figure>
+    <img src="docs/bugs-screenshots/index-services-header-bug.png" width="350px">
+    <br>
+    <figcaption><strong><em>navigating to 'Services' not scrolling to display section header: Nav Bar - Services</em></strong></figcaption>
+  </figure>
+
+- (All browsers for collapsed Nav Bar) When navigating to 'Services' section from about, success or contact-us page; the page does not scroll low enough to display the section header 'OUR SERVICES'; this is covered by the fixed Nav Bar. However, when navigating from within the index ('HOME') page, the page scrolls low enough for the header to be displayed. For large screens (=>992px) this issues does not occur. 
+
+- **Status:** Not resolved.
+
+
+**Navigation not collapsing: Nav Bar** 
+  <figure>
+    <img src="docs/bugs-screenshots/nav-bar-not-collapsing-bug.png" width="350px">
+    <br>
+    <figcaption><strong><em>navigating to 'Services' not scrolling to display section header: Nav Bar - Services</em></strong></figcaption>
+  </figure>
+
+- (All browsers for collapsed Nav Bar) When a has the Nav Bar expanded and they click anywhere on the screen except the nav bar items; the nav bar does not collapse. To collapse the the navbar, the user has to click on the toggle button use to expand. This lead to a poor user experience.  
+
+- **Status:** Not resolved - Could require JS script.
+
+
+**Icon alignment: Why choose us? section**
+  <figure>
+    <img src="docs/bugs-screenshots/index-our-values-icons-bug.png" width="300px">
+    <br>
+    <figcaption><strong><em>Values icons not centered: 'Why choose us?' - home page</em></strong></figcaption>
+  </figure>
+
+- (Mozilla Firefox only) the 'values' icons under 'why choose us?' are aligned to the left while they're intended to be centered about the text. This issue has not been observed in Chrome or Edge browsers. We(I) checked if the Autoprefixer tool could fix the issues and there was no solution.  
+
+- **Status:** Not resolved.
+
+**Submit button alignment: contact form** 
+  <figure>
+    <img src="docs/bugs-screenshots/contact-form-submit-button-bug.png" width="300px">
+    <br>
+    <figcaption><strong><em>Submit button not centered: Contact form - contact page</em></strong></figcaption>
+  </figure>
+
+- (Mozilla Firefox only) the 'Submit' button the contact form  is aligned to the left while it's intended to be centered about the form fields. This issue has not been observed in Chrome or Edge browsers.  
+
+- **Status:** Not resolved.
+
+
+**H1 alignment: Home - hero section**
+  <figure>
+    <img src="docs/bugs-screenshots/index-hero-h1-position-bug.png" width="300px">
+    <br>
+    <figcaption><strong><em>'WELCOME TO ZALAMA' h1 element not aligned to the right: Hero - home page</em></strong></figcaption>
+  </figure>
+
+- (Mozilla Firefox only) the 'WELCOME TO ZALAMA' h1 element, overlaying the background hero image, is aligned to the left while it's intended to be aligned to the right. This issue is visible from medium/table screen size (>=768px)  as the with of the h1 container is no longer 100% of its parent width.  
+
+- **Status:** Not resolved - Similar to other element alignments. 
+
+
 ### Lighthouse Testing
 
 ### Accessibility Testing

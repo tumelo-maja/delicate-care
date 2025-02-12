@@ -553,7 +553,7 @@ address strong,
 }
 
 .onboard-step {
-  padding: 20px 18px;
+  padding: 20px 0;
 }
 
 .onboard-body {
@@ -1029,6 +1029,10 @@ footer h3::after {
   }
 
   /*------- onboarding ---*/
+  .onboard-step {
+    padding: 20px 18px;
+  }
+
   .onboard-step img {
     height: 270px;
   }

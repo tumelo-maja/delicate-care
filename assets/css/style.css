@@ -520,13 +520,12 @@ address strong,
   display: flex;
   width: 90px;
   height: 90px;
-  -ms-grid-column-align: center;
-      justify-self: center;
   margin: 30px 10px 20px;
 }
 
 .value-icon {
   height: 100px;
+  justify-items: center;
 }
 
 .value-text {

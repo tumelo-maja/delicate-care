@@ -59,6 +59,8 @@ The site is helps individuals and families understand available care options for
   - **service types** - This section present the different types of care service Zalama Care offers. This will allow users to learn more and decide on a suitable for themselves or their loved ones. 
   -  A 'Read more' button under each service type can be used to expand the description text for users to view additional information about the service type. Once expanded, there is a 'Show less' button to collapse the additional text.
   - The icon displayed besides the 'Read more'/ 'Show less' icons is clickable and has the same functionality to expand and collapse additional text.
+
+  
     <figure>
       <img src="docs/site-screenshots/home-services-section-expand-large-screen.png" width="50%" height="50%">
      <br>

@@ -561,7 +561,6 @@ address strong,
 
 .onboard-body {
   border: 1px solid var(--cool-gray);
-  border: 0 0 2px 3px;
   border-radius: 10px 10px 0 0;
   padding: 10px;
 }

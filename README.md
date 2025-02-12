@@ -30,6 +30,7 @@ The site is helps individuals and families understand available care options for
 - **Landing page image**
   <figure>
     <img src="docs/site-screenshots/home-hero-large-screen.png" width="80%" height="50%">
+    <br>
     <figcaption><strong><em>landing page image: Home page</em></strong></figcaption>
   </figure>
 
@@ -40,6 +41,7 @@ The site is helps individuals and families understand available care options for
 - **Introduction section** 
   <figure>
     <img src="docs/site-screenshots/home-intro-section-large-screen.png" width="80%" height="50%">
+    <br>
     <figcaption><strong><em>Introduction section: Home page</em></strong></figcaption>
   </figure>
 
@@ -50,6 +52,7 @@ The site is helps individuals and families understand available care options for
 - **Our services section**
   <figure>
     <img src="docs/site-screenshots/home-services-section-large-screen.png" width="80%" height="50%">
+    <br>
     <figcaption><strong><em>Our services section: Home page</em></strong></figcaption>
   </figure>
 
@@ -58,12 +61,14 @@ The site is helps individuals and families understand available care options for
   - The icon displayed besides the 'Read more'/ 'Show less' icons is clickable and has the same functionality to expand and collapse additional text.
     <figure>
       <img src="docs/site-screenshots/home-services-section-expand-large-screen.png" width="50%" height="50%">
-      <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
+     <br>
+     <figcaption><strong><em>Our services section (expanded): Home page</em></strong></figcaption>
     </figure>
 
 - **Why choose us section**
   <figure>
     <img src="docs/site-screenshots/home-our-values-section-large-screen.png" width="80%" height="50%">
+    <br>
     <figcaption><strong><em>Why choose us section: Home page</em></strong></figcaption>
   </figure>
 
@@ -73,6 +78,7 @@ The site is helps individuals and families understand available care options for
 - **Getting started section**
   <figure>
     <img src="docs/site-screenshots/home-onboarding-section-large-screen.png" width="80%" height="50%">
+    <br>
     <figcaption><strong><em>Getting started section: Home page</em></strong></figcaption>
   </figure>
 
@@ -87,6 +93,7 @@ The site is helps individuals and families understand available care options for
   - **Contact information** - This sub-section provides the user with essential contact information about the business. The phone, email and address icons will enlarge when hovered over to enhance user experience.
     <figure>
       <img src="docs/site-screenshots/footer-contact-info-large-screen.png" width="40%" height="40%">
+      <br>
       <figcaption><strong><em>Contact Info in footer: All pages</em></strong></figcaption>
     </figure>
 
@@ -101,6 +108,7 @@ The site is helps individuals and families understand available care options for
   - **Video clip with CTA** 
     <figure>
       <img src="docs/site-screenshots/footer-video-clip-large-screen.png" width="40%" height="40%">
+      <br>
       <figcaption><strong><em>Video in footer: All pages</em></strong></figcaption>
     </figure>
 
@@ -109,6 +117,7 @@ The site is helps individuals and families understand available care options for
   - **Business hours** 
     <figure>
       <img src="docs/site-screenshots/footer-business-hours-large-screen.png" width="40%" height="40%">
+      <br>
       <figcaption><strong><em>Business hours in footer: All pages</em></strong></figcaption>
     </figure>
     
@@ -120,6 +129,7 @@ The site is helps individuals and families understand available care options for
     <figure>
       <img src="docs/site-screenshots/footer-credits-large-screen.png" width="60%" height="40%">
       <img src="docs/site-screenshots/footer-credits-modal-large-screen.png" width="40%" height="40%">
+      <br>
       <figcaption><strong><em>Images and video credits in footer: All pages</em></strong></figcaption>
     </figure>
     
@@ -130,6 +140,7 @@ The site is helps individuals and families understand available care options for
   - **Follow us section** 
     <figure>
       <img src="docs/site-screenshots/footer-social-media-large-screen.png" width="60%" height="40%">
+      <br>
       <figcaption><strong><em>Follow us in footer: All pages</em></strong></figcaption>
     </figure>
 
@@ -138,6 +149,7 @@ The site is helps individuals and families understand available care options for
 - **About us: Our history** 
   <figure>
     <img src="docs/site-screenshots/about-history-large-screen.png" width="60%" height="40%">
+    <br>
     <figcaption><strong><em>Our history: About page</em></strong></figcaption>
   </figure>
 
@@ -148,6 +160,7 @@ The site is helps individuals and families understand available care options for
 - **About us: Our Mission and Vision sections** 
   <figure>
     <img src="docs/site-screenshots/about-mission-vision-large-screen.png" width="60%" height="40%">
+    <br>
     <figcaption><strong><em>Our Mission and Vision: About page</em></strong></figcaption>
   </figure>
 
@@ -159,6 +172,7 @@ The site is helps individuals and families understand available care options for
 - **About us: Our Team section** 
   <figure>
     <img src="docs/site-screenshots/about-our-team-large-screen.png" width="60%" height="40%">
+    <br>
     <figcaption><strong><em>Our Team: About page</em></strong></figcaption>
   </figure>
 
@@ -171,6 +185,7 @@ The site is helps individuals and families understand available care options for
 - **Contact: Contact form** 
   <figure>
     <img src="docs/site-screenshots/contact-form-large-screen.png" width="60%" height="40%">
+    <br>
     <figcaption><strong><em>Contact: Contact form</em></strong></figcaption>
   </figure>
 
@@ -184,6 +199,7 @@ The site is helps individuals and families understand available care options for
 - **Success: valid submission** 
   <figure>
     <img src="docs/site-screenshots/success-large-screen.png" width="60%" height="40%">
+    <br>
     <figcaption><strong><em>Success: valid form submission</em></strong></figcaption>
   </figure>
 
@@ -357,18 +373,22 @@ Other goals:
 ### Wireframes
 <figure>
   <img src="docs/wireframes/wireframe-home.png" width="50%" height="50%">
+  <br>
   <figcaption><strong><em>Wireframe: Home page</em></strong></figcaption>
 </figure>
 <figure>
   <img src="docs/wireframes/wireframe-about.png" width="50%" height="50%">
+  <br>
   <figcaption><strong><em>Wireframe: About page</em></strong></figcaption>
 </figure>
 <figure>
   <img src="docs/wireframes/wireframe-contact.png" width="50%" height="50%">
+  <br>
   <figcaption><strong><em>Wireframe: Contact Us page</em></strong></figcaption>
 </figure>
 <figure>
   <img src="docs/wireframes/wireframe-careers.png" width="50%" height="50%">
+  <br>
   <figcaption><strong><em>Wireframe: Careers page</em></strong></figcaption>
 </figure>
 

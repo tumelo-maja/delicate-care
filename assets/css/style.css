@@ -729,6 +729,11 @@ footer h3::after {
   margin: 10px 0;
 }
 
+.inquiry-group legend {
+  font-size: inherit;
+  color: var(--velvet-evening);
+}
+
 /*---------- radio buttons ---*/
 .inquiry-type input[type="radio"] {
   display: block;

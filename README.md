@@ -13,7 +13,7 @@ The site is helps individuals and families understand available care options for
 - **Logo icon and Navigation Bar - pages: Home, About, Services and Contact**
   <figure>
     <img src="docs/site-screenshots/navbar-view-large-screen.png" width="80%" height="50%">
-    
+    <br>
     <figcaption><strong><em>Navbar: Home page</em></strong></figcaption>
   </figure>
 

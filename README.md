@@ -528,6 +528,14 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 
 ### Lighthouse Testing
+Lighthouse testing was performed for both desktop and mobile views 
+
+
+| Screen Type | Initial audit | Solution Applied  | Screenshots of Clear Validation Output | 
+| ----------- | ------------- | ----------------- | -------------------------------------- |
+|   Mobile    |               |                   |                                        |
+|  Desktop    |               |                   |                                        |
+
 
 ### Accessibility Testing
 

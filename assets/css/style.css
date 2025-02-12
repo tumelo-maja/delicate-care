@@ -811,6 +811,11 @@ footer h3::after {
   color: var(--velvet-evening);
 }
 
+.inquiry-input,
+.inquiry-group {
+  padding: 0;
+}
+
 /*---------- radio buttons ---*/
 .inquiry-type input[type="radio"] {
   display: block;
@@ -1008,6 +1013,13 @@ footer h3::after {
   .staff-field {
     height: 279.16px;
   }
+
+  /*--- contact form ---*/
+  .inquiry-input,
+.inquiry-group {
+  padding: 0 12px;
+}
+
 }
 
 /*---------------------------Adjust for large phone screens (425px) */

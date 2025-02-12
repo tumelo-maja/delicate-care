@@ -60,7 +60,7 @@ The site is helps individuals and families understand available care options for
   -  A 'Read more' button under each service type can be used to expand the description text for users to view additional information about the service type. Once expanded, there is a 'Show less' button to collapse the additional text.
   - The icon displayed besides the 'Read more'/ 'Show less' icons is clickable and has the same functionality to expand and collapse additional text.
 
-  
+
     <figure>
       <img src="docs/site-screenshots/home-services-section-expand-large-screen.png" width="50%" height="50%">
      <br>
@@ -270,7 +270,7 @@ Other goals:
   implement HTML to provide descriptions of services in the services page and in a section of the home page 
   Structure and style the content to include quality images
   Include a clear CTA button/link in under each service type in the services page 
-  ensure responsivity across different screen sizes
+  ensure responsiveness across different screen sizes
 
 - **Contact and address information (must-have)**
 
@@ -282,7 +282,7 @@ Other goals:
 
   - Task:
   Implement HTML section for the contact information (phone, email and address) and business hours
-  Structure and style the content to ensure responsivity on screen sizes
+  Structure and style the content to ensure responsiveness on screen sizes
 
 - **Enquiry form (must-have)**
 
@@ -411,7 +411,7 @@ For each interactive feature, a testing was conducted and the results are outlin
 | Navbar \| About         | Click on "ABOUT" in Navbar      | User is directed to the about page  |
 | Navbar \| Services      | Click on "SERVICES" in Navbar   | User is directed to the home page  and scrolled down to the services section |
 | Navbar \| Contact       | Click on "CONTACT" in Navbar    | User is directed to the contact page  |
-| Navbar Responsivity     | Adjust screen view in Dev Tools for mobile/laptop/desktop   | Navbar is collapsed for screens size below (<992px width) and expanded for larger screens (>=992px)  |
+| Navbar responsiveness     | Adjust screen view in Dev Tools for mobile/laptop/desktop   | Navbar is collapsed for screens size below (<992px width) and expanded for larger screens (>=992px)  |
 | 'Read more' button  (when collapsed)    | Click on "Read more" button in the services section of for all the service types   | Service type section expand and additional information is shown. 'Show less' button appears in place of 'Read more' |
 | 'Show less' button (when expanded)     | Click on "Show less" button in the services section of for all the service types   | Service type section collapse and additional information is hidden. 'Read more' button re-appears in place of 'Show less' |
 | Service type icon (besides 'Read more' / 'Show less')     | Click on the service icon in the services section of for all the service types   | Service type section collapse and additional information is hidden. 'Read more' button re-appears in place of 'Show less' |
@@ -432,13 +432,13 @@ For each interactive feature, a testing was conducted and the results are outlin
 
 
 ### Browser Compatibility
-The website's layout and responsivity was tested on the commonly used browsers. The test is based on the quality of browser rendering of the website as intended and its responsivity to screen width variations. 
+The website's layout and responsiveness was tested on the commonly used browsers. The test is based on the quality of browser rendering of the website as intended and its responsiveness to screen width variations. 
 
 | Browser         | Intended Appearance | Intended Responsiveness |  
 |---------------  |---------------------|-------------------------|  
-| Google Chrome   |                     |                         |  
-| Mozilla Firefox |                     |                         |  
-| Microsoft Edge  |                     |                         |  
+| Google Chrome   |          Good       |            Good         |  
+| Mozilla Firefox |          Fair       |           Good          |  
+| Microsoft Edge  |          Good       |           Good          |  
 
 
 ### Responsive Testing 

@@ -2,7 +2,7 @@
 
 Zalama care service is all about empowering people to live a quality and dignified life with a right support for their care needs. The services is available for little help at home, full-time care support or temporarily while you recover from an illness or after a surgery.   
 
-**The website is aimed at helping users:** 
+**The website is aimed at helping users to:** 
  - find the right care package for their unique care needs.
  - access the relevant information about what daily activities are supported in a care package.
  - get in touch and ask any questions they may have about getting care for themselves or their loved ones.

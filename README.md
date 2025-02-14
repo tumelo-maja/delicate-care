@@ -581,30 +581,37 @@ Alternatively the site's live link can be found here - (https://tumelo-maja.gith
 
 
 ## Credits 
-Youtube tutorial on how to create a 'Read More' button with only CSS - (https://www.youtube.com/watch?v=b6_u8IVVLdo)
 
-Services content:
-Home care and ADLs (https://www.ncbi.nlm.nih.gov/books/NBK470404/)
+### Text content
 
-Create click to call button - (https://www.youtube.com/watch?v=hk5v-dO57n4) 
+### Tutorials and other resources
 
-Add video and overlay with texts/other elements (https://www.youtube.com/watch?v=ytnOT-gg5Lw)
+- **CSS 'Read more'/'Show less'**: [How to Create a 'Read More' Button with Only CSS](https://www.youtube.com/watch?v=b6_u8IVVLdo)
+This youtube tutorial was used to implement a custom "Read More"/"Show less" buttons in the services section of the home page. This allows users to access additional information with a simple interaction, without overloading the page with additional info.
 
-Accessibility Icon via Font Awesome (https://accessibleicon.org/)
+- **Services Content**: [Home Care and ADLs](https://www.ncbi.nlm.nih.gov/books/NBK470404/)  
+  The website provided description and additional information regarding activities of daily living (ADLs). It was used to help describe activities covered by a care package in the services section.
 
-Codepen for coloring png icons using hex color code (https://codepen.io/sosuke/pen/Pjoqqp)
+- **Background Video Tutorial**: [Add Video and Overlay with Texts/Other Elements](https://www.youtube.com/watch?v=ytnOT-gg5Lw)  
+  This youtube tutorial was used to implement a background video with text overlays in the footer. This enhanced and highlighted  the call-to-action button prompting users to click the 'contact us' button.
 
-Learn CSS ::before and ::after in 4 minutes - used for nav hover/ footer underline (https://www.youtube.com/watch?v=dIUOWdwwZBw)
+- **Click-to-Call Button Tutorial**: [Create Click to Call Button](https://www.youtube.com/watch?v=hk5v-dO57n4)  
+  This youtube tutorial was used to implement a "Click to Call" href for calls and email. This initiate a dial action so users can easily call. For emails, it launches the email app with destination address pre-filled. Users won't have to copy and paste the email or phone number in order to make contact.
 
-JavaScript to collapse Bootstrap mobile navbar when navigating to in-page links (Code institute)
+- **CSS ::before and ::after Tutorial**: [Learn CSS ::before and ::after in 4 Minutes](https://www.youtube.com/watch?v=dIUOWdwwZBw)  
+  This youtube tutorial was used to implement underline styling for navigation items and footer headers using pseudo-elements in CSS, enhancing user experience.
 
-Spell checker extension for grammar fixes in the readme (https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- **JavaScript for Collapsing Bootstrap Navbar**: [Code Institute](https://codeinstitute.net/)  
+  The JavaScript functionality was used to ensure the Bootstrap mobile navbar collapses properly when navigating to internal links i.e. services section. The video is from the Code Institute lessons. 
 
-This website was used to create the MD tables:
-https://www.codecademy.com/resources/docs/markdown/tables
+- **Image Coloring - filter**: [Codepen for Coloring PNG Icons Using Hex Color Code](https://codepen.io/sosuke/pen/Pjoqqp)  
+  This tool was utilized to create custom-colored PNG icons used in the services and contact page, ensuring the icons matched the site's branding and color scheme. This was used as the icons used were images and required a different method to color them appropriately.
 
-compress images: (https://tinyjpg.com/)
+- **Image Compression Tool**: [TinyJPG](https://tinyjpg.com/)  
+  TinyJPG was used to compress and optimize the images on the site, ensuring fast loading times without sacrificing visual quality.
 
-resize images: (https://derivv.com/)
+- **Image Resizing Tool**: [Derivv](https://derivv.com/)  
+  This tool was utilized to resize images to the optimal dimensions for web display, to improve the loading time and performance of the website. Fast loading of a website enhances the user experience by removing loading delays which may lead to poor user interaction.
 
-Recommendation for video accessibility when using video as decorative element: (https://www.drupal.org/project/bootstrap_styles/issues/3285504)
+- **Video Accessibility Recommendation**: [Video Accessibility with Decorative Elements](https://www.drupal.org/project/bootstrap_styles/issues/3285504)  
+  This resource recommendation was used to resolve footer video accessibility. Since the video was used as a decorative element, the 'aria-hidden' attribute was applied to the video element so screen readers can ignore it. 

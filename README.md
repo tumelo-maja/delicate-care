@@ -578,3 +578,5 @@ https://www.codecademy.com/resources/docs/markdown/tables
 Convert images to .webp format using Pixelied online tool: (https://pixelied.com/convert/jpg-converter/jpg-to-webp)
 
 compress images: (https://tinyjpg.com/)
+
+resize images: (https://derivv.com/)

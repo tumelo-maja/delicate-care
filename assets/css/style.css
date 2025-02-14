@@ -368,7 +368,7 @@ h3 {
 
 /*------------- hero --*/
 .hero {
-  background-image: url(../images/hero-home-three-people-in-kitchen.webp);
+  background-image: url(../images/hero-home-three-people-in-kitchen-500x376.jpg);
   background-position: center center;
   background-size: cover;
   width: 100%;
@@ -395,6 +395,7 @@ h3 {
 
 .float-image img {
   width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -446,7 +447,8 @@ h3 {
 }
 
 .service-img {
-  height: 200px;
+  /* height: 200px; */
+  height: auto;
   width: 100%;
   border-radius: 10px 10px 0 0;
   border-bottom: 0;
@@ -557,7 +559,8 @@ address strong,
 }
 
 .onboard-step img {
-  height: 200px;
+  /* height: 200px; */
+  height: auto;
   width: 100%;
   border-radius: 0 0 10px 10px;
   border: 1px solid var(--cool-gray);
@@ -985,10 +988,10 @@ footer h3::after {
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
   /*---------- services / onboarding images  --*/
-  .service-img,
+  /* .service-img,
   .onboard-step img {
     height: 220px;
-  }
+  } */
 
   /*-------------- contct us page ---*/
   #contact-form form {
@@ -1029,10 +1032,10 @@ footer h3::after {
   }
 
   /*---------- services / onboarding images  --*/
-  .service-img,
+  /* .service-img,
   .onboard-step img {
     height: 260px;
-  }
+  } */
 
   /*------- onboarding ---*/
   .onboard-step {
@@ -1041,6 +1044,7 @@ footer h3::after {
 
   .onboard-step img {
     height: 270px;
+    height: auto;
   }
 
   /*---------- footer ---*/
@@ -1068,6 +1072,7 @@ footer h3::after {
   /*------------ hero*/
   .hero {
     height: 500px;
+    background-image: url(../images/hero-home-three-people-in-kitchen-1200x902.jpg);
     background-position: top center;
     justify-items: end;
   }
@@ -1261,10 +1266,10 @@ footer h3::after {
   }
 
   /*---------- services / onboarding images  --*/
-  .service-img,
+  /* .service-img,
   .onboard-step img {
     height: 300px;
-  }
+  } */
 
   /*----------- footer ----*/
   .video-bg {
@@ -1297,10 +1302,10 @@ footer h3::after {
   }
 
   /*---------- services / onboarding images  --*/
-  .service-img,
+  /* .service-img,
   .onboard-step img {
     height: 350px;
-  }
+  } */
 
   /*----- onboarding text ---*/
   .onboard-text {
@@ -1338,10 +1343,10 @@ footer h3::after {
   }
 
   /*---------- services / onboarding images  --*/
-  .service-img,
+  /* .service-img,
   .onboard-step img {
     height: 410px;
-  }
+  } */
 
   /*----- onboarding text ---*/
   .onboard-text {

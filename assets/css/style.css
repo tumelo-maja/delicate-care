@@ -1293,6 +1293,7 @@ footer h3::after {
   /*------------ hero*/
   .hero {
     height: 550px;
+    background-image: url(../images/hero-home-three-people-in-kitchen-1440x1083.jpeg);
   }
 
   /*---------- services / float --*/

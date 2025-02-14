@@ -604,11 +604,10 @@ Alternatively the site's live link can be found here - (https://tumelo-maja.gith
 ### Tutorials and other resources
 
 - **Bootstrap Framework**:  
-  The website’s layout and responsive design were built using the [Bootstrap framework](https://getbootstrap.com/). The layout was used as a based and custom styling was applied to create a quality, responsive website that delivers great user experience acrross different user devices.
+  The website’s layout and responsive design were built using the [Bootstrap framework](https://getbootstrap.com/). The layout was used as a based and custom styling was applied to create a quality, responsive website that delivers great user experience across different user devices.
 
 - **Google Font**: Manrope 
-  The *Manrope* font used throughout the website was sourced from [Google Fonts](https://fonts.google.com/). This font gives a neat and modern appearance which conveys quality. In addition, the font is readable and will provide a positive and friendly user experience while mainiting elegance.
-
+  The *Manrope* font used throughout the website was sourced from [Google Fonts](https://fonts.google.com/). This font gives a neat and modern appearance which conveys quality. In addition, the font is readable and will provide a positive and friendly user experience while maintaining elegance.
 
 - **CSS 'Read more'/'Show less'**: [How to Create a 'Read More' Button with Only CSS](https://www.youtube.com/watch?v=b6_u8IVVLdo)
 This youtube tutorial was used to implement a custom "Read More"/"Show less" buttons in the services section of the home page. This allows users to access additional information with a simple interaction, without overloading the page with additional info.

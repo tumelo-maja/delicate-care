@@ -556,6 +556,11 @@ To ensure our site is accessible to assistive technology like screen readers and
 | contact-us.html  | <img src="docs/lighthouse-screenshots/contact-lighthouse-initial-accessibility.png">  | - 'aria-label' attributes were added to all links in the page <br><br> - 'aria-hidden' attribute was added to the decorative video element in the footer used as background.  | <img src="docs/lighthouse-screenshots/contact-lighthouse-final-accessibility.png">  |
 | success.html  | <img src="docs/lighthouse-screenshots/success-lighthouse-initial-accessibility.png">  | - 'aria-label' attributes were added to all links in the page <br><br> - 'aria-hidden' attribute was added to the decorative video element in the footer used as background.  | <img src="docs/lighthouse-screenshots/success-lighthouse-final-accessibility.png">  |
 
+**WebAIM - Contrast Checker**
+
+| Element Tested | Initial validator output | Final validator Output |  
+| -------------- | --------------           | --------------         |
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
@@ -584,14 +589,12 @@ Codepen for coloring png icons using hex color code (https://codepen.io/sosuke/p
 
 Learn CSS ::before and ::after in 4 minutes - used for nav hover/ footer underline (https://www.youtube.com/watch?v=dIUOWdwwZBw)
 
-JavaScript to collapse Bootstrap mobile navbar when navigating to in-page links
+JavaScript to collapse Bootstrap mobile navbar when navigating to in-page links (Code institute)
 
 Spell checker extension for grammar fixes in the readme (https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 This website was used to create the MD tables:
 https://www.codecademy.com/resources/docs/markdown/tables
-
-Convert images to .webp format using Pixelied online tool: (https://pixelied.com/convert/jpg-converter/jpg-to-webp)
 
 compress images: (https://tinyjpg.com/)
 

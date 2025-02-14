@@ -528,13 +528,19 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 
 ### Lighthouse Testing
-Lighthouse testing was performed for both desktop and mobile views 
+Lighthouse testing was performed for all pages (desktop and mobile views)
 
 
 | Screen Type | Initial audit | Solution Applied  | Screenshots of Clear Validation Output | 
 | ----------- | ------------- | ----------------- | -------------------------------------- |
-|   Mobile    |               |                   |                                        |
-|  Desktop    |               |                   |                                        |
+|   Mobile - index.html  | <img src="docs/lighthouse-screenshots/index-lighthouse-initial-output-mobile.png" width="250px" height="200px"> | Input images in the page were properly re-sized using an online tool to bring the dimensions closer to the rendered sizes for different screens. This improved the image loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/index-lighthouse-final-output-mobile.png" width="150px" height="200px"> |
+|   Desktop - index.html | <img src="docs/lighthouse-screenshots/index-lighthouse-initial-output-desktop.png" width="150px" height="200px"> | Input images in the page were properly re-sized using an online tool to bring the dimensions closer to the rendered sizes for different screens. This improved the image loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/index-lighthouse-final-output-desktop.png" width="150px" height="200px"> |
+|   Mobile - about.html  | <img src="docs/lighthouse-screenshots/about-lighthouse-initial-output-mobile.png" width="250px" height="200px"> | Input images and icons in the page were properly re-sized using an online tool to bring the dimensions closer to the rendered sizes for different screens. This improved the image loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/about-lighthouse-final-output-mobile.png" width="150px" height="200px"> |
+|   Desktop - about.html | <img src="docs/lighthouse-screenshots/about-lighthouse-initial-output-desktop.png" width="150px" height="200px"> | Input images and icons in the page were properly re-sized using an online tool to bring the dimensions closer to the rendered sizes for different screens. This improved the image loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/about-lighthouse-final-output-desktop.png" width="150px" height="200px"> |
+|   Mobile - contact-us.html  | <img src="docs/lighthouse-screenshots/contact-lighthouse-initial-output-mobile.png" width="250px" height="200px"> | Input images and icons in the page were properly re-sized using an online tool to bring the dimensions closer to the rendered sizes for different screens. This improved the image loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/contact-lighthouse-final-output-mobile.png" width="150px" height="200px"> |
+|   Desktop - contact-us.html | <img src="docs/lighthouse-screenshots/contact-lighthouse-initial-output-desktop.png" width="150px" height="200px"> | Input images and icons in the page were properly re-sized using an online tool to bring the dimensions closer to the rendered sizes for different screens. This improved the image loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/contact-lighthouse-final-output-desktop.png" width="150px" height="200px"> |
+|   Mobile - success.html  | <img src="docs/lighthouse-screenshots/success-lighthouse-initial-output-mobile.png" width="250px" height="200px"> | logo images ('icon') was properly resized using an online tool to bring the dimensions closer to the rendered. This improved the icon loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/contact-lighthouse-final-output-mobile.png" width="150px" height="200px"> |
+|   Desktop - success-us.html | <img src="docs/lighthouse-screenshots/success-lighthouse-initial-output-desktop.png" width="150px" height="200px"> | logo images ('icon') was properly resized using an online tool to bring the dimensions closer to the rendered. This improved the icon loading time and thereby improving the web page performance  | <img src="docs/lighthouse-screenshots/success-lighthouse-final-output-desktop.png" width="150px" height="200px"> |
 
 
 ### Accessibility Testing

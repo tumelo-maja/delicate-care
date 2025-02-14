@@ -557,9 +557,13 @@ To ensure our site is accessible to assistive technology like screen readers and
 | success.html  | <img src="docs/lighthouse-screenshots/success-lighthouse-initial-accessibility.png">  | - 'aria-label' attributes were added to all links in the page <br><br> - 'aria-hidden' attribute was added to the decorative video element in the footer used as background.  | <img src="docs/lighthouse-screenshots/success-lighthouse-final-accessibility.png">  |
 
 **WebAIM - Contrast Checker**
+Color contrast between foreground and background in elements was check using <a href="https://coolors.co/contrast-checker" target="_blank">WebAIM tool</a>. Another contrast chekcer, <a href="https://coolors.co/contrast-checker" target="_blank">Coolors Contrast Checker</a> had similar results. 
 
 | Element Tested | Initial validator output | Final validator Output |  
 | -------------- | --------------           | --------------         |
+| Nav Bar        | <img src="docs/contrast-checker/navbar-initial-contrast-check-output.png" width="250px" height="350px">  | <img src="docs/contrast-checker/navbar-footer-final-contrast-check-output.png" width="250px" height="350px"> |
+| Body text      | <img src="docs/contrast-checker/body-initial-contrast-check-output.png" width="250px" height="350px">  | <img src="docs/contrast-checker/body-final-contrast-check-output.png" width="250px" height="350px"> |
+| Footer      | <img src="docs/contrast-checker/footer-initial-contrast-check-output.png" width="250px" height="350px">  | <img src="docs/contrast-checker/navbar-footer-final-contrast-check-output.png" width="250px" height="350px"> |
 
 ## Deployment
 

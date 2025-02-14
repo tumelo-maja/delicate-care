@@ -584,6 +584,20 @@ Alternatively the site's live link can be found here - (https://tumelo-maja.gith
 
 ### Text content
 
+- **Lantern Care Services**: A significant portion of the text content on the website is based on discussions held with Moira Mccumskey, the founder and director for Lantern Care Services in Crewe, England United Kingdom. Information about what type of services care companies provide to their clients. 
+
+- **Cheshire East Council**: [Care and support for adults](https://www.cheshireeast.gov.uk/livewell/care-and-support-for-adults/care-and-support-for-adults.aspx)
+  Information how care is provided including descriptions of certain types of care available for adults and elderly people. 
+ 
+-**NHS Supported living**: [Supported living Services](https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/supported-living-services/)
+  Information on supported-living service type was used in the services section  
+
+- **NHS Dementia care**: [Help and support for people with dementia](https://www.nhs.uk/conditions/dementia/care-and-support/help-and-support/)
+  Information on dementia care was used in the services section  
+
+- **NHS Reablement**: [Care after illness or hospital discharge(reablement)](https://www.nhs.uk/conditions/social-care-and-support-guide/care-after-a-hospital-stay/care-after-illness-or-hospital-discharge-reablement/)
+  For respite can include individuals needing care temporarily like after surgery and an illness that limits their mobility. This information was used to supplement information in the services section.
+
 ### Images and videos
 
 - **Font Awesome**: Icons  

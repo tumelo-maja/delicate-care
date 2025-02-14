@@ -567,14 +567,17 @@ Color contrast between foreground and background in elements was check using <a 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section provides the steps to follow when deploying the project.
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Scroll to and select 'GitHub pages'
+  - Under the 'Source' drop-down menu, select the 'main'(master) as the branch.
+  - Once the master branch has been selected, the page will be automatically refreshed. There should be a ribbon displayed at the top of the page indicating successful deployment.
+  - The website is now live and can be accessed from repository home page by clicking 'github-pages' under 'Deployments' on the right-side.
+  - The link to the website should be displayed at the top showing the latest deployed version.   
 
-The live link can be found here - https://tumelo-maja.github.io/zalama-care/index.html
+Alternatively the site's live link can be found here - (https://tumelo-maja.github.io/zalama-care/index.html)
 
 
 ## Credits 

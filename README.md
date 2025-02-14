@@ -586,3 +586,5 @@ Convert images to .webp format using Pixelied online tool: (https://pixelied.com
 compress images: (https://tinyjpg.com/)
 
 resize images: (https://derivv.com/)
+
+Recommendation for video accessibility when using video as decorative element: (https://www.drupal.org/project/bootstrap_styles/issues/3285504)

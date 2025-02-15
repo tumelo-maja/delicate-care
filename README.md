@@ -511,7 +511,7 @@ The website's layout and responsiveness was tested on the commonly used browsers
     <img src="docs/bugs-screenshots/index-our-values-icons-bug.png" width="300px" height="550px">
     <img src="docs/bugs-screenshots/index-our-values-icons-bug-resolved.png" width="300px" height="550px">
     <br>
-    <figcaption><strong><em>Values icons not centered (left image) - Fixed (right image)</em></strong></figcaption>
+    <figcaption><strong><em>Values icons not centered (left image) - Resolved (right image)</em></strong></figcaption>
   </figure>
 
 - (Mozilla Firefox only) the 'values' icons under 'why choose us?' are aligned to the left while they're intended to be centered about the text. This issue has not been observed in Chrome or Edge browsers.
@@ -520,14 +520,15 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 **Submit button alignment: contact form** 
   <figure>
-    <img src="docs/bugs-screenshots/contact-form-submit-button-bug.png" width="300px">
+    <img src="docs/bugs-screenshots/contact-form-submit-button-bug.png" width="300px" height="480px">
+    <img src="docs/bugs-screenshots/contact-form-submit-button-bug-resolved.png" width="300px" height="480px">
     <br>
-    <figcaption><strong><em>Submit button not centered: Contact form - contact page</em></strong></figcaption>
+    <figcaption><strong><em>Submit button not centered (left image) -   Resolved (right image)</em></strong></figcaption>
   </figure>
 
 - (Mozilla Firefox only) the 'Submit' button the contact form  is aligned to the left while it's intended to be centered about the form fields. This issue has not been observed in Chrome or Edge browsers.  
 
-- **Status:** Not resolved.
+- **Status:** Resolved - This was achieved by wrapping the submit button in div, the applying 'display: flex' and 'justify-content: center' to center the button.
 
 
 **H1 alignment: Home - hero section**
@@ -535,7 +536,7 @@ The website's layout and responsiveness was tested on the commonly used browsers
     <img src="docs/bugs-screenshots/index-hero-h1-position-bug.png" width="300px" height="280px">
     <img src="docs/bugs-screenshots/index-hero-h1-position-bug-resolved.png" width="300px" height="280px">
     <br>
-    <figcaption><strong><em>'WELCOME TO ZALAMA' h1 element was not aligned to the right (left image) - Fixed (right image)</em></strong></figcaption>
+    <figcaption><strong><em>'WELCOME TO ZALAMA' h1 element was not aligned to the right (left image) - Resolved (right image)</em></strong></figcaption>
   </figure>
 
 - (Mozilla Firefox only) the 'WELCOME TO ZALAMA' h1 element, overlaying the background hero image, is aligned to the left while it's intended to be aligned to the right.

@@ -6,16 +6,16 @@
 Zalama care service is all about empowering people to live a quality and dignified life with a right support for their care needs. The services is available for little help at home, full-time care support or temporarily while you recover from an illness or after a surgery.   
 
 **The website is aimed at helping users to:** 
- - find the right care package for their unique care needs.
- - access the relevant information about what daily activities are supported in a care package.
- - get in touch and ask any questions they may have about getting care for themselves or their loved ones.
- - learn and understand Zalama Care's mission, vision and commitment to providing compassionate care 
+  - find the right care package for their unique care needs.
+  - access the relevant information about what daily activities are supported in a care package.
+  - get in touch and ask any questions they may have about getting care for themselves or their loved ones.
+  - learn and understand Zalama Care's mission, vision and commitment to providing compassionate care 
 
 **Target audience:** 
-- Elderly individuals with limited mobility.
-- Individuals living with disability (physical, cognitive and mental). 
-- Families looking to get support for their loved one.
-- Individuals who have just had a surgery or an illness that has limited their mobility.
+  - Elderly individuals with limited mobility.
+  - Individuals living with disability (physical, cognitive and mental). 
+  - Families looking to get support for their loved one.
+  - Individuals who have just had a surgery or an illness that has limited their mobility.
 
 The website offer clear and user-friendly information about different types of social care services, enabling users to make informed decisions about getting care. Individuals seeking care for themselves and their loved ones can select a care package that meets their needs. Users can also send an inquiry to request more information or to get started with a care package if their choice. Important business information is displayed on the website, including business and addresses, contact number and details about business hours. The design and interactivity of the site ensures users will have a positive experience while visiting the website and thereby building trust and confidence in the expected quality of service. 
 

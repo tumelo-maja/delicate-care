@@ -105,7 +105,8 @@ The website offer clear and user-friendly information about different types of s
 
   The footer is consistent section featured in all pages similar to the navbar. These are the sub-sections within the footer:
 
-  - **Contact information** - This sub-section provides the user with essential contact information about the business. The phone, email and address icons will enlarge when hovered over to enhance user experience.
+  - **Contact information** 
+    - This sub-section provides the user with essential contact information about the business. The phone, email and address icons will enlarge when hovered over to enhance user experience.
     <figure>
       <img src="docs/site-screenshots/footer-contact-info-large-screen.png" width="40%" height="40%">
       <br>
@@ -223,10 +224,6 @@ The website offer clear and user-friendly information about different types of s
   - Return to homepage - There are no further actions once the form is successfully submitted, the user is shown a way back to the home page.
 
   - Urgent queries notice - This is useful for users who have submitted a form but require urgent assistance. The presented contact number is reachable for urgent queries even after office hours. 
-
-
-13) Responsive design
-- Website layout and outlook remains consistent on different screen sizes which improves user experience 
 
 
 ### Features Left to Implement

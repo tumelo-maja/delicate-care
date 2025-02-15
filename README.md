@@ -506,15 +506,17 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 
 **Icon alignment: Why choose us? section**
+
   <figure>
-    <img src="docs/bugs-screenshots/index-our-values-icons-bug.png" width="300px">
+    <img src="docs/bugs-screenshots/index-our-values-icons-bug.png" width="300px" height="550px">
+    <img src="docs/bugs-screenshots/index-our-values-icons-bug-resolved.png" width="300px" height="550px">
     <br>
-    <figcaption><strong><em>Values icons not centered: 'Why choose us?' - home page</em></strong></figcaption>
+    <figcaption><strong><em>Values icons not centered(left) - Fixed (right)</em></strong></figcaption>
   </figure>
 
-- (Mozilla Firefox only) the 'values' icons under 'why choose us?' are aligned to the left while they're intended to be centered about the text. This issue has not been observed in Chrome or Edge browsers. We(I) checked if the Autoprefixer tool could fix the issues and there was no solution.  
+- (Mozilla Firefox only) the 'values' icons under 'why choose us?' are aligned to the left while they're intended to be centered about the text. This issue has not been observed in Chrome or Edge browsers.
 
-- **Status:** Not resolved.
+- **Status:** Resolved - This was achieved by styling the icon parent div to 'display: flex;' then applying 'justify-content:center' to center the icon horizontally  
 
 **Submit button alignment: contact form** 
   <figure>

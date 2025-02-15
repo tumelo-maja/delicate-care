@@ -511,7 +511,7 @@ The website's layout and responsiveness was tested on the commonly used browsers
     <img src="docs/bugs-screenshots/index-our-values-icons-bug.png" width="300px" height="550px">
     <img src="docs/bugs-screenshots/index-our-values-icons-bug-resolved.png" width="300px" height="550px">
     <br>
-    <figcaption><strong><em>Values icons not centered(left) - Fixed (right)</em></strong></figcaption>
+    <figcaption><strong><em>Values icons not centered (left image) - Fixed (right image)</em></strong></figcaption>
   </figure>
 
 - (Mozilla Firefox only) the 'values' icons under 'why choose us?' are aligned to the left while they're intended to be centered about the text. This issue has not been observed in Chrome or Edge browsers.
@@ -532,14 +532,15 @@ The website's layout and responsiveness was tested on the commonly used browsers
 
 **H1 alignment: Home - hero section**
   <figure>
-    <img src="docs/bugs-screenshots/index-hero-h1-position-bug.png" width="300px">
+    <img src="docs/bugs-screenshots/index-hero-h1-position-bug.png" width="300px" height="280px">
+    <img src="docs/bugs-screenshots/index-hero-h1-position-bug-resolved.png" width="300px" height="280px">
     <br>
-    <figcaption><strong><em>'WELCOME TO ZALAMA' h1 element not aligned to the right: Hero - home page</em></strong></figcaption>
+    <figcaption><strong><em>'WELCOME TO ZALAMA' not aligned to the right (left image) - Fixed (right image)</em></strong></figcaption>
   </figure>
 
-- (Mozilla Firefox only) the 'WELCOME TO ZALAMA' h1 element, overlaying the background hero image, is aligned to the left while it's intended to be aligned to the right. This issue is visible from medium/table screen size (>=768px)  as the with of the h1 container is no longer 100% of its parent width.  
+- (Mozilla Firefox only) the 'WELCOME TO ZALAMA' h1 element, overlaying the background hero image, is aligned to the left while it's intended to be aligned to the right.
 
-- **Status:** Not resolved - Similar to other element alignments. 
+- **Status:** Resolved - This was achieved by applying 'display: flex' to the hero parent div of h1, then 'justify-content: end' and 'align-items: end' to bring the h1 element to bottom right of the parent
 
 
 ### Lighthouse Testing

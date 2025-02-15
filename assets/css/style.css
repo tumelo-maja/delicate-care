@@ -807,6 +807,15 @@ footer h3::after {
   padding: 10px 20px;
 }
 
+.submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .inquiry-group {
   margin: 10px 0;
 }

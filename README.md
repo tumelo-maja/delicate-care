@@ -535,7 +535,7 @@ The website's layout and responsiveness was tested on the commonly used browsers
     <img src="docs/bugs-screenshots/index-hero-h1-position-bug.png" width="300px" height="280px">
     <img src="docs/bugs-screenshots/index-hero-h1-position-bug-resolved.png" width="300px" height="280px">
     <br>
-    <figcaption><strong><em>'WELCOME TO ZALAMA' not aligned to the right (left image) - Fixed (right image)</em></strong></figcaption>
+    <figcaption><strong><em>'WELCOME TO ZALAMA' h1 element was not aligned to the right (left image) - Fixed (right image)</em></strong></figcaption>
   </figure>
 
 - (Mozilla Firefox only) the 'WELCOME TO ZALAMA' h1 element, overlaying the background hero image, is aligned to the left while it's intended to be aligned to the right.

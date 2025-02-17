@@ -47,7 +47,7 @@ The website offer clear and user-friendly information about different types of s
     <figcaption><strong><em>landing page image: Home page</em></strong></figcaption>
   </figure>
 
-  - **Image** - the landing home page features a high quality images of three people smiling. A woman in a wheel is representative of target audience with mobility needs.
+  - **Image** - the landing home page features a high quality images of three people smiling. A woman in a wheelchair is representative of target audience with mobility needs.
 
   - **Welcome text** - the background image has a 'Welcome To Zalama Care' text; together with the image they create a warm welcoming and will grab the attention of the users. 
 
@@ -447,7 +447,7 @@ The website's layout and responsiveness was tested on the commonly used browsers
 | Browser         | Intended Appearance | Intended Responsiveness |  
 |---------------  |---------------------|-------------------------|  
 | Google Chrome   |          Good       |           Good          |  
-| Mozilla Firefox |          Fair       |           Good          |  
+| Mozilla Firefox |          Good       |           Good          |  
 | Microsoft Edge  |          Good       |           Good          |  
 
 

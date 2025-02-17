@@ -776,11 +776,11 @@ footer h2 {
 }
 
 /*-----  our team section ----*/
-#team i {
+#our-team i {
   color: var(--velvet-evening);
 }
 
-#team i:hover {
+#our-team i:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);

@@ -1000,13 +1000,7 @@ footer h3::after {
 /*--------------------------- Media queries --*/
 /*--------------------------- Adjust for medium phone screens (375px) */
 @media screen and (min-width: 375px) {
-  /*---------- services / onboarding images  --*/
-  /* .service-img,
-  .onboard-step img {
-    height: 220px;
-  } */
-
-  /*-------------- contct us page ---*/
+  /*-------------- contact us page ---*/
   #contact-form form {
     width: 90%;
   }
@@ -1288,7 +1282,7 @@ footer h3::after {
   }
 }
 
-/*-------Bootstrap breakpoint for Xlarge screens (@media screen and (min-width: 1200px)) */
+/*-------Bootstrap breakpoint for x-large screens (@media screen and (min-width: 1200px)) */
 @media screen and (min-width: 1200px) {
   /*------- home / about ---*/
   .intro-text,

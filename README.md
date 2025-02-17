@@ -636,7 +636,7 @@ To ensure our site is accessible to assistive technology like screen readers and
 | success.html    | <img src="docs/lighthouse-screenshots/success-lighthouse-initial-accessibility.png"> | - 'aria-label' attributes were added to all links in the page <br><br> - 'aria-hidden' attribute was added to the decorative video element in the footer used as background. | <img src="docs/lighthouse-screenshots/success-lighthouse-final-accessibility.png"> |
 
 **WebAIM - Contrast Checker**
-Color contrast between foreground and background in elements was check using <a href="https://coolors.co/contrast-checker" target="_blank">WebAIM tool</a>. Another contrast chekcer, <a href="https://coolors.co/contrast-checker" target="_blank">Coolors Contrast Checker</a> had similar results.
+Color contrast between foreground and background in elements was check using <a href="https://coolors.co/contrast-checker" target="_blank">WebAIM tool</a>. Another contrast checker, <a href="https://coolors.co/contrast-checker" target="_blank">Coolors Contrast Checker</a> had similar results.
 
 | Element Tested | Initial validator output                                                                                | Final validator Output                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -734,5 +734,3 @@ Information on supported-living service type was used in the services section
 
 - **Favicon for icons**: <a href="https://favicon.io/favicon-converter/" target="_blank" rel="noopener">Favicon.io</a>
   This tool was used to create favicon files from the logo image.
-
-<a href="" target="_blank" rel="noopener"></a>

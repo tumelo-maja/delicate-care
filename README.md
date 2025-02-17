@@ -128,7 +128,7 @@ The website offer clear and user-friendly information about different types of s
       <figcaption><strong><em>Video in footer: All pages</em></strong></figcaption>
     </figure>
 
-    - A good quality video with dimmed brightness and a 'Contact us' button offer a visually appealing user experience while prompting them to contact us. The video auto-plays in a loop but is always muted and there are no controls to interact with the video
+    - A good quality video with dimmed brightness and a 'Contact us' button offer a visually appealing user experience while prompting them to contact us. The video auto-plays in a loop but is always muted and there are no controls to interact with the video. This video is used as a decorative element and has no semantic significance to the content. 
 
   - **Business hours** 
     <figure>

@@ -27,6 +27,10 @@ body {
   background-color: var(--thin-air);
 }
 
+.hidden-item {
+  display: none;
+}
+
 /*-------- headers ----*/
 h2,
 h1 {
@@ -275,6 +279,18 @@ nav {
   margin-top: 20px;
 }
 
+/*---------------- float images (home/about) ---------------*/
+.float-image {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.float-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /*----------------  services section------*/
 #services {
   padding-top: 5rem;
@@ -291,6 +307,53 @@ nav {
     brightness(94%) contrast(90%);
 }
 
+.service-item {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.service-img {
+  /* height: 200px; */
+  height: auto;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 0;
+}
+
+.service-body {
+  border-radius: 0 0 10px 10px;
+  border-top: 0;
+}
+
+#check-service-one:checked ~ .service-more-one,
+#check-service-two:checked ~ .service-more-two,
+#check-service-three:checked ~ .service-more-three,
+#check-service-four:checked ~ .service-more-four {
+  display: block;
+}
+
+#check-service-one:checked ~ .service-buttons,
+#check-service-two:checked ~ .service-buttons,
+#check-service-three:checked ~ .service-buttons,
+#check-service-four:checked ~ .service-buttons {
+  display: none;
+}
+
+.service-body strong,
+address strong,
+.value-text strong {
+  text-transform: capitalize;
+}
+
+.service-title {
+  padding: 0.6rem 0.6rem;
+  margin: 0;
+}
+
+.service-body p {
+  padding: 0.8rem 0.5rem;
+  margin: 0;
+}
 
 /*----------------  why choose us section------*/
 #choose-us {
@@ -309,6 +372,51 @@ nav {
     brightness(117%) contrast(86%);
   filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
     brightness(117%) contrast(86%);
+}
+
+.our-values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#choose-us {
+  width: 100%;
+  padding: 30px 30px 0;
+}
+
+.value-icon img {
+  width: 90px;
+  height: 90px;
+}
+
+.value-icon {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+.value-text {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+#choose-us p,
+#choose-us strong,
+#choose-us h2,
+#choose-us h3 {
+  text-align: center;
 }
 
 /*----------------  getting started/onboarding section------*/
@@ -458,120 +566,6 @@ footer {
   padding: 10px 0;
   margin-top: 20px;
   line-height: 1.5rem;
-}
-
-
-.float-image {
-  margin-top: 20px;
-  padding-top: 10px;
-}
-
-.float-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-
-/*--------- services section --*/
-
-.service-item {
-  padding: 20px;
-  margin: 10px 0;
-}
-
-.service-img {
-  /* height: 200px; */
-  height: auto;
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-  border-bottom: 0;
-}
-
-.service-body {
-  border-radius: 0 0 10px 10px;
-  border-top: 0;
-}
-
-.hidden-item {
-  display: none;
-}
-
-#check-service-one:checked ~ .service-more-one,
-#check-service-two:checked ~ .service-more-two,
-#check-service-three:checked ~ .service-more-three,
-#check-service-four:checked ~ .service-more-four {
-  display: block;
-}
-
-#check-service-one:checked ~ .service-buttons,
-#check-service-two:checked ~ .service-buttons,
-#check-service-three:checked ~ .service-buttons,
-#check-service-four:checked ~ .service-buttons {
-  display: none;
-}
-
-.service-body strong,
-address strong,
-.value-text strong {
-  text-transform: capitalize;
-}
-
-.service-title {
-  padding: 0.6rem 0.6rem;
-  margin: 0;
-}
-
-.service-body p {
-  padding: 0.8rem 0.5rem;
-  margin: 0;
-}
-
-/*-----------Our values - choose us ---*/
-
-.our-values {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-#choose-us {
-  width: 100%;
-  padding: 30px 30px 0;
-}
-
-.value-icon img {
-  width: 90px;
-  height: 90px;
-}
-
-.value-icon {
-  height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 20px 10px;
-}
-
-.value-text {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-#choose-us p,
-#choose-us strong,
-#choose-us h2,
-#choose-us h3 {
-  text-align: center;
 }
 
 /*------------------ getting started ----*/

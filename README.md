@@ -534,6 +534,18 @@ The website's layout and responsiveness was tested on the commonly used browsers
 - **Status:** Not resolved.
 
 
+**Navigation to Services: Nav Bar** 
+  <figure>
+    <img src="docs/bugs-screenshots/index-services-header-bug.png" width="350px">
+    <br>
+    <figcaption><strong><em>navigating to 'Services' not scrolling to display section header: Nav Bar - Services</em></strong></figcaption>
+  </figure>
+
+- (All browsers for collapsed Nav Bar) When navigating to 'Services' section from about, success or contact-us page; the page does not scroll low enough to display the section header 'OUR SERVICES'; this is covered by the fixed Nav Bar. However, when navigating from within the index ('HOME') page, the page scrolls low enough for the header to be displayed. For large screens (=>992px) this issues does not occur. 
+
+- **Status:** Resolved - Added padding-top that is consistent across screen sizes.
+
+
 **Navigation not collapsing: Nav Bar** 
   <figure>
     <img src="docs/bugs-screenshots/nav-bar-not-collapsing-bug.png" width="350px">

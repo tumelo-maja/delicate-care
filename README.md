@@ -383,26 +383,41 @@ Other goals:
   There should be confirmation to acknowledge submission of application form
 
 ### Wireframes
+**Changes to the initial wireframes:**
+  * The services page was removed and is now included as a section within the home page. This allows users to see key information within the landing page. 
+  * The about, contact and success pages featured a hero page which have now been removed. This change simplifies the design and improve site performance as there are less images to load in each page.
+  * The footer feature and iframe for google maps link. This was replaced by a decorative video with a CTA text overlaying. This gave the footer more positive outlook and also invited users to the contact page
+
 <figure>
-  <img src="docs/wireframes/wireframe-home.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-home-final.png" width="600px">
   <br>
   <figcaption><strong><em>Wireframe: Home page</em></strong></figcaption>
 </figure>
+
+<br>
+<br>
 <figure>
-  <img src="docs/wireframes/wireframe-about.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-about-final.png" width="600px">
   <br>
   <figcaption><strong><em>Wireframe: About page</em></strong></figcaption>
 </figure>
+
+<br>
+<br>
 <figure>
-  <img src="docs/wireframes/wireframe-contact.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-contact-final.png" width="600px">
   <br>
   <figcaption><strong><em>Wireframe: Contact Us page</em></strong></figcaption>
 </figure>
+
+<br>
+<br>
 <figure>
-  <img src="docs/wireframes/wireframe-careers.png" width="50%" height="50%">
+  <img src="docs/wireframes/wireframe-success-final.png" width="600px">
   <br>
-  <figcaption><strong><em>Wireframe: Careers page</em></strong></figcaption>
+  <figcaption><strong><em>Wireframe: Success page</em></strong></figcaption>
 </figure>
+
 
 ### Color Pallet
 We used the color pallet generator from
@@ -448,7 +463,7 @@ We used the color pallet generator from
 * Compatibility 
     * To ensure compatibility across different browsers, [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes to CSS properties.
 * Accessibility
-    * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to test and ensure that background and foreground colors offered sufficient contrast for users with visual impairments.
+    * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to test and ensure that background and foreground color contrast allows text to be readable against its background.
 
 ## Testing 
 

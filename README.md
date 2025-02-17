@@ -409,6 +409,47 @@ We used the color pallet generator from
 (https://coolors.co/)
 
 
+## Technologies
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Bootstrap 
+    * The website layout used some Bootstrap code and styled with custom CSS.
+* JavaScript
+    * JavaScript was used to ensure the mobile navbar collapses properly when navigating to internal links
+* Visual Studio Code
+    * The website was developed using Visual Studio Code IDE
+* GitHub Projects
+    * Development tasks and progress monitoring was done through GitHub projects, see [PP1: Zalama Care](https://github.com/users/tumelo-maja/projects/3) 
+* GitHub
+    * Source code is hosted on GitHub and deployed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* CSS filter generator
+    * [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp) tool was utilized to create custom-colored PNG icons used in the services section and contact page
+* Font Awesome
+    * Icons obtained from [Font Awesome](https://fontawesome.com/) were used for phone, email, address, accessibility and social media icons in the footer section and about us page.
+* Derivv
+    * [Derivv](https://derivv.com/) tool was utilized to resize images to the optimal dimensions for web display, to improve the loading time and performance of the website.
+* Tinyjpg
+    * [Tinyjpg](https://tinyjpg.com/) was used to reduce the size of the images used throughout the website
+* Favicon.io
+    * favicon files were created using [favicon-converter](https://favicon.io/favicon-converter/) 
+* balsamiq
+    * Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/#)
+* Lighthouse (Chrome DevTools)
+    * This feature of DevTools was used to assess the website performance and overall loading time.
+    * The accessibility of the website for assistive technology was assessed using this tool.
+* HTML/CSS validation
+    * [W3C HTML validator](https://validator.w3.org/) used to validate the website's HTML code 
+    * [W3C CSS validator](https://jigsaw.w3.org/css-validator/) used to validate the website's CSS style code 
+* Compatibility 
+    * To ensure compatibility across different browsers, [Autoprefixer CSS online](https://autoprefixer.github.io/) was used to add vendor prefixes to CSS properties.
+* Accessibility
+    * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) was used to test and ensure that background and foreground colors offered sufficient contrast for users with visual impairments.
+
 ## Testing 
 
 ### Feature Testing
@@ -653,10 +694,10 @@ This youtube tutorial was used to implement a custom "Read More"/"Show less" but
   This youtube tutorial was used to implement underline styling for navigation items and footer headers using pseudo-elements in CSS, enhancing user experience.
 
 - **JavaScript for Collapsing Bootstrap Navbar**: [Code Institute](https://codeinstitute.net/)  
-  The JavaScript functionality was used to ensure the Bootstrap mobile navbar collapses properly when navigating to internal links i.e. services section. The video is from the Code Institute lessons. 
+  The JavaScript was used to ensure the Bootstrap mobile navbar collapses properly when navigating to internal links i.e. services section. The code is from the Boardwalk Games's walk through projects. 
 
-- **Image Coloring - filter**: [Codepen for Coloring PNG Icons Using Hex Color Code](https://codepen.io/sosuke/pen/Pjoqqp)  
-  This tool was utilized to create custom-colored PNG icons used in the services and contact page, ensuring the icons matched the site's branding and color scheme. This was used as the icons used were images and required a different method to color them appropriately.
+- **Image Coloring - filter**: [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp)  
+  This tool was utilized to create custom-colored PNG icons used in the services section and contact page, ensuring the icons matched the site's branding and color scheme. This was used as the icons used were images and required a different method to color them appropriately.
 
 - **Image Compression Tool**: [TinyJPG](https://tinyjpg.com/)  
   TinyJPG was used to compress and optimize the images on the site, ensuring fast loading times without sacrificing visual quality.
@@ -665,4 +706,7 @@ This youtube tutorial was used to implement a custom "Read More"/"Show less" but
   This tool was utilized to resize images to the optimal dimensions for web display, to improve the loading time and performance of the website. Fast loading of a website enhances the user experience by removing loading delays which may lead to poor user interaction.
 
 - **Video Accessibility Recommendation**: [Video Accessibility with Decorative Elements](https://www.drupal.org/project/bootstrap_styles/issues/3285504)  
-  This resource recommendation was used to resolve footer video accessibility. Since the video was used as a decorative element, the 'aria-hidden' attribute was applied to the video element so screen readers can ignore it. 
+  This resource recommendation was used to resolve footer video accessibility. Since the video was used as a decorative element, the 'aria-hidden' attribute was applied to the video element so screen readers can ignore it.
+
+- **Favicon for icons**: [Favicon.io](https://favicon.io/favicon-converter/)
+  This tool was used to create favicon files from the logo image.

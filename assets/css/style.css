@@ -32,6 +32,7 @@ h2,
 h1 {
   font-size: 1.2rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .hero h1 {
@@ -39,12 +40,37 @@ h1 {
   color: var(--white-edgar);
 }
 
-.page-title h1,
+
+.page-title h1 {
+  padding: 10px 20px;
+  height: 60px;
+  margin: 0;
+  border-radius: 10px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: var(--velvet-evening);
+}
+
 h2 {
   color: var(--velvet-evening);
 }
 
+h3 {
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.page-title {
+  justify-items: center;
+  margin: 20px;
+}
+
+
 /*-------------- Body text - home ---*/
+.text-body {
+  padding: 20px;
+}
+
 .text-body h1,
 .text-body h2,
 .text-body h3,
@@ -56,11 +82,15 @@ h2 {
   color: var(--velvet-evening);
 }
 
+
+
 /*----------------- Nav Bar ---*/
 nav,
 .navbar a {
   background-color: var(--velvet-evening);
   color: var(--white-edgar);
+  text-transform: uppercase;
+
 }
 
 .navbar-nav a::after,
@@ -72,190 +102,9 @@ nav,
   color: var(--white-edgar);
 }
 
-/*-------------- Buttons ---*/
-.button-style {
-  color: var(--white-edgar);
-  background-color: var(--velvet-evening);
-}
-
-.button-style:hover {
-  border: 2px solid var(--velvet-evening);
-  background-color: var(--white-edgar);
-  color: var(--velvet-evening);
-}
-
-.button-style-light {
-  color: var(--white-edgar);
-  background-color: var(--velvet-evening);
-}
-
-.button-style-light:hover {
-  color: var(--velvet-evening);
-  background-color: var(--white-edgar);
-}
-
-/*----------------  services section------*/
-.service-body {
-  background-color: var(--white-edgar);
-}
-
-/*----------------  footer section------*/
-.text-footer h2,
-.text-footer h3,
-.text-footer p,
-.text-footer address,
-.text-footer th,
-.text-footer td {
-  color: var(--white-edgar);
-}
-
-.social-media i:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  color: var(--thin-air);
-}
-
-.contact-info i,
-.office-note i {
-  color: var(--white-edgar);
-}
-
-.contact-info i:hover,
-.office-note i:hover,
-.social-media i:hover{
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-.credits a:hover {
-  text-decoration: underline;
-}
-
-/*----------------  success page ------*/
-#choose-us {
-  background-color: var(--velvet-evening);
-}
-
-#choose-us p,
-#choose-us strong,
-#choose-us h2,
-#choose-us h3 {
-  color: var(--white-edgar);
-}
-
-.value-icon img {
-  -webkit-filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
-    brightness(117%) contrast(86%);
-  filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
-    brightness(117%) contrast(86%);
-}
-
-.cross-bar {
-  background-color: var(--velvet-evening);
-}
-
-.cross-bar p {
-  color: var(--white-edgar);
-}
-
-/*---------------- about page --------------*/
-/*----------------  our team section ------*/
-#team i {
-  color: var(--velvet-evening);
-}
-
-#team i:hover{
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-/*----------------  success page ------*/
-.thank-you i {
-  color: var(--velvet-evening);
-}
-
-.thank-you i:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-/*--------------- end styles ---*/
-
-
-.inquiry-label img,
-.icon-service {
-  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
-    brightness(94%) contrast(90%);
-  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
-    brightness(94%) contrast(90%);
-}
-
-.onboard-step p,
-.onboard-step h3 {
-  color: var(--white-edgar);
-}
-
-.onboard-body {
-  background-color: var(--velvet-evening);
-}
-
-.footer-video p {
-  color: var(--white-edgar);
-}
-
-footer h3::after {
-  background-color: var(--white-edgar);
-}
-
-.credits a {
-  color: var(--white-edgar);
-}
-
-footer {
-  background-color: var(--velvet-evening);
-  padding-top: 40px;
-}
-
-#contact-form h1,
-#contact-form h2,
-#contact-form p,
-#contact-form label {
-  color: var(--velvet-evening);
-}
-
-#contact-form input,
-#contact-form textarea {
-  background-color: var(--white-edgar);
-}
-
-#contact-form input[type="radio"] {
-  accent-color: var(--velvet-evening);
-}
-
-.modal-content {
-  background-color: var(--velvet-evening);
-  color: var(--white-edgar);
-  border: 2px solid var(--thin-air);
-}
-.modal-body a {
-  color: var(--thin-air);
-}
-
-/*----- end colors------*/
-
 nav {
   border-bottom: 1px solid var(--white-edgar);
   font-weight: 500;
-}
-
-nav a,
-h2,
-h1 {
-  text-transform: uppercase;
 }
 
 .navbar-nav a {
@@ -324,24 +173,27 @@ h1 {
   color: var(--thin-air);
 }
 
-#services {
-  padding-top: 5rem;
+
+/*-------------- Buttons ---*/
+.button-style {
+  color: var(--white-edgar);
+  background-color: var(--velvet-evening);
 }
 
-h3 {
-  text-transform: capitalize;
-  margin: 10px 0;
+.button-style:hover {
+  border: 2px solid var(--velvet-evening);
+  background-color: var(--white-edgar);
+  color: var(--velvet-evening);
 }
 
-.text-footer p,
-.text-footer address,
-.text-footer th,
-.text-footer td {
-  font-size: 1rem;
+.button-style-light {
+  color: var(--white-edgar);
+  background-color: var(--velvet-evening);
 }
 
-.text-body {
-  padding: 20px;
+.button-style-light:hover {
+  color: var(--velvet-evening);
+  background-color: var(--white-edgar);
 }
 
 .button-style {
@@ -367,27 +219,7 @@ h3 {
   border: 2px solid var(--velvet-evening);
 }
 
-.cross-bar {
-  width: 100%;
-  height: 300px;
-  padding: 5px 15px 20px;
-}
-
-.cross-bar div {
-  width: 100%;
-  height: 100%;
-  -ms-flex-line-pack: center;
-  align-content: center;
-}
-
-.cross-bar p {
-  font-weight: bold;
-  padding: 10px 0;
-  margin-top: 20px;
-  line-height: 1.5rem;
-}
-
-/*------------- hero --*/
+/*------------- hero / home --*/
 .hero {
   background-image: url(../images/hero-home-three-people-in-kitchen-500x376.jpg);
   background-position: center center;
@@ -414,30 +246,7 @@ h3 {
   width: 100%;
 }
 
-.float-image {
-  margin-top: 20px;
-  padding-top: 10px;
-}
-
-.float-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.page-title {
-  justify-items: center;
-  margin: 20px;
-}
-.page-title h1 {
-  padding: 10px 20px;
-  height: 60px;
-  margin: 0;
-  border-radius: 10px;
-  -ms-flex-line-pack: center;
-  align-content: center;
-}
-
+/*--------------- intro section / home ---*/
 .intro-item p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -465,6 +274,205 @@ h3 {
 #intro-cta {
   margin-top: 20px;
 }
+
+/*----------------  services section------*/
+#services {
+  padding-top: 5rem;
+}
+
+.service-body {
+  background-color: var(--white-edgar);
+}
+
+.icon-service {
+  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+}
+
+
+/*----------------  why choose us section------*/
+#choose-us {
+  background-color: var(--velvet-evening);
+}
+
+#choose-us p,
+#choose-us strong,
+#choose-us h2,
+#choose-us h3 {
+  color: var(--white-edgar);
+}
+
+.value-icon img {
+  -webkit-filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
+    brightness(117%) contrast(86%);
+  filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
+    brightness(117%) contrast(86%);
+}
+
+/*----------------  getting started/onboarding section------*/
+
+
+/*----------------  footer section------*/
+
+.text-footer p,
+.text-footer address,
+.text-footer th,
+.text-footer td {
+  font-size: 1rem;
+  color: var(--white-edgar);
+}
+
+.text-footer h2,
+.text-footer h3{
+  color: var(--white-edgar);
+}
+
+
+.social-media i:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  color: var(--thin-air);
+}
+
+.contact-info i,
+.office-note i {
+  color: var(--white-edgar);
+}
+
+.contact-info i:hover,
+.office-note i:hover,
+.social-media i:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
+.footer-video p {
+  color: var(--white-edgar);
+}
+
+footer h3::after {
+  background-color: var(--white-edgar);
+}
+
+.credits a {
+  color: var(--white-edgar);
+}
+
+footer {
+  background-color: var(--velvet-evening);
+  padding-top: 40px;
+}
+
+.modal-content {
+  background-color: var(--velvet-evening);
+  color: var(--white-edgar);
+  border: 2px solid var(--thin-air);
+}
+.modal-body a {
+  color: var(--thin-air);
+}
+
+/*---------------- about page --------------*/
+/*----------------  our team section ------*/
+#team i {
+  color: var(--velvet-evening);
+}
+
+#team i:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/*----------------  contact page ------*/
+.inquiry-label img {
+  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+}
+
+#contact-form h1,
+#contact-form h2,
+#contact-form p,
+#contact-form label {
+  color: var(--velvet-evening);
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: var(--white-edgar);
+}
+
+#contact-form input[type="radio"] {
+  accent-color: var(--velvet-evening);
+}
+
+/*----------------  success page ------*/
+.thank-you i {
+  color: var(--velvet-evening);
+}
+
+.thank-you i:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+
+
+
+
+/*--------------- end styles ---*/
+.cross-bar {
+  background-color: var(--velvet-evening);
+}
+
+.cross-bar p {
+  color: var(--white-edgar);
+}
+
+.cross-bar {
+  width: 100%;
+  height: 300px;
+  padding: 5px 15px 20px;
+}
+
+.cross-bar div {
+  width: 100%;
+  height: 100%;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.cross-bar p {
+  font-weight: bold;
+  padding: 10px 0;
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+
+
+.float-image {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.float-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
 /*--------- services section --*/
 
 .service-item {
@@ -598,6 +606,15 @@ address strong,
 .onboard-text {
   padding: 5px;
   margin-bottom: 0;
+}
+
+.onboard-step p,
+.onboard-step h3 {
+  color: var(--white-edgar);
+}
+
+.onboard-body {
+  background-color: var(--velvet-evening);
 }
 
 /*----------------------- Footer ---*/

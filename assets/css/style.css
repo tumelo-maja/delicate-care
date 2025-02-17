@@ -304,7 +304,7 @@ h1 {
 }
 
 #services {
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 h3 {
@@ -1257,10 +1257,6 @@ footer h3::after {
   /*----- onboarding text ---*/
   .onboard-text {
     min-height: 82px;
-  }
-
-  #services {
-    padding-top: 4rem;
   }
 
   .service-text {

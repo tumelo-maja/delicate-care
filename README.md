@@ -518,8 +518,6 @@ The website's layout and responsiveness was tested on the commonly used browsers
 | Mozilla Firefox | Good                | Good                    |
 | Microsoft Edge  | Good                | Good                    |
 
-### Responsive Testing
-
 ### Code validation
 
 | Page Tested     | Screenshot of Errors                                                                                   | Solution Applied                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Screenshot of Clear Validator Output                                                                  |

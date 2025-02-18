@@ -22,6 +22,12 @@ Zalama care service is all about empowering people to live a quality and dignifi
 
 The website offer clear and user-friendly information about different types of social care services, enabling users to make informed decisions about getting care. Individuals seeking care for themselves and their loved ones can select a care package that meets their needs. Users can also send an inquiry to request more information or to get started with a care package if their choice. Important business information is displayed on the website, including business and addresses, contact number and details about business hours. The design and interactivity of the site ensures users will have a positive experience while visiting the website and thereby building trust and confidence in the expected quality of service.
 
+<figure>
+  <img src="docs/site-screenshots/full-site-mockup.png" width="80%" height="50%">
+  <br>
+  <figcaption><strong><em>Site mockup</em></strong></figcaption>
+</figure>
+
 ## Features
 
 ### Existing Features

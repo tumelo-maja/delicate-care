@@ -2,7 +2,7 @@
 
 **Authors:** Tumelo Maja (GitHub username: tumelo-maja)
 
-<p style="color:red;"><strong>NB:<strong> The username 'tumelomaj' under contributors is the author's alternative account. All commits in this project are through username 'tumelo-maja'.</p>
+<p style="color:red;"><strong>NB:<strong> The username 'tumelomaj' under contributors is the author's alternative account; this got connected to this account when migrating from gitpod to VScode. All commits in this project are through username 'tumelo-maja'.</p>
 
 Zalama care service is all about empowering people to live a quality and dignified life with a right support for their care needs. The services is available for little help at home, full-time care support or temporarily while you recover from an illness or after a surgery.
 

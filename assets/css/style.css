@@ -720,6 +720,13 @@ address strong{
 
 /*---------------- about page --------------*/
 /*--- history, mission & vision ---*/
+.about-text {
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin: 0;
+  padding: 20px 20px 0;
+}
+
 .about-image {
   margin-top: 20px;
   padding-top: 10px;
@@ -814,46 +821,12 @@ address strong{
   text-transform: capitalize;
 }
 
-.about-text {
-  -ms-flex-line-pack: center;
-  align-content: center;
-  margin: 0;
-  padding: 20px 20px 0;
-}
-
 .staff-message {
   font-style: italic;
   text-align: center;
 }
 
 /*----------------  contact page ------*/
-.inquiry-label img {
-  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
-    brightness(94%) contrast(90%);
-  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
-    brightness(94%) contrast(90%);
-}
-
-#contact-form h1,
-#contact-form h2,
-#contact-form p,
-#contact-form label {
-  color: var(--velvet-evening);
-}
-
-#contact-form input,
-#contact-form textarea {
-  background-color: var(--white-edgar);
-}
-
-#contact-form input[type="radio"] {
-  accent-color: var(--velvet-evening);
-}
-
-.contact-text {
-  padding-top: 30px;
-}
-
 #contact-form {
   margin-bottom: 30px;
 }
@@ -862,12 +835,11 @@ address strong{
   margin: 10px 10px 5px 0;
 }
 
-.inquiry-label {
-  padding: 0 5px;
-}
-
-.inquiry-label img {
-  padding: 0 5px;
+#contact-form h1,
+#contact-form h2,
+#contact-form p,
+#contact-form label {
+  color: var(--velvet-evening);
 }
 
 #contact-form h3 {
@@ -886,13 +858,34 @@ address strong{
   padding: 10px 20px;
 }
 
-.submit-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+
+#contact-form input,
+#contact-form textarea {
+  background-color: var(--white-edgar);
+}
+
+.contact-text {
+  padding-top: 30px;
+}
+
+.inquiry-label {
+  padding: 0 5px;
+  height: 45px;
+  text-transform: capitalize;
+}
+
+.inquiry-label img {
+  padding: 0 5px;
+  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+}
+
+.inquiry-label img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .inquiry-group {
@@ -912,11 +905,7 @@ address strong{
 /*--- radio buttons ---*/
 .inquiry-type input[type="radio"] {
   display: block;
-}
-
-.inquiry-label {
-  height: 45px;
-  text-transform: capitalize;
+  accent-color: var(--velvet-evening);
 }
 
 .inquiry-input input:focus,
@@ -926,15 +915,18 @@ address strong{
   box-shadow: 0 0 10px var(--robin-egg-blue);
 }
 
-.inquiry-label img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
 /*--- custom icons ---*/
 #contact-form .custom-icon {
   width: 40px;
+}
+
+.submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 /*----------------  success page ------*/

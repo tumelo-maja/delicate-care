@@ -1287,3 +1287,11 @@ address strong{
     height: 320px;
   }
 }
+
+/*----------------Bootstrap breakpoint for super large screens (@media screen and (min-width: 1800px)) */
+@media screen and (min-width: 1800px) {
+    /*------ hero ---*/
+    .hero {
+      height: 60vh;
+    }
+}

@@ -732,3 +732,6 @@ Information on supported-living service type was used in the services section
 
 - **Favicon for icons**: <a href="https://favicon.io/favicon-converter/" target="_blank" rel="noopener">Favicon.io</a>
   This tool was used to create favicon files from the logo image.
+
+- **Code Spell Checker**: <a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker" target="_blank" rel="noopener">Code Spell Checker</a>
+  This was used to check for spelling errors in the website text.

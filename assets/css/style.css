@@ -274,14 +274,24 @@ nav {
 
 .service-body {
   background-color: var(--white-edgar);
+  border-radius: 0 0 10px 10px;
+  border-top: 0;
 }
 
-.icon-service {
-  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
-    brightness(94%) contrast(90%);
-  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
-    brightness(94%) contrast(90%);
+.service-body p {
+  padding: 0.8rem 0.5rem;
+  margin: 0;
 }
+
+.service-body strong {
+  text-transform: capitalize;
+}
+
+.service-title {
+  padding: 0.6rem 0.6rem;
+  margin: 0;
+}
+
 
 .service-item {
   padding: 20px;
@@ -289,16 +299,10 @@ nav {
 }
 
 .service-img {
-  /* height: 200px; */
   height: auto;
   width: 100%;
   border-radius: 10px 10px 0 0;
   border-bottom: 0;
-}
-
-.service-body {
-  border-radius: 0 0 10px 10px;
-  border-top: 0;
 }
 
 #check-service-one:checked ~ .service-more-one,
@@ -315,34 +319,19 @@ nav {
   display: none;
 }
 
-.service-body strong,
-address strong,
-.value-text strong {
-  text-transform: capitalize;
-}
-
-.service-title {
-  padding: 0.6rem 0.6rem;
-  margin: 0;
-}
-
-.service-body p {
-  padding: 0.8rem 0.5rem;
-  margin: 0;
-}
-
 .icon-service {
   width: 50px;
   height: 50px;
   -ms-grid-column-align: end;
   justify-self: flex-end;
-}
-
-.icon-service {
   margin: 20px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
+  filter: invert(28%) sepia(13%) saturate(1231%) hue-rotate(159deg)
+    brightness(94%) contrast(90%);
 }
 
 .service-buttons {
@@ -382,6 +371,10 @@ address strong,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.value-text strong {
+  text-transform: capitalize;
 }
 
 #choose-us {
@@ -491,6 +484,9 @@ address strong,
   color: var(--white-edgar);
 }
 
+address strong{
+  text-transform: capitalize;
+}
 .social-media i:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);

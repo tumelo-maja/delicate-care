@@ -1292,6 +1292,6 @@ address strong{
 @media screen and (min-width: 1800px) {
     /*------ hero ---*/
     .hero {
-      height: 60vh;
+      height: 75vh;
     }
 }

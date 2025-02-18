@@ -425,14 +425,20 @@ nav {
   font-size: 1.2rem;
 }
 
-.onboard-step {
-  padding: 20px 0;
-}
-
 .onboard-body {
   border: 1px solid var(--cool-gray);
   border-radius: 10px 10px 0 0;
   padding: 10px;
+  background-color: var(--velvet-evening);
+}
+
+.onboard-text {
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.onboard-step {
+  padding: 20px 0;
 }
 
 .onboard-step img {
@@ -443,19 +449,11 @@ nav {
   border-bottom: 0;
 }
 
-.onboard-text {
-  padding: 5px;
-  margin-bottom: 0;
-}
-
 .onboard-step p,
 .onboard-step h3 {
   color: var(--white-edgar);
 }
 
-.onboard-body {
-  background-color: var(--velvet-evening);
-}
 
 /*----------------  footer section------*/
 

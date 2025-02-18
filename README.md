@@ -433,8 +433,7 @@ Other goals:
 
 ### Color Pallet
 
-We used the color pallet generator from
-(https://coolors.co/)
+- Color pallet generator from (https://coolors.co/) was used to find matching colors for the website
 
 ## Technologies
 

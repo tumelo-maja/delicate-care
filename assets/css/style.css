@@ -1194,10 +1194,6 @@ address strong{
     min-height: 82px;
   }
 
-  .service-text {
-    min-height: 98px;
-  }
-
   /*----- contact page---*/
   .contact-text {
     justify-items: center;

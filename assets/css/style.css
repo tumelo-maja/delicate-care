@@ -425,6 +425,10 @@ nav {
   font-size: 1.2rem;
 }
 
+.onboard-step {
+  padding: 20px 0;
+}
+
 .onboard-body {
   border: 1px solid var(--cool-gray);
   border-radius: 10px 10px 0 0;
@@ -435,10 +439,6 @@ nav {
 .onboard-text {
   padding: 5px;
   margin-bottom: 0;
-}
-
-.onboard-step {
-  padding: 20px 0;
 }
 
 .onboard-step img {
@@ -454,8 +454,37 @@ nav {
   color: var(--white-edgar);
 }
 
-
 /*----------------  footer section------*/
+footer {
+  background-color: var(--velvet-evening);
+  padding-top: 40px;
+}
+
+footer h3 {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+footer h3::after {
+  content: "";
+  width: 40%;
+  height: 5px;
+  background-color: var(--white-edgar);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
 
 .text-footer p,
 .text-footer address,
@@ -470,44 +499,13 @@ nav {
   color: var(--white-edgar);
 }
 
-address strong{
-  text-transform: capitalize;
-}
-.social-media i:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  color: var(--thin-air);
-}
-
-.contact-info i,
-.office-note i {
-  color: var(--white-edgar);
-}
-
-.contact-info i:hover,
-.office-note i:hover,
-.social-media i:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-.credits a:hover {
-  text-decoration: underline;
-}
-
-footer h3::after {
-  background-color: var(--white-edgar);
-}
-
+/*--- credits ---*/
 .credits a {
   color: var(--white-edgar);
 }
 
-footer {
-  background-color: var(--velvet-evening);
-  padding-top: 40px;
+.credits a:hover {
+  text-decoration: underline;
 }
 
 /*--- footer modal---*/
@@ -556,7 +554,7 @@ footer {
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  height: 100px;
+  height: max-content;
   width: 295px;
   -ms-flex-line-pack: center;
   align-content: center;
@@ -565,34 +563,13 @@ footer {
 .footer-video p {
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 8px;
 }
 
-footer h3 {
-  position: relative;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  text-align: center;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+.cta-video a {
+  margin: 10px 0;
 }
-
-footer h3::after {
-  content: "";
-  width: 40%;
-  height: 5px;
-  background-color: var(--white-edgar);
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-}
-
-footer h2 {
-  margin-bottom: 20px;
-}
-
+/*--- contact info ---*/
 .contact-info {
   padding-top: 20px;
 }
@@ -601,6 +578,21 @@ footer h2 {
   padding-top: 15px;
 }
 
+.contact-info i {
+  color: var(--white-edgar);
+}
+
+.contact-info i:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+address strong{
+  text-transform: capitalize;
+}
+
+/*--- accessibility ---*/
 .accessibility {
   margin-bottom: 20px;
 }
@@ -624,10 +616,18 @@ footer h2 {
   order: 1;
 }
 
+.business-hours h3 {
+  margin-top: 0;
+}
+
 .business-hours table {
   width: 100%;
   -ms-grid-column-align: center;
   justify-self: center;
+}
+
+.business-hours tr {
+  border-bottom: 1px solid lightgrey;
 }
 
 .business-hours th {
@@ -643,26 +643,25 @@ footer h2 {
   width: 20px;
 }
 
-.business-hours table {
-  margin-top: 15px;
-}
-
-.business-hours tr {
-  border-bottom: 1px solid lightgrey;
-}
-
-.business-hours h3 {
-  margin-top: 0;
-}
-
 .office-note {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
 }
+
 .office-note p {
   font-size: 0.8rem;
   padding: 0;
+}
+
+.office-note i {
+  color: var(--white-edgar);
+}
+
+.office-note i:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 /*--- social media ---*/
@@ -697,6 +696,13 @@ footer h2 {
 .social-media i {
   font-size: 2rem;
   color: var(--white-edgar);
+}
+
+.social-media i:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  color: var(--thin-air);
 }
 
 /*----  credits ---*/

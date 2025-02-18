@@ -44,6 +44,11 @@ h1 {
   color: var(--white-edgar);
 }
 
+.page-title {
+  justify-items: center;
+  margin: 20px;
+}
+
 .page-title h1 {
   padding: 10px 20px;
   height: 60px;
@@ -63,11 +68,6 @@ h3 {
   margin: 10px 0;
 }
 
-.page-title {
-  justify-items: center;
-  margin: 20px;
-}
-
 /*-------------- Body text - home ---*/
 .text-body {
   padding: 20px;
@@ -76,11 +76,8 @@ h3 {
 .text-body h1,
 .text-body h2,
 .text-body h3,
-.text-body strong {
-  color: var(--velvet-evening);
-}
-
-.text-body p {
+.text-body strong,
+.text-body p  {
   color: var(--velvet-evening);
 }
 
@@ -93,12 +90,9 @@ nav,
 }
 
 .navbar-nav a::after,
-.navbar-nav .selected a::after {
+.navbar-nav .selected a::after,
+.navbar-brand {
   background-color: var(--white-edgar);
-}
-
-.navbar-nav .selected a {
-  color: var(--white-edgar);
 }
 
 nav {
@@ -116,6 +110,7 @@ nav {
   width: 60px;
 }
 
+.navbar-brand:hover,
 .navbar-nav a:hover {
   color: var(--thin-air);
 }
@@ -164,57 +159,44 @@ nav {
   background-color: var(--thin-air);
 }
 
-.navbar-brand {
-  color: var(--white-edgar);
-}
-
-.navbar-brand:hover {
-  color: var(--thin-air);
-}
 
 /*-------------- Buttons ---*/
 .button-style {
   color: var(--white-edgar);
   background-color: var(--velvet-evening);
-}
-
-.button-style:hover {
-  border: 2px solid var(--velvet-evening);
-  background-color: var(--white-edgar);
-  color: var(--velvet-evening);
-}
-
-.button-style-light {
-  color: var(--white-edgar);
-  background-color: var(--velvet-evening);
-}
-
-.button-style-light:hover {
-  color: var(--velvet-evening);
-  background-color: var(--white-edgar);
-}
-
-.button-style {
-  border: 2px solid var(--velvet-evening);
   margin: 20px;
   border-radius: 5px;
   display: inline-block;
   cursor: pointer;
   padding: 4px 10px;
-  height: 40px;
+  height: 45px;
+  border: 2px solid var(--velvet-evening);
+  align-content: center;
 }
 
 .button-style:hover {
-  border: 2px solid var(--velvet-evening);
+  border: 3px solid var(--velvet-evening);
+  background-color: var(--white-edgar);
+  color: var(--velvet-evening);
 }
 
 .button-style-light {
-  border: 2px solid var(--white-edgar);
+  color: var(--velvet-evening);
+  background-color: var(--white-edgar);
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 10px;
+  height: 45px;
   font-weight: bold;
+  align-content: center;
 }
 
 .button-style-light:hover {
-  border: 2px solid var(--velvet-evening);
+  color: var(--white-edgar);
+  background-color: var(--velvet-evening);
+  border: 3px solid var(--white-edgar);
 }
 
 /*------------- hero / home --*/

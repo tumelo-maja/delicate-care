@@ -164,7 +164,8 @@ The website offer clear and user-friendly information about different types of s
       <figcaption><strong><em>Follow us in footer: All pages</em></strong></figcaption>
     </figure>
 
-    - This section provides links to social media accounts for the business. NB: since this is a fictional business it has not accounts on those platforms. The links will open in a new tab and direct the user to the home page of each social platform. The icons enlarge when hovered to enhance user experience.
+    - This section provides links to social media accounts for the business. 
+    - NB: since this is a fictional business it has not accounts on those platforms. The links will open in a new tab and direct the user to the home page of each social platform. The icons enlarge when hovered to enhance user experience.
 
 - **About us: Our history**
   <figure>

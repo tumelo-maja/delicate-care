@@ -345,6 +345,8 @@ nav {
 
 /*----------------  why choose us section------*/
 #choose-us {
+  width: 100%;
+  padding: 30px 30px 0;
   background-color: var(--velvet-evening);
 }
 
@@ -352,14 +354,12 @@ nav {
 #choose-us strong,
 #choose-us h2,
 #choose-us h3 {
+  text-align: center;
   color: var(--white-edgar);
 }
 
-.value-icon img {
-  -webkit-filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
-    brightness(117%) contrast(86%);
-  filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
-    brightness(117%) contrast(86%);
+.value-text strong {
+  text-transform: capitalize;
 }
 
 .our-values {
@@ -373,20 +373,6 @@ nav {
   justify-content: center;
 }
 
-.value-text strong {
-  text-transform: capitalize;
-}
-
-#choose-us {
-  width: 100%;
-  padding: 30px 30px 0;
-}
-
-.value-icon img {
-  width: 90px;
-  height: 90px;
-}
-
 .value-icon {
   height: 100px;
   display: -webkit-box;
@@ -398,20 +384,22 @@ nav {
   margin: 20px 10px;
 }
 
+.value-icon img {
+  width: 90px;
+  height: 90px;
+  -webkit-filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
+    brightness(117%) contrast(86%);
+  filter: invert(100%) sepia(1%) saturate(910%) hue-rotate(201deg)
+    brightness(117%) contrast(86%);
+}
+
 .value-text {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
 
-#choose-us p,
-#choose-us strong,
-#choose-us h2,
-#choose-us h3 {
-  text-align: center;
-}
-
-.cross-bar {
+.choose-cta {
   width: 100%;
   height: 300px;
   -ms-flex-line-pack: center;
@@ -419,7 +407,7 @@ nav {
   padding: 5px 15px 20px;
 }
 
-.cross-bar p {
+.choose-cta p {
   font-weight: bold;
   padding: 10px 0;
   margin-top: 20px;

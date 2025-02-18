@@ -930,16 +930,6 @@ address strong{
 }
 
 /*----------------  success page ------*/
-.thank-you i {
-  color: var(--velvet-evening);
-}
-
-.thank-you i:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
 .thank-you div,
 .thank-you p,
 .thank-you a {
@@ -948,6 +938,16 @@ address strong{
 
 .thank-you p {
   font-size: 120%;
+}
+
+.thank-you i {
+  color: var(--velvet-evening);
+}
+
+.thank-you i:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 /*--------------------------- Media queries --*/
